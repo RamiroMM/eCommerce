@@ -1,0 +1,28 @@
+# Created at 2019-12-04T13:01:39.181
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-12-04T13:02:13.088
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=78.0.3904.108)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.224.233', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 78.0.3904.108, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:51334}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: ffef99c12de044d77642a2356376f9f1
+*** Element info: {Using=xpath, value=//h1[contains(text(), "YOUR ACCOUNT")]}
+
+# Created at 2019-12-04T13:02:13.092
+Unexpected IOException with stream: 
+
+
+# Created at 2019-12-04T13:02:13.094
+Unexpected IOException with stream:     [32mAnd [0m[32mUser logins with "[0m[32m[1misao.palacios.canadaen@yopmail.com[0m[32m" and "[0m[32m[1mMoloko55[0m[32m"[0m [90m# SignInOptionsDefinitions.user_logins_with_something_and_something(String,String)[0m
+
+
