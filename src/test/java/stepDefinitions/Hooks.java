@@ -6,10 +6,6 @@ import io.cucumber.java.Before;
 
 public class Hooks extends BaseDriver{
 
-	/*Hola
-	 * Hola Papi
-	 * */ 
-	
 	@Before("@eCommTest")
 	public void setUp() {
 		getDriver();
