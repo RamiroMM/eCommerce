@@ -1,0 +1,4018 @@
+# Created at 2020-01-17T00:45:05.868
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-01-17T00:45:11.134
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5723139999ec4613d2ce301d1db0d8f3
+*** Element info: {Using=xpath, value=//*[@id="hpehf-myaccount-item"]/a}
+
+# Created at 2020-01-17T00:45:11.139
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:11.147
+Unexpected IOException with stream:     [32mGiven [0m[32mUser is on StoreFront homepage with [0m[32m[1mhttps://uat.buy.hpe.com/fr/fr[0m  [90m# SignInOptionsDefinitions.user_is_on_storefront_homepage_with(String)[0m
+
+
+# Created at 2020-01-17T00:45:11.166
+Unexpected IOException with stream:     [31mWhen [0m[31mUser goes to login page[0m                                             [90m# SignInOptionsDefinitions.user_goes_to_login_page()[0m
+
+
+# Created at 2020-01-17T00:45:11.173
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5723139999ec4613d2ce301d1db0d8f3
+*** Element info: {Using=xpath, value=//*[@id="hpehf-myaccount-item"]/a}
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy17.isEnabled(Unknown Source)
+	at pageObjects.StoreFrontHomeHeaderMenu.goto_loginPage(StoreFrontHomeHeaderMenu.java:47)
+	at stepDefinitions.SignInOptionsDefinitions.user_goes_to_login_page(SignInOptionsDefinitions.java:32)
+	at ?.User goes to login page(file:src/test/java/features/Login.feature:6)
+[0m
+
+
+# Created at 2020-01-17T00:45:11.182
+Unexpected IOException with stream:     [36mAnd [0m[36mUser logins with "[0m[36m[1misao.palacios.canadaen@yopmail.com[0m[36m" and "[0m[36m[1mMoloko55[0m[36m"[0m [90m# SignInOptionsDefinitions.user_logins_with_something_and_something(String,String)[0m
+
+
+# Created at 2020-01-17T00:45:11.187
+Unexpected IOException with stream:     [36mAnd [0m[36mUser searches for "[0m[36m[1mDL380[0m[36m"[0m                                            [90m# SignInOptionsDefinitions.user_searches_for_something(String)[0m
+
+
+# Created at 2020-01-17T00:45:11.192
+Unexpected IOException with stream:     [36mAnd [0m[36mUser clicks on get quote button[0m                                      [90m# SignInOptionsDefinitions.user_clicks_on_get_quote_button()[0m
+
+
+# Created at 2020-01-17T00:45:11.197
+Unexpected IOException with stream:     [36mThen [0m[36mSignIn options is not displayed[0m                                     [90m# SignInOptionsDefinitions.signin_options_is_not_displayed()[0m
+
+
+# Created at 2020-01-17T00:45:13.220
+Unexpected IOException with stream:       [31morg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:59944}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 5723139999ec4613d2ce301d1db0d8f3
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefinitions.Hooks.tearDown(Hooks.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[0m
+
+
+# Created at 2020-01-17T00:45:13.253
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3\000A*** Element info: {Using=xpath\002C value=//*[@id="hpehf-myaccount-item"]/a},null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3\000A*** Element info: {Using=xpath\002C value=//*[@id="hpehf-myaccount-item"]/a},no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3\000A*** Element info: {Using=xpath\002C value=//*[@id="hpehf-myaccount-item"]/a},org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3\000A*** Element info: {Using=xpath\002C value=//*[@id="hpehf-myaccount-item"]/a}\000A
+
+
+# Created at 2020-01-17T00:45:13.264
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3,null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:59944}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 5723139999ec4613d2ce301d1db0d8f3\000A
+
+
+# Created at 2020-01-17T00:45:13.293
+Unexpected IOException: 5,1,Login options,Verify SignIn option is not available(Login options),null,null,null
+
+
+# Created at 2020-01-17T00:45:13.299
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:13.303
+Unexpected IOException with stream:   @eCommTest
+
+
+# Created at 2020-01-17T00:45:13.310
+Unexpected IOException with stream:   Scenario Outline: Verify SignIn option is not available                    [90m# src/test/java/features/Login.feature:14[0m
+
+
+# Created at 2020-01-17T00:45:13.321
+Unexpected IOException with stream: C:\Users\ruvalcan\IdeaProjects\eCommerce
+
+
+# Created at 2020-01-17T00:45:13.608
+Unexpected IOException with stream: S
+
+# Created at 2020-01-17T00:45:13.611
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.613
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.615
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.617
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.619
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:13.621
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.623
+Unexpected IOException with stream: g
+
+# Created at 2020-01-17T00:45:13.625
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.627
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:13.629
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:13.630
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.632
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.634
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:13.636
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.638
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:13.640
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.642
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:13.644
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:13.645
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.647
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.649
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.652
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.656
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:13.658
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:13.660
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.663
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:13.665
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:13.667
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:13.669
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.671
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.673
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:13.676
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.679
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.681
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.683
+Unexpected IOException with stream: (
+
+# Created at 2020-01-17T00:45:13.686
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.688
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.690
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:13.692
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:13.694
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.696
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:13.698
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.700
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:13.701
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.703
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.705
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.707
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:13.709
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.711
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.712
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.714
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.715
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:13.717
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:13.718
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:13.719
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.721
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.723
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.724
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:13.725
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.727
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.728
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:13.730
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.731
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.732
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.734
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.735
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.737
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.738
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.740
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.741
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:13.742
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.743
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:13.745
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.746
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.747
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:13.749
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:13.750
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.752
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.753
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.755
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.756
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:13.758
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:13.759
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.760
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.761
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.763
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.765
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:13.766
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:13.767
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:13.769
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.771
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.772
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.774
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.776
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:13.778
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:13.779
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:13.781
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.782
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.783
+Unexpected IOException with stream: @
+
+# Created at 2020-01-17T00:45:13.785
+Unexpected IOException with stream: {
+
+# Created at 2020-01-17T00:45:13.786
+Unexpected IOException with stream: #
+
+# Created at 2020-01-17T00:45:13.788
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:13.789
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.790
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:13.792
+Unexpected IOException with stream: }
+
+# Created at 2020-01-17T00:45:13.793
+Unexpected IOException with stream: )
+
+# Created at 2020-01-17T00:45:13.795
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.796
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.797
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.798
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.800
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:13.801
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.803
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.804
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.805
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.806
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:13.808
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:13.809
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:13.810
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:13.812
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:13.813
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:13.814
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:13.816
+Unexpected IOException with stream: O
+
+# Created at 2020-01-17T00:45:13.817
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.818
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.820
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:13.821
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.823
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.825
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.826
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.827
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.828
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.830
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.832
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.833
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.835
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.837
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.839
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.840
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.841
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.842
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:13.844
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.845
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.846
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.848
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.849
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.851
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.852
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.854
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.856
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.857
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.859
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.860
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.861
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:13.863
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.865
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.866
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:13.868
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:13.869
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:13.870
+Unexpected IOException with stream: P
+
+# Created at 2020-01-17T00:45:13.872
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.873
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.875
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.876
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.878
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.879
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.881
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:13.882
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.884
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.885
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.887
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.888
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:13.890
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.891
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.893
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:13.894
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.896
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.897
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.902
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.903
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.905
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:13.906
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.908
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.910
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.911
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.912
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:13.914
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:13.915
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.917
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:13.918
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:13.920
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.922
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.923
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:13.925
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.926
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:13.928
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.929
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:13.931
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:13.933
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.935
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.937
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.940
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.942
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:13.944
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.946
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.948
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.950
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.953
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:13.955
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.957
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.959
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.961
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:13.963
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.966
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.967
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.969
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.971
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.973
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.975
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:13.977
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.979
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:13.981
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:13.983
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:13.985
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:13.986
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.988
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:13.989
+Unexpected IOException with stream: k
+
+# Created at 2020-01-17T00:45:13.991
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:13.993
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:13.995
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:13.997
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:13.999
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.001
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:14.002
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:14.004
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.006
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:14.008
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.010
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:14.012
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:14.014
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.016
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:14.019
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:14.021
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:14.023
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.025
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.027
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.030
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.033
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:14.035
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:14.037
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.039
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:14.041
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:14.042
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:14.044
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:14.046
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:14.047
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:14.049
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.051
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:14.052
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.054
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.056
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:14.057
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.059
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:14.060
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.062
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:14.063
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:14.065
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:14.836
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:14.838
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:14.841
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:14.843
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:14.845
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:14.847
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:14.849
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:14.850
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:14.852
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:14.854
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:14.857
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:14.859
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:14.860
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:14.862
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:14.864
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:14.865
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:14.867
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:14.869
+Unexpected IOException with stream: W
+
+# Created at 2020-01-17T00:45:14.873
+Unexpected IOException with stream: A
+
+# Created at 2020-01-17T00:45:14.876
+Unexpected IOException with stream: R
+
+# Created at 2020-01-17T00:45:14.879
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:14.881
+Unexpected IOException with stream: I
+
+# Created at 2020-01-17T00:45:14.882
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:14.884
+Unexpected IOException with stream: G
+
+# Created at 2020-01-17T00:45:14.886
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:14.888
+Unexpected IOException with stream: :
+
+# Created at 2020-01-17T00:45:14.891
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.893
+Unexpected IOException with stream: T
+
+# Created at 2020-01-17T00:45:14.894
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:14.896
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:14.898
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.899
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.901
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:14.903
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.904
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:14.908
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.909
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:14.911
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.913
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:14.915
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.916
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.918
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:14.920
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.924
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:14.926
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:14.928
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:14.930
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.932
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:14.933
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.940
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:14.945
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:14.950
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:14.954
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:14.959
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.961
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:14.963
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.964
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:14.966
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:14.968
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:14.970
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.974
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:14.977
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:14.980
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:14.983
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:14.987
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:14.989
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.993
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:14.996
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:14.998
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:15.000
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:15.002
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:15.004
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:15.007
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:15.008
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:15.010
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:15.012
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:15.014
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:15.016
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:15.018
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:15.019
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:15.021
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:15.023
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:15.025
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:15.027
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:15.028
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:15.030
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:15.032
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:15.034
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:15.036
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:15.037
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:15.039
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:15.041
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:15.043
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:15.045
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:15.047
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:15.049
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:15.051
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:15.052
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:15.054
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:15.056
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:15.058
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:15.925
+Unexpected IOException with stream: ene 17, 2020 12:45:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2020-01-17T00:45:30.834
+Unexpected IOException with stream:     [31mGiven [0m[31mUser is on StoreFront homepage with [0m[31m[1mhttps://uat.buy.hpe.com/ca/fr[0m  [90m# SignInOptionsDefinitions.user_is_on_storefront_homepage_with(String)[0m
+
+
+# Created at 2020-01-17T00:45:30.841
+Unexpected IOException with stream:       [31morg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at stepDefinitions.SignInOptionsDefinitions.user_is_on_storefront_homepage_with(SignInOptionsDefinitions.java:26)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr(file:src/test/java/features/Login.feature:5)
+[0m
+
+
+# Created at 2020-01-17T00:45:30.849
+Unexpected IOException with stream:     [36mWhen [0m[36mUser goes to login page[0m                                             [90m# SignInOptionsDefinitions.user_goes_to_login_page()[0m
+
+
+# Created at 2020-01-17T00:45:30.856
+Unexpected IOException with stream:     [36mAnd [0m[36mUser logins with "[0m[36m[1misao.palacios.canadaen@yopmail.com[0m[36m" and "[0m[36m[1mMoloko55[0m[36m"[0m [90m# SignInOptionsDefinitions.user_logins_with_something_and_something(String,String)[0m
+
+
+# Created at 2020-01-17T00:45:30.861
+Unexpected IOException with stream:     [36mAnd [0m[36mUser searches for "[0m[36m[1mDL380[0m[36m"[0m                                            [90m# SignInOptionsDefinitions.user_searches_for_something(String)[0m
+
+
+# Created at 2020-01-17T00:45:30.867
+Unexpected IOException with stream:     [36mAnd [0m[36mUser clicks on get quote button[0m                                      [90m# SignInOptionsDefinitions.user_clicks_on_get_quote_button()[0m
+
+
+# Created at 2020-01-17T00:45:30.874
+Unexpected IOException with stream:     [36mThen [0m[36mSignIn options is not displayed[0m                                     [90m# SignInOptionsDefinitions.signin_options_is_not_displayed()[0m
+
+
+# Created at 2020-01-17T00:45:30.949
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49696}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefinitions.Hooks.tearDown(Hooks.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[0m
+
+
+# Created at 2020-01-17T00:45:30.958
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,org.openqa.selenium.WebDriverException: \000Aunknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9\000A
+
+
+# Created at 2020-01-17T00:45:30.964
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49696}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 40dc4f1cc2d09ad47fd21b6f8a9410b9\000A
+
+
+# Created at 2020-01-17T00:45:30.968
+Unexpected IOException: 5,1,Login options,Verify SignIn option is not available(Login options),null,null,null
+
+
+# Created at 2020-01-17T00:45:30.972
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:30.975
+Unexpected IOException with stream:   @eCommTest
+
+
+# Created at 2020-01-17T00:45:30.978
+Unexpected IOException with stream:   Scenario Outline: Verify SignIn option is not available                    [90m# src/test/java/features/Login.feature:15[0m
+
+
+# Created at 2020-01-17T00:45:30.981
+Unexpected IOException with stream: C:\Users\ruvalcan\IdeaProjects\eCommerce
+
+
+# Created at 2020-01-17T00:45:31.352
+Unexpected IOException with stream: S
+
+# Created at 2020-01-17T00:45:31.356
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.359
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.361
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.363
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.365
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.367
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.370
+Unexpected IOException with stream: g
+
+# Created at 2020-01-17T00:45:31.374
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.376
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:31.378
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:31.380
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.382
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.384
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:31.386
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.390
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:31.392
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.394
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.395
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:31.397
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.398
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.400
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.401
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.406
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:31.408
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:31.409
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.411
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:31.412
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:31.413
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:31.415
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.416
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:31.417
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:31.419
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.422
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.424
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.425
+Unexpected IOException with stream: (
+
+# Created at 2020-01-17T00:45:31.426
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.428
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.429
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:31.430
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:31.431
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.432
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:31.434
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.436
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:31.440
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.442
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.443
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.445
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:31.446
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:31.447
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.448
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.449
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.451
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:31.454
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:31.457
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:31.459
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.460
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.462
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.463
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:31.465
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.466
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.467
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:31.470
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.473
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.475
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.476
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.477
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:31.478
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:31.480
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.481
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.482
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:31.483
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.484
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:31.488
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.492
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.493
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:31.495
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:31.496
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.497
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.498
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.499
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.501
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:31.502
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:31.505
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.506
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.508
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.509
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.511
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:31.512
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:31.513
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:31.515
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.516
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.517
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.518
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.521
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:31.522
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:31.524
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:31.525
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.526
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:31.527
+Unexpected IOException with stream: @
+
+# Created at 2020-01-17T00:45:31.529
+Unexpected IOException with stream: {
+
+# Created at 2020-01-17T00:45:31.530
+Unexpected IOException with stream: #
+
+# Created at 2020-01-17T00:45:31.531
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:31.532
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.534
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:31.535
+Unexpected IOException with stream: }
+
+# Created at 2020-01-17T00:45:31.537
+Unexpected IOException with stream: )
+
+# Created at 2020-01-17T00:45:31.539
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.540
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.541
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.542
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.544
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:31.545
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.546
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.547
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.548
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.549
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:31.550
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:31.552
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:31.553
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:31.555
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:31.557
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:31.558
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:31.559
+Unexpected IOException with stream: O
+
+# Created at 2020-01-17T00:45:31.560
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.561
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.563
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:31.564
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.565
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.566
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.567
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.569
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.571
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.573
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.574
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.575
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.577
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.578
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.580
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.581
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.582
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.584
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.586
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.587
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.589
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.590
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.592
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.610
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.612
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.613
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.615
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.616
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.618
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.620
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.621
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:31.623
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.624
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.626
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:31.628
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:31.630
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:31.632
+Unexpected IOException with stream: P
+
+# Created at 2020-01-17T00:45:31.635
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.638
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.643
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.646
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.649
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.651
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.657
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:31.659
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.662
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.664
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.666
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.669
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.672
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.675
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.678
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:31.681
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.684
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.688
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.692
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.694
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.697
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:31.699
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.702
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.705
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.708
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.711
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:31.715
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:31.718
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.722
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:31.726
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:31.730
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.733
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.736
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:31.740
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.743
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:31.746
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.749
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.752
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:31.756
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.760
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.763
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.765
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.769
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.772
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.775
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.778
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.781
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.785
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.788
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.790
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.791
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.793
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.795
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.798
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.800
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.803
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.806
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.808
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.810
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:31.812
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.814
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.817
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:31.821
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.823
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:31.826
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.828
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.830
+Unexpected IOException with stream: k
+
+# Created at 2020-01-17T00:45:31.832
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.836
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.838
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.841
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.843
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.845
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:31.847
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:31.850
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.852
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:31.855
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.857
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:31.858
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:31.861
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.862
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.864
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.866
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.867
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.870
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.873
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.875
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.877
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:31.879
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:31.881
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.883
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:31.885
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:31.887
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:31.889
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.890
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.892
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:31.894
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.896
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:31.898
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:31.899
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:31.901
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:31.903
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:31.906
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:31.908
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:31.909
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:31.911
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:31.912
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:32.537
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:32.540
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:32.542
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:32.543
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:32.545
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:32.547
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:32.549
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:32.551
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:32.554
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:32.557
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:32.559
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:32.561
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:32.562
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:32.564
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:32.565
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:32.566
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:32.568
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:32.571
+Unexpected IOException with stream: W
+
+# Created at 2020-01-17T00:45:32.573
+Unexpected IOException with stream: A
+
+# Created at 2020-01-17T00:45:32.575
+Unexpected IOException with stream: R
+
+# Created at 2020-01-17T00:45:32.577
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:32.579
+Unexpected IOException with stream: I
+
+# Created at 2020-01-17T00:45:32.581
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:32.583
+Unexpected IOException with stream: G
+
+# Created at 2020-01-17T00:45:32.585
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:32.587
+Unexpected IOException with stream: :
+
+# Created at 2020-01-17T00:45:32.590
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.591
+Unexpected IOException with stream: T
+
+# Created at 2020-01-17T00:45:32.592
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:32.594
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:32.595
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:32.597
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.598
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:32.600
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.601
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.604
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:32.607
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:32.609
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.611
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:32.613
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.615
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.617
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:32.620
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.621
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:32.623
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:32.625
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.626
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.628
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:32.630
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.632
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:32.633
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.635
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:32.637
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:32.639
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.641
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.643
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.644
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:32.646
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:32.647
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:32.649
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.651
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:32.656
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.657
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:32.658
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.659
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:32.660
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.662
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.663
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:32.664
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.666
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:32.668
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.670
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:32.672
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:32.674
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.675
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:32.677
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.678
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:32.679
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:32.681
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:32.682
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:32.684
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.686
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:32.688
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:32.690
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.692
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.694
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:32.696
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.699
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.701
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:32.703
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:32.706
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:32.708
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:32.710
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:32.711
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:32.713
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:32.715
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:32.716
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:32.717
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:32.719
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:32.721
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:32.723
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:33.584
+Unexpected IOException with stream: ene 17, 2020 12:45:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2020-01-17T00:45:36.480
+Unexpected IOException with stream:     [31mGiven [0m[31mUser is on StoreFront homepage with [0m[31m[1mhttps://uat.buy.hpe.com/br/pt[0m  [90m# SignInOptionsDefinitions.user_is_on_storefront_homepage_with(String)[0m
+
+
+# Created at 2020-01-17T00:45:36.483
+Unexpected IOException with stream:       [31morg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d77e035211bd56335b65682097f5ba5
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.to(RemoteWebDriver.java:857)
+	at stepDefinitions.SignInOptionsDefinitions.user_is_on_storefront_homepage_with(SignInOptionsDefinitions.java:26)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/br/pt(file:src/test/java/features/Login.feature:5)
+[0m
+
+
+# Created at 2020-01-17T00:45:36.489
+Unexpected IOException with stream:     [36mWhen [0m[36mUser goes to login page[0m                                             [90m# SignInOptionsDefinitions.user_goes_to_login_page()[0m
+
+
+# Created at 2020-01-17T00:45:36.492
+Unexpected IOException with stream:     [36mAnd [0m[36mUser logins with "[0m[36m[1misao.palacios.canadaen@yopmail.com[0m[36m" and "[0m[36m[1mMoloko55[0m[36m"[0m [90m# SignInOptionsDefinitions.user_logins_with_something_and_something(String,String)[0m
+
+
+# Created at 2020-01-17T00:45:36.494
+Unexpected IOException with stream:     [36mAnd [0m[36mUser searches for "[0m[36m[1mDL380[0m[36m"[0m                                            [90m# SignInOptionsDefinitions.user_searches_for_something(String)[0m
+
+
+# Created at 2020-01-17T00:45:36.497
+Unexpected IOException with stream:     [36mAnd [0m[36mUser clicks on get quote button[0m                                      [90m# SignInOptionsDefinitions.user_clicks_on_get_quote_button()[0m
+
+
+# Created at 2020-01-17T00:45:36.500
+Unexpected IOException with stream:     [36mThen [0m[36mSignIn options is not displayed[0m                                     [90m# SignInOptionsDefinitions.signin_options_is_not_displayed()[0m
+
+
+# Created at 2020-01-17T00:45:36.548
+Unexpected IOException with stream:       [31morg.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SIDQSHCLWJ', ip: '10.0.0.13', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\ruvalcan\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49714}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 2d77e035211bd56335b65682097f5ba5
+	at sun.reflect.GeneratedConstructorAccessor11.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefinitions.Hooks.tearDown(Hooks.java:16)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[0m
+
+
+# Created at 2020-01-17T00:45:36.556
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,null,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,unknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,org.openqa.selenium.WebDriverException: \000Aunknown error: cannot determine loading status\000Afrom disconnected: received Inspector.detached event\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5\000A
+
+
+# Created at 2020-01-17T00:45:36.561
+Unexpected IOException: 7,1,Login options,Verify SignIn option is not available(Login options),null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,null,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5,org.openqa.selenium.NoSuchWindowException: \000Ano such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'SIDQSHCLWJ'\002C ip: '10.0.0.13'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_221'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cruvalcan\005CAppData\005CL...}\002C goog:chromeOptions: {debuggerAddress: localhost:49714}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 2d77e035211bd56335b65682097f5ba5\000A
+
+
+# Created at 2020-01-17T00:45:36.565
+Unexpected IOException: 5,1,Login options,Verify SignIn option is not available(Login options),null,null,null
+
+
+# Created at 2020-01-17T00:45:36.568
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:36.572
+Unexpected IOException with stream:   @eCommTest
+
+
+# Created at 2020-01-17T00:45:36.576
+Unexpected IOException with stream:   Scenario Outline: Verify SignIn option is not available                    [90m# src/test/java/features/Login.feature:16[0m
+
+
+# Created at 2020-01-17T00:45:36.580
+Unexpected IOException with stream: C:\Users\ruvalcan\IdeaProjects\eCommerce
+
+
+# Created at 2020-01-17T00:45:36.864
+Unexpected IOException with stream: S
+
+# Created at 2020-01-17T00:45:36.866
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:36.868
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:36.870
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:36.871
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:36.873
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:36.876
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:36.879
+Unexpected IOException with stream: g
+
+# Created at 2020-01-17T00:45:36.882
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:36.884
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:36.887
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:36.890
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:36.892
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:36.894
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:36.896
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:36.898
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:36.899
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:36.901
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:36.904
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:36.906
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:36.910
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:36.912
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:36.913
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:36.915
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:36.916
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:36.918
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:36.920
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:36.923
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:36.925
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:36.926
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:36.928
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:36.930
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:36.932
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:36.935
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:36.938
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:36.940
+Unexpected IOException with stream: (
+
+# Created at 2020-01-17T00:45:36.942
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:36.944
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:36.946
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:36.948
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:36.950
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:36.953
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:36.956
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:36.958
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:36.961
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:36.963
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:36.966
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:36.969
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:36.971
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:36.973
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:36.975
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:36.978
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:36.979
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:36.982
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:36.988
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:36.990
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:36.992
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:36.996
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:37.000
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:37.006
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:37.010
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:37.012
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:37.015
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.019
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.022
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.025
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:37.027
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:37.029
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:37.031
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:37.033
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:37.036
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:37.039
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.042
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:37.043
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.044
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.046
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:37.047
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:37.048
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.050
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.051
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:37.053
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.055
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:37.057
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:37.060
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.062
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.064
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.065
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.066
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:37.068
+Unexpected IOException with stream: -
+
+# Created at 2020-01-17T00:45:37.071
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:37.074
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.076
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.077
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.078
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.079
+Unexpected IOException with stream: /
+
+# Created at 2020-01-17T00:45:37.081
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:37.082
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:37.083
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:37.085
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:37.087
+Unexpected IOException with stream: @
+
+# Created at 2020-01-17T00:45:37.090
+Unexpected IOException with stream: {
+
+# Created at 2020-01-17T00:45:37.092
+Unexpected IOException with stream: #
+
+# Created at 2020-01-17T00:45:37.094
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:37.095
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:37.097
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:37.098
+Unexpected IOException with stream: }
+
+# Created at 2020-01-17T00:45:37.100
+Unexpected IOException with stream: )
+
+# Created at 2020-01-17T00:45:37.101
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.104
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.106
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.108
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.110
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:37.111
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.112
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.114
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.115
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.116
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:37.117
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:37.119
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:37.121
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:37.122
+Unexpected IOException with stream: 6
+
+# Created at 2020-01-17T00:45:37.124
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:37.125
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:37.126
+Unexpected IOException with stream: O
+
+# Created at 2020-01-17T00:45:37.127
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.128
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.129
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:37.130
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.131
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.132
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.133
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.134
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.137
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.139
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.140
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.142
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.143
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.144
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.145
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.146
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.147
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.148
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:37.149
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.150
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.152
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.155
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.156
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.158
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.161
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.163
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.164
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.166
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.167
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.170
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.172
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:37.175
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.176
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.191
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:37.193
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:37.194
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:37.195
+Unexpected IOException with stream: P
+
+# Created at 2020-01-17T00:45:37.197
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.198
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.199
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.200
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.202
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.205
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.206
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:37.208
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.209
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.211
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.212
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.214
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.215
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.217
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.218
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:37.221
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.222
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.224
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.226
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.227
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.228
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:37.230
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.231
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.232
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.233
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.236
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:37.238
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:37.241
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.243
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:37.244
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:37.246
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.247
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.248
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:37.249
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.251
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:37.253
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.255
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:37.256
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:37.258
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.260
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.262
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.263
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.264
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.266
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.267
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.269
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.271
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.272
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.273
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.274
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.276
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.277
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.278
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.280
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.281
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.282
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.284
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.285
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.287
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:37.288
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.290
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.291
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:37.293
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.294
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:37.295
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.297
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.298
+Unexpected IOException with stream: k
+
+# Created at 2020-01-17T00:45:37.299
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.301
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.303
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.305
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.308
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.310
+Unexpected IOException with stream: p
+
+# Created at 2020-01-17T00:45:37.312
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:37.313
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.315
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:37.316
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.318
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:37.320
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:37.321
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.323
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.324
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.325
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.327
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.329
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.330
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.332
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.333
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:37.335
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:37.337
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.338
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:37.340
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:37.341
+Unexpected IOException with stream: l
+
+# Created at 2020-01-17T00:45:37.343
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:37.344
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.345
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:37.346
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.348
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:37.349
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:37.350
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:37.353
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:37.354
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:37.356
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:37.357
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:37.358
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:37.360
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:37.362
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:38.079
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:38.081
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:38.083
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:38.085
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:38.088
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:38.090
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:38.092
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:38.094
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:38.096
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:38.098
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:38.099
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-17T00:45:38.101
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:38.104
+Unexpected IOException with stream: 0
+
+# Created at 2020-01-17T00:45:38.106
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:38.108
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:38.110
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:38.112
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:38.114
+Unexpected IOException with stream: W
+
+# Created at 2020-01-17T00:45:38.116
+Unexpected IOException with stream: A
+
+# Created at 2020-01-17T00:45:38.118
+Unexpected IOException with stream: R
+
+# Created at 2020-01-17T00:45:38.120
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:38.122
+Unexpected IOException with stream: I
+
+# Created at 2020-01-17T00:45:38.123
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:38.125
+Unexpected IOException with stream: G
+
+# Created at 2020-01-17T00:45:38.127
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:38.128
+Unexpected IOException with stream: :
+
+# Created at 2020-01-17T00:45:38.130
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.132
+Unexpected IOException with stream: T
+
+# Created at 2020-01-17T00:45:38.133
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:38.135
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:38.137
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:38.140
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.142
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:38.144
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.145
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.146
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:38.148
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:38.150
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.153
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:38.155
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.157
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.159
+Unexpected IOException with stream: f
+
+# Created at 2020-01-17T00:45:38.161
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.162
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:38.164
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:38.165
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.167
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.168
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:38.170
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.172
+Unexpected IOException with stream: D
+
+# Created at 2020-01-17T00:45:38.174
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.176
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:38.178
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:38.179
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.182
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.184
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.187
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:38.189
+Unexpected IOException with stream: a
+
+# Created at 2020-01-17T00:45:38.191
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:38.192
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.193
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:38.195
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.196
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:38.197
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.199
+Unexpected IOException with stream: b
+
+# Created at 2020-01-17T00:45:38.200
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.201
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.203
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:38.204
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.205
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:38.207
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.209
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:38.210
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:38.211
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.213
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:38.214
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.216
+Unexpected IOException with stream: w
+
+# Created at 2020-01-17T00:45:38.218
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:38.219
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:38.221
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:38.223
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.225
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:38.226
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:38.228
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.229
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.230
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:38.231
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.233
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.235
+Unexpected IOException with stream: v
+
+# Created at 2020-01-17T00:45:38.238
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:38.240
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:38.242
+Unexpected IOException with stream: s
+
+# Created at 2020-01-17T00:45:38.243
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:38.245
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:38.247
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:38.249
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:38.250
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:38.253
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:38.255
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:38.257
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:38.259
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-17T00:45:39.155
+Unexpected IOException with stream: ene 17, 2020 12:45:39 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2020-01-17T00:45:41.178
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:41.181
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:41.184
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:41.188
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:41.192
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-17T00:45:41.196
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-17T00:45:41.199
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:41.204
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-17T00:45:41.208
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:41.211
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-17T00:45:41.215
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:41.219
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:41.223
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-17T00:45:41.227
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-17T00:45:41.231
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-17T00:45:41.234
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:41.238
+Unexpected IOException with stream: [
+
+# Created at 2020-01-17T00:45:41.242
+Unexpected IOException with stream: W
+
+# Created at 2020-01-17T00:45:41.246
+Unexpected IOException with stream: A
+
+# Created at 2020-01-17T00:45:41.249
+Unexpected IOException with stream: R
+
+# Created at 2020-01-17T00:45:41.253
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:41.257
+Unexpected IOException with stream: I
+
+# Created at 2020-01-17T00:45:41.261
+Unexpected IOException with stream: N
+
+# Created at 2020-01-17T00:45:41.264
+Unexpected IOException with stream: G
+
+# Created at 2020-01-17T00:45:41.268
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-17T00:45:41.272
+Unexpected IOException with stream: :
+
+# Created at 2020-01-17T00:45:41.275
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.279
+Unexpected IOException with stream: T
+
+# Created at 2020-01-17T00:45:41.283
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:41.286
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:41.291
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:41.294
+Unexpected IOException with stream: d
+
+# Created at 2020-01-17T00:45:41.298
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.302
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:41.306
+Unexpected IOException with stream: u
+
+# Created at 2020-01-17T00:45:41.309
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:41.313
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.318
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:41.322
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:41.326
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:41.330
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:41.333
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:41.338
+Unexpected IOException with stream: c
+
+# Created at 2020-01-17T00:45:41.342
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:41.345
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:41.348
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:41.352
+Unexpected IOException with stream: g
+
+# Created at 2020-01-17T00:45:41.357
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.360
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:41.363
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:41.367
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.372
+Unexpected IOException with stream: C
+
+# Created at 2020-01-17T00:45:41.376
+Unexpected IOException with stream: h
+
+# Created at 2020-01-17T00:45:41.379
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:41.383
+Unexpected IOException with stream: o
+
+# Created at 2020-01-17T00:45:41.387
+Unexpected IOException with stream: m
+
+# Created at 2020-01-17T00:45:41.391
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:41.394
+Unexpected IOException with stream: ,
+
+# Created at 2020-01-17T00:45:41.398
+Unexpected IOException with stream:  
+
+# Created at 2020-01-17T00:45:41.403
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:41.407
+Unexpected IOException with stream: e
+
+# Created at 2020-01-17T00:45:41.410
+Unexpected IOException with stream: t
+
+# Created at 2020-01-17T00:45:41.414
+Unexpected IOException with stream: r
+
+# Created at 2020-01-17T00:45:41.417
+Unexpected IOException with stream: y
+
+# Created at 2020-01-17T00:45:41.421
+Unexpected IOException with stream: i
+
+# Created at 2020-01-17T00:45:41.425
+Unexpected IOException with stream: n
+
+# Created at 2020-01-17T00:45:41.428
+Unexpected IOException with stream: g
+
+# Created at 2020-01-17T00:45:41.431
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:41.435
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:41.439
+Unexpected IOException with stream: .
+
+# Created at 2020-01-17T00:45:41.443
+Unexpected IOException with stream: 
+
+# Created at 2020-01-17T00:45:41.447
+Unexpected IOException with stream: 
+
+
