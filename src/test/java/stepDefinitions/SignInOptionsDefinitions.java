@@ -44,7 +44,7 @@ public class SignInOptionsDefinitions extends BaseDriver{
     	accpage.check_accountPage_isLoaded();
     }
 
-    @And("^User searches for \"([^\"]*)\"$")
+    @And("^User searches and opens \"([^\"]*)\"$")
     public void user_searches_for_something(String strArg1) throws Throwable {
         home.search_product(strArg1);
         result.open_firstResult();
