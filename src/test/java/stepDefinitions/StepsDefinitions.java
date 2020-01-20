@@ -14,7 +14,7 @@ import pageObjects.StoreFrontHomeHeaderMenu;
 import pageObjects.YourAccountPage;
 import org.apache.commons.lang.StringUtils;
 
-public class SignInOptionsDefinitions extends BaseDriver{
+public class StepsDefinitions extends BaseDriver{
 	public StoreFrontHomeHeaderMenu home = new StoreFrontHomeHeaderMenu(driver);
 	public SignInPage signin = new SignInPage(driver);
 	public YourAccountPage accpage = new YourAccountPage(driver);
@@ -45,7 +45,7 @@ public class SignInOptionsDefinitions extends BaseDriver{
     }
 
     @And("^User searches and opens \"([^\"]*)\"$")
-    public void user_searches_for_something(String strArg1) throws Throwable {
+    public void user_searches_and_opens_something(String strArg1) throws Throwable {
         home.search_product(strArg1);
         result.open_firstResult();
     }
@@ -61,6 +61,37 @@ public class SignInOptionsDefinitions extends BaseDriver{
         String head_tag = StringUtils.substringBetween(source, "head", "/head");
         boolean isTextPresent = head_tag.contains(strArg1);
         Assert.assertFalse(isTextPresent);
+    }
+    
+    @Then("^Relevance sorting is selected by default$")
+    public void relevance_sorting_is_selected_by_default() throws Throwable {
+        String default_selection = result.check_sortBy_Selection();
+        Assert.assertEquals(default_selection, "Relevance");
+    }
+
+    @Then("^Name ascending sorting is displayed$")
+    public void name_ascending_sorting_is_displayed() throws Throwable {
+        
+    }
+
+    @Then("^Name descending sorting is displayed$")
+    public void name_descending_sorting_is_displayed() throws Throwable {
+        
+    }
+
+    @And("^User searches for \"([^\"]*)\"$")
+    public void user_searches_for_something(String strArg1) throws Throwable {
+    	home.search_product(strArg1);
+    }
+
+    @And("^User selects sort by name ascending$")
+    public void user_selects_sort_by_name_ascending() throws Throwable {
+        
+    }
+
+    @And("^User selects sort by name descending$")
+    public void user_selects_sort_by_name_descending() throws Throwable {
+        
     }
 
 }
