@@ -5,12 +5,6 @@ import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
 public class Hooks extends BaseDriver{
-
-	/*Hola
-	 *Alex
-	 * Hola Papi
-	 * holi
-	 * */ 
 	
 	@Before("@eCommTest")
 	public void setUp() {
@@ -29,6 +23,16 @@ public class Hooks extends BaseDriver{
 	
 	@After("@SourceCodeTest")
 	public void tearDown1() {
+		driver.close();
+	}
+	
+	@Before("@SortingTest")
+	public void setUp2() {
+		getDriver();
+	}
+	
+	@After("@SortingTest")
+	public void tearDown2() {
 		driver.close();
 	}
 

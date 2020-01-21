@@ -12,7 +12,7 @@ public class Locators {
 	
 	public static final String LOGIN_PASSWORD_FIELD = "//*[@id=\"j_password\"]";
 	
-	public static final String YOUR_ACCOUNT_HEADLINE = "//h1[contains(text(), \"YOUR ACCOUNT\")]";
+	public static final String YOUR_ACCOUNT_HEADLINE = "//h1";
 	
 	public static final String SEARCH_ICON = "//*[@id=\"hpehf-search-item\"]/a";
 	
@@ -32,6 +32,14 @@ public class Locators {
 	
 	public static final String PAGE_SIZE_100_ITEMS = "//*[@id=\"pageSize-selector\"]/option[4]";
 	
-	public static final String DROP_DOWN_SORT_SELECTION = "//option[@selected=\"selected\"]/text()";
+	public static final String PAGE_SIZE_SELECTOR = "//*[@id=\"pageSize-selector\"]";
+	
+	public static final String DROP_DOWN_SORT_SELECTION = "//*[@id=\"sortOptions1\"]//option[@selected=\"selected\"]";
+	
+	public static final String DROPDOWN_NAME_ASC = "//option[@value=\"name-asc\"]";
+	
+	public static final String DROPDOWN_NAME_DESC = "//option[@value=\"name-desc\"]";
+	
+	public static final String PRODUCTS_LIST_RESULT = "//ul[contains(@class, \"product__listing\")]//div[contains(@class, \"product-list__about\")]//h4//a[1]";
 
 }

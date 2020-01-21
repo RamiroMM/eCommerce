@@ -1,5 +1,11 @@
 package pageObjects;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+import java.util.List;
+
+import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -12,6 +18,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.framework.util.Locators;
+import com.google.common.collect.Ordering;
 
 public class ResultsPage {
 	WebDriver driver;
@@ -32,8 +39,16 @@ public class ResultsPage {
 	WebElement paginationLink;
 	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_100_ITEMS)
 	WebElement pageSize100;
+	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_SELECTOR)
+	WebElement pageSizeselector;
 	@FindBy(how = How.XPATH, using = Locators.DROP_DOWN_SORT_SELECTION)
 	WebElement sortBySelection;
+	@FindBy(how = How.XPATH, using = Locators.DROPDOWN_NAME_ASC)
+	WebElement sortByNameAsc;
+	@FindBy(how = How.XPATH, using = Locators.DROPDOWN_NAME_DESC)
+	WebElement sortByNameDesc;
+	@FindBy(how = How.XPATH, using = Locators.PRODUCTS_LIST_RESULT)
+	List<WebElement> productListResult;
 	
 	public void open_firstResult() {
 		try {
@@ -104,11 +119,14 @@ public class ResultsPage {
 	public String check_sortBy_Selection() {
 		String sort_selection;
 		try {
-			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pageSize100));
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pageSizeselector));
 			if (pageSize100.isEnabled()) {
-				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", pageSize100);
-				Thread.sleep(1000);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", pageSizeselector);
+				Thread.sleep(1500);
+				pageSizeselector.click();
 				pageSize100.click();
+				System.out.println("Clicked on page Size 100 items");
+				Thread.sleep(3000);
 			}
 			else {
 				System.out.println("Page size option not found");
@@ -123,7 +141,7 @@ public class ResultsPage {
 			if (sortBySelection.isEnabled()) {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", sortBySelection);
 				Thread.sleep(1000);
-				sort_selection = sortBySelection.getText();
+				sort_selection = sortBySelection.getAttribute("value");
 				return sort_selection;
 			}
 			else {
@@ -135,6 +153,87 @@ public class ResultsPage {
 			System.out.println(ex);
 		}
 		return null;
+	}
+	
+	public void sortby_NameAsc() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(sortByNameAsc));
+			if(sortByNameAsc.isEnabled()) {
+				sortByNameAsc.click();
+				Thread.sleep(1000);
+			}
+			else {
+				System.out.println("Sort By Name Ascendent was not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Sort By Name Ascendent was not found: " + ex);
+		}
+	}
+	
+	public void sortby_NameDesc() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(sortByNameDesc));
+			if(sortByNameDesc.isEnabled()) {
+				sortByNameDesc.click();
+				Thread.sleep(1000);
+			}
+			else {
+				System.out.println("Sort By Name Descendent was not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Sort By Name Descendent was not found: " + ex);
+		}
+	}
+	
+	public boolean isSortNameAsc() {
+		if(true) {
+			Iterator<WebElement> itr = productListResult.iterator();
+			while(itr.hasNext()) {
+				System.out.println(itr.next().getText());
+			}
+			
+			ArrayList<String> obtainedList = new ArrayList<>(); 
+			for(WebElement we:productListResult){
+			   obtainedList.add(we.getText());
+			}
+			ArrayList<String> sortedList = new ArrayList<>();   
+			for(String s:obtainedList){
+				sortedList.add(s);
+			}
+			Collections.sort(sortedList);
+			System.out.println("Obtained list: \n" + obtainedList);
+			System.out.println("Sorted list: \n" + sortedList);
+			//Assert.assertTrue(sortedList.equals(obtainedList));
+		}
+		return false;
+	}
+	
+	public boolean isSortNameDesc() {
+		if(true) {
+			Iterator<WebElement> itr = productListResult.iterator();
+			while(itr.hasNext()) {
+				System.out.println(itr.next().getText());
+			}
+			
+			ArrayList<String> obtainedList = new ArrayList<>(); 
+			for(WebElement we:productListResult){
+			   obtainedList.add(we.getText());
+			}
+			ArrayList<String> sortedList = new ArrayList<>();   
+			for(String s:obtainedList){
+				sortedList.add(s);
+			}
+			Collections.sort(sortedList);
+			Collections.reverse(sortedList);
+			System.out.println("Obtained list: \n" + obtainedList);
+			System.out.println("Sorted list: \n" + sortedList);
+			//Assert.assertTrue(sortedList.equals(obtainedList));
+		}
+		return false;
 	}
 
 }

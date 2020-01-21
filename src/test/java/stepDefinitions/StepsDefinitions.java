@@ -66,17 +66,21 @@ public class StepsDefinitions extends BaseDriver{
     @Then("^Relevance sorting is selected by default$")
     public void relevance_sorting_is_selected_by_default() throws Throwable {
         String default_selection = result.check_sortBy_Selection();
-        Assert.assertEquals(default_selection, "Relevance");
+        //String corrected = default_selection.replaceAll("\\s+", "");
+        System.out.println("Default selection: " + default_selection);
+        Assert.assertEquals("relevance", default_selection);
     }
 
     @Then("^Name ascending sorting is displayed$")
     public void name_ascending_sorting_is_displayed() throws Throwable {
-        
+        System.out.println("Sorting ascending TESTING:");
+        result.isSortNameAsc();
     }
 
     @Then("^Name descending sorting is displayed$")
     public void name_descending_sorting_is_displayed() throws Throwable {
-        
+    	System.out.println("Sorting descending TESTING:");
+    	result.isSortNameDesc();
     }
 
     @And("^User searches for \"([^\"]*)\"$")
@@ -86,12 +90,14 @@ public class StepsDefinitions extends BaseDriver{
 
     @And("^User selects sort by name ascending$")
     public void user_selects_sort_by_name_ascending() throws Throwable {
-        
+    	System.out.println("Selecting Sorting ascending...");
+    	result.sortby_NameAsc();
     }
 
     @And("^User selects sort by name descending$")
     public void user_selects_sort_by_name_descending() throws Throwable {
-        
+    	System.out.println("Selecting Sorting descending...");
+    	result.sortby_NameDesc();
     }
 
 }

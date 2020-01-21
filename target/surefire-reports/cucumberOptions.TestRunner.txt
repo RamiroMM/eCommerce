@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,398.365 s - in cucumberOptions.TestRunner
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 82.018 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify if user is able to sort the results of a product search(Sorting options)  Time elapsed: 80.354 s  <<< ERROR!
+java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable
+
