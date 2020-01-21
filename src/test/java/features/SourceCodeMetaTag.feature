@@ -1,6 +1,6 @@
 # new feature
 # Tags: optional
-
+@SourceMetaTag
 Feature: Search for a meta tag
 
   Scenario Outline: Verify the meta tag "Robots" is found

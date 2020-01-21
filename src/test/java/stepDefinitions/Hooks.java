@@ -15,7 +15,7 @@ public class Hooks extends BaseDriver{
 	public void tearDown() {
 		driver.close();
 	}
-	
+
 	@Before("@SourceCodeTest")
 	public void setUp1() {
 		getDriver();
@@ -25,5 +25,18 @@ public class Hooks extends BaseDriver{
 	public void tearDown1() {
 		driver.close();
 	}
+
+
+	@Before("@SourceMetaTag")
+	public void setUp2() {
+		getDriver();
+	}
+
+	@After("@SourceMetaTag")
+	public void tearDown2() {
+		driver.close();
+	}
+
+
 
 }
