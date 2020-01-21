@@ -1,10 +1,9 @@
-# new feature
-# Tags: optional
-@SourceMetaTag
 Feature: Search for a meta tag
 
+  @SourceMetaTag
+
   Scenario Outline: Verify the meta tag "Robots" is found
-    Given User is on the homepage with <link>
+    Given User is on the homepage with <link> and login
     And Navigate to "PLP/PDP" page
     And Get the source code elements
     Then Search for the "robot meta tag" name
@@ -12,5 +11,5 @@ Feature: Search for a meta tag
     And Verify for checkout pages meta tag is "nofollow,noindex"
 
     Examples:
-    / link /
+      | link |
     | https://uat.buy.hpe.com/ca/fr |

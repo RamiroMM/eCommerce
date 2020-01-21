@@ -7,12 +7,12 @@ import io.cucumber.java.Before;
 public class Hooks extends BaseDriver{
 
 	@Before("@eCommTest")
-	public void setUp() {
+	public void setUp2() {
 		getDriver();
 	}
 	
 	@After("@eCommTest")
-	public void tearDown() {
+	public void tearDown2() {
 		driver.close();
 	}
 
@@ -28,12 +28,12 @@ public class Hooks extends BaseDriver{
 
 
 	@Before("@SourceMetaTag")
-	public void setUp2() {
+	public void setUp() {
 		getDriver();
 	}
 
 	@After("@SourceMetaTag")
-	public void tearDown2() {
+	public void tearDown() {
 		driver.close();
 	}
 

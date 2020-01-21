@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 35, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2,398.365 s - in cucumberOptions.TestRunner
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 46.922 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify the meta tag "Robots" is found(Search for a meta tag)  Time elapsed: 45.427 s  <<< ERROR!
+cucumber.runtime.CucumberException: 
+Could not convert arguments for step [^verify content is "([^"]*)"$] defined at 'stepDefinitions.SearchMetaTag.verify_content_is_something(String>) in file:/C:/Users/ruvalcan/IdeaProjects/eCommerce/target/test-classes/'.
+The details are in the stacktrace below.
+Caused by: io.cucumber.cucumberexpressions.CucumberExpressionException: ParameterType {anonymous} failed to transform [follow, index] to java.util.List<java.lang.String>
+Caused by: java.lang.IllegalArgumentException: 
+Can't transform 'follow, index' to java.util.List<java.lang.String>
+BuiltInParameterTransformer only supports a limited number of class types
+Consider using a different object mapper or register a parameter type for java.util.List<java.lang.String>
+

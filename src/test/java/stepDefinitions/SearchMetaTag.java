@@ -23,16 +23,19 @@ public class SearchMetaTag extends BaseDriver{
     public ResultsPage result = new ResultsPage(driver);
     public GetQuotePage gquote = new GetQuotePage(driver);
 
-
-
     @Given("^User is on the homepage with (.+)$")
-    public void user_is_on_the_homepage_with(String link, String strArg1, String strArg2) throws Throwable {
+    public void user_is_on_the_homepage_with(String link) throws Throwable {
         driver.navigate().to(link);
         home.check_HomePage_isLoaded();
-        home.goto_loginPage();
-        signin.check_SignInPage_isLoaded();
-        signin.user_Login(strArg1, strArg2);
-        accpage.check_accountPage_isLoaded();
+    }
+
+    @And("Navigate to {string} page")
+    public void navigateToPage(String arg0) {
+
+    }
+
+    @And("^Get the source code elements$")
+    public void get_the_source_code_elements() throws Throwable {
 
     }
 
@@ -40,15 +43,6 @@ public class SearchMetaTag extends BaseDriver{
     public void search_for_the_something_name(String strArg1) throws Throwable {
         home.search_product(strArg1);
         result.open_firstResult();
-    }
-
-    @And("Navigate to {string} page")
-    public void navigateToPage(String arg0) {
-    }
-
-    @And("^Get the source code elements$")
-    public void get_the_source_code_elements() throws Throwable {
-
     }
 
     @And("^verify content is \"([^\"]*)\"$")
