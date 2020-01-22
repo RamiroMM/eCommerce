@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="80.350309">
-<testcase classname="Sorting options" name="Verify if user is able to sort the results of a product search" time="80.350309">
-<failure message="java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable&#13;&#10;&#9;at pageObjects.ResultsPage.isSortNameAsc(ResultsPage.java:199)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.name_ascending_sorting_is_displayed(StepsDefinitions.java:77)&#13;&#10;&#9;at ✽.Name ascending sorting is displayed(file:src/test/java/features/Sorting.feature:11)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr.....passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.954817">
+<testcase classname="Sorting options" name="Verify if user is able to sort the results of a product search" time="53.954817">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr.....passed
 When User goes to login page................................................passed
 And User logins with "isao.palacios.canadaen@yopmail.com" and "Moloko66"....passed
 And User searches for "DL380"...............................................passed
 Then Relevance sorting is selected by default...............................passed
 And User selects sort by name ascending.....................................passed
-Then Name ascending sorting is displayed....................................failed
-And User selects sort by name descending....................................skipped
-Then Name descending sorting is displayed...................................skipped
-
-StackTrace:
-java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable
-	at pageObjects.ResultsPage.isSortNameAsc(ResultsPage.java:199)
-	at stepDefinitions.StepsDefinitions.name_ascending_sorting_is_displayed(StepsDefinitions.java:77)
-	at ✽.Name ascending sorting is displayed(file:src/test/java/features/Sorting.feature:11)
-]]></failure>
+Then Name ascending sorting is displayed....................................passed
+And User selects sort by name descending....................................passed
+Then Name descending sorting is displayed...................................passed
+]]></system-out>
 </testcase>
 </testsuite>

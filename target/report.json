@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-21T22:09:10.801Z",
+        "start_timestamp": "2020-01-22T20:03:07.691Z",
         "before": [
           {
             "result": {
-              "duration": 4126710542,
+              "duration": 3893214268,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 2170576639,
+              "duration": 2106548642,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 20592569033,
+              "duration": 17836532680,
               "status": "passed"
             },
             "line": 5,
@@ -53,7 +53,7 @@
           },
           {
             "result": {
-              "duration": 25256335987,
+              "duration": 6103273011,
               "status": "passed"
             },
             "line": 6,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 9755992231,
+              "duration": 5932459768,
               "status": "passed"
             },
             "line": 7,
@@ -87,7 +87,7 @@
           },
           {
             "result": {
-              "duration": 7989754201,
+              "duration": 5102561256,
               "status": "passed"
             },
             "line": 8,
@@ -105,7 +105,7 @@
           },
           {
             "result": {
-              "duration": 7519294023,
+              "duration": 7137554158,
               "status": "passed"
             },
             "line": 9,
@@ -117,7 +117,7 @@
           },
           {
             "result": {
-              "duration": 2682158677,
+              "duration": 2971445873,
               "status": "passed"
             },
             "line": 10,
@@ -129,9 +129,8 @@
           },
           {
             "result": {
-              "error_message": "java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable\r\n\tat pageObjects.ResultsPage.isSortNameAsc(ResultsPage.java:199)\r\n\tat stepDefinitions.StepsDefinitions.name_ascending_sorting_is_displayed(StepsDefinitions.java:77)\r\n\tat ✽.Name ascending sorting is displayed(file:src/test/java/features/Sorting.feature:11)\r\n",
-              "duration": 231801248,
-              "status": "failed"
+              "duration": 375936241,
+              "status": "passed"
             },
             "line": 11,
             "name": "Name ascending sorting is displayed",
@@ -142,8 +141,8 @@
           },
           {
             "result": {
-              "duration": 105696,
-              "status": "skipped"
+              "duration": 2014106155,
+              "status": "passed"
             },
             "line": 12,
             "name": "User selects sort by name descending",
@@ -154,8 +153,8 @@
           },
           {
             "result": {
-              "duration": 68848,
-              "status": "skipped"
+              "duration": 469595210,
+              "status": "passed"
             },
             "line": 13,
             "name": "Name descending sorting is displayed",

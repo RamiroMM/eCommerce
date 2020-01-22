@@ -73,14 +73,16 @@ public class StepsDefinitions extends BaseDriver{
 
     @Then("^Name ascending sorting is displayed$")
     public void name_ascending_sorting_is_displayed() throws Throwable {
-        System.out.println("Sorting ascending TESTING:");
-        result.isSortNameAsc();
+        System.out.println("Sorting ascending result is:");
+        boolean isSorted = result.isSortNameAsc();
+        Assert.assertTrue(isSorted);
     }
 
     @Then("^Name descending sorting is displayed$")
     public void name_descending_sorting_is_displayed() throws Throwable {
-    	System.out.println("Sorting descending TESTING:");
-    	result.isSortNameDesc();
+    	System.out.println("Sorting descending result is:");
+    	boolean isSorted = result.isSortNameDesc();
+        Assert.assertTrue(isSorted);
     }
 
     @And("^User searches for \"([^\"]*)\"$")

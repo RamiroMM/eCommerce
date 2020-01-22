@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="82.018" tests="1" errors="1" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="55.501" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire7222426876122376833\surefirebooter6976171950258867537.jar C:\Users\morara\AppData\Local\Temp\surefire7222426876122376833 2020-01-21T16-09-09_046-jvmRun1 surefire3371915904331491912tmp surefire_01214362168641187060tmp"/>
+    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire8115350682194564823\surefirebooter2164602271974997506.jar C:\Users\morara\AppData\Local\Temp\surefire8115350682194564823 2020-01-22T14-03-06_394-jvmRun1 surefire4409141523305326134tmp surefire_08810642505372259189tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\morara\eclipse-workspace 2\eCommerce\target\test-classes;C:\Users\morara\eclipse-workspace 2\eCommerce\target\classes;C:\Users\morara\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\morara\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\morara\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\morara\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\morara\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\morara\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\morara\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\morara\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\morara\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\morara\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\morara\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\morara\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\morara\.m2\repository\de\monochromata\cucumber\reporting-plugin\3.0.17\reporting-plugin-3.0.17.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\morara\.m2\repository\net\masterthought\cucumber-reporting\4.11.2\cucumber-reporting-4.11.2.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\morara\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\morara\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\morara\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\morara\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\morara\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\morara\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\morara\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\morara\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\morara\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\morara\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\morara\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\morara"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire7222426876122376833\surefirebooter6976171950258867537.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire8115350682194564823\surefirebooter2164602271974997506.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,66 +63,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Verify if user is able to sort the results of a product search" classname="Sorting options" time="80.354">
-    <error message="java.util.ArrayList$Itr cannot be cast to java.lang.Iterable" type="java.lang.ClassCastException">java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable
-</error>
-    <system-out><![CDATA[Feature: Sorting options
-
-  @SortingTest
-  Scenario Outline: Verify if user is able to sort the results of a product search &amp#27;[90m# src/test/java/features/Sorting.feature:4&amp#27;[0m
-    &amp#27;[36mGiven User is on StoreFront homepage with <link>&amp#27;[0m
-    &amp#27;[36mWhen User goes to login page&amp#27;[0m
-    &amp#27;[36mAnd User logins with "isao.palacios.canadaen@yopmail.com" and "Moloko66"&amp#27;[0m
-    &amp#27;[36mAnd User searches for "DL380"&amp#27;[0m
-    &amp#27;[36mThen Relevance sorting is selected by default&amp#27;[0m
-    &amp#27;[36mAnd User selects sort by name ascending&amp#27;[0m
-    &amp#27;[36mThen Name ascending sorting is displayed&amp#27;[0m
-    &amp#27;[36mAnd User selects sort by name descending&amp#27;[0m
-    &amp#27;[36mThen Name descending sorting is displayed&amp#27;[0m
-
-    Examples: 
-
-  @SortingTest
-  Scenario Outline: Verify if user is able to sort the results of a product search &amp#27;[90m# src/test/java/features/Sorting.feature:16&amp#27;[0m
-C:\Users\morara\eclipse-workspace 2\eCommerce
-Header Menu is loaded
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/fr/fr&amp#27;[0m        &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
-SignIn Page is loaded
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                                   &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
-Account Page is loaded
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser logins with "&amp#27;[0m&amp#27;[32m&amp#27;[1misao.palacios.canadaen@yopmail.com&amp#27;[0m&amp#27;[32m" and "&amp#27;[0m&amp#27;[32m&amp#27;[1mMoloko66&amp#27;[0m&amp#27;[32m"&amp#27;[0m       &amp#27;[90m# StepsDefinitions.user_logins_with_something_and_something(String,String)&amp#27;[0m
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches for "&amp#27;[0m&amp#27;[32m&amp#27;[1mDL380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
-Clicked on page Size 100 items
-Default selection: relevance
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mRelevance sorting is selected by default&amp#27;[0m                                  &amp#27;[90m# StepsDefinitions.relevance_sorting_is_selected_by_default()&amp#27;[0m
-Selecting Sorting ascending...
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser selects sort by name ascending&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_selects_sort_by_name_ascending()&amp#27;[0m
-Sorting ascending TESTING:
-Contrôleur HPE Smart Array P840ar
-Gamme de commutateurs HPE OfficeConnect 1920S
-HPE AppSystem pour Apache Hadoop
-HPE Composable Rack
-HPE Installation and Startup Edgeline EL300 Service
-HPE Installation and Startup for HyperConverged 380 Service
-HPE Installation and Startup SimpliVity 380 for VMware Onsite SW Service
-HPE Installation and Startup SimpliVity 380 for VMware Remote SW Service
-HPE Installation and Startup SimpliVity 380 HW Service
-HPE Installation and Startup SimpliVity 380 Update_Service
-    &amp#27;[31mThen &amp#27;[0m&amp#27;[31mName ascending sorting is displayed&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.name_ascending_sorting_is_displayed()&amp#27;[0m
-      &amp#27;[31mjava.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable
-	at pageObjects.ResultsPage.isSortNameAsc(ResultsPage.java:199)
-	at stepDefinitions.StepsDefinitions.name_ascending_sorting_is_displayed(StepsDefinitions.java:77)
-	at ?.Name ascending sorting is displayed(file:src/test/java/features/Sorting.feature:11)
-&amp#27;[0m
-    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser selects sort by name descending&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_selects_sort_by_name_descending()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mName descending sorting is displayed&amp#27;[0m                                      &amp#27;[90m# StepsDefinitions.name_descending_sorting_is_displayed()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 33000
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1579644552.728][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-ene 21, 2020 4:09:13 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
+  <testcase name="Verify if user is able to sort the results of a product search" classname="Sorting options" time="53.955"/>
 </testsuite>

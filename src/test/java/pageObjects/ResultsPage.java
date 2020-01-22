@@ -5,7 +5,6 @@ import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
-import org.junit.Assert;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -18,7 +17,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.framework.util.Locators;
-import com.google.common.collect.Ordering;
 
 public class ResultsPage {
 	WebDriver driver;
@@ -190,7 +188,7 @@ public class ResultsPage {
 	}
 	
 	public boolean isSortNameAsc() {
-		if(true) {
+		try {
 			Iterator<WebElement> itr = productListResult.iterator();
 			while(itr.hasNext()) {
 				System.out.println(itr.next().getText());
@@ -198,22 +196,30 @@ public class ResultsPage {
 			
 			ArrayList<String> obtainedList = new ArrayList<>(); 
 			for(WebElement we:productListResult){
-			   obtainedList.add(we.getText());
+				obtainedList.add(we.getText());
 			}
 			ArrayList<String> sortedList = new ArrayList<>();   
 			for(String s:obtainedList){
 				sortedList.add(s);
 			}
+			obtainedList.replaceAll(String::toUpperCase);
+			sortedList.replaceAll(String::toUpperCase);
 			Collections.sort(sortedList);
-			System.out.println("Obtained list: \n" + obtainedList);
-			System.out.println("Sorted list: \n" + sortedList);
-			//Assert.assertTrue(sortedList.equals(obtainedList));
+			if(sortedList.equals(obtainedList)) {
+				return true;
+			}
+			else {
+				return false;
+			}
 		}
-		return false;
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
 	}
 	
 	public boolean isSortNameDesc() {
-		if(true) {
+		try {
 			Iterator<WebElement> itr = productListResult.iterator();
 			while(itr.hasNext()) {
 				System.out.println(itr.next().getText());
@@ -221,19 +227,27 @@ public class ResultsPage {
 			
 			ArrayList<String> obtainedList = new ArrayList<>(); 
 			for(WebElement we:productListResult){
-			   obtainedList.add(we.getText());
+				obtainedList.add(we.getText());
 			}
 			ArrayList<String> sortedList = new ArrayList<>();   
 			for(String s:obtainedList){
 				sortedList.add(s);
 			}
+			obtainedList.replaceAll(String::toUpperCase);
+			sortedList.replaceAll(String::toUpperCase);
 			Collections.sort(sortedList);
 			Collections.reverse(sortedList);
-			System.out.println("Obtained list: \n" + obtainedList);
-			System.out.println("Sorted list: \n" + sortedList);
-			//Assert.assertTrue(sortedList.equals(obtainedList));
+			if(sortedList.equals(obtainedList)) {
+				return true;
+			}
+			else {
+				return false;
+			}
 		}
-		return false;
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
 	}
 
 }

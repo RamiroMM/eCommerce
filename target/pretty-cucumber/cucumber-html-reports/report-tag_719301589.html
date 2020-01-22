@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-            <td>21 Jan 2020, 16:10</td>
+            <td>22 Jan 2020, 14:04</td>
     </tr>
   </tbody>
 </table>
@@ -127,19 +127,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@SortingTest</td>
-          <td      class="passed"    >6</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >2</td>
+          <td      class="passed"    >9</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">9</td>
 
+          <td  class="passed"    >1</td>
           <td >0</td>
-          <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="74028079944">1:14.028</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="47943464352">47.943</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -181,12 +181,12 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">1:14.028</span>
+  <span class="lead-duration duration">47.943</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Verify if user is able to sort the results of a product search</span>
   
@@ -197,7 +197,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
   <div class="inner-level hooks-element-before">
@@ -219,7 +219,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp2()</span>
                         
-  <span class="lead-duration duration">4.126</span>
+  <span class="lead-duration duration">3.893</span>
 
           </div>
 
@@ -236,9 +236,9 @@ $(document).ready(function() {
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -248,14 +248,14 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
   <span class="name">User is on StoreFront homepage with <span class="argument">https://uat.buy.hpe.com/fr/fr</span></span>
   
-  <span class="lead-duration duration">20.592</span>
+  <span class="lead-duration duration">17.836</span>
 
 </div>
 
@@ -281,7 +281,7 @@ $(document).ready(function() {
   <span class="keyword indention">When</span>
   <span class="name">User goes to login page</span>
   
-  <span class="lead-duration duration">25.256</span>
+  <span class="lead-duration duration">6.103</span>
 
 </div>
 
@@ -307,7 +307,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User logins with &quot;<span class="argument">isao.palacios.canadaen@yopmail.com</span>&quot; and &quot;<span class="argument">Moloko66</span>&quot;</span>
   
-  <span class="lead-duration duration">9.755</span>
+  <span class="lead-duration duration">5.932</span>
 
 </div>
 
@@ -333,7 +333,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User searches for &quot;<span class="argument">DL380</span>&quot;</span>
   
-  <span class="lead-duration duration">7.989</span>
+  <span class="lead-duration duration">5.102</span>
 
 </div>
 
@@ -359,7 +359,7 @@ $(document).ready(function() {
   <span class="keyword indention">Then</span>
   <span class="name">Relevance sorting is selected by default</span>
   
-  <span class="lead-duration duration">7.519</span>
+  <span class="lead-duration duration">7.137</span>
 
 </div>
 
@@ -385,7 +385,7 @@ $(document).ready(function() {
   <span class="keyword indention">And</span>
   <span class="name">User selects sort by name ascending</span>
   
-  <span class="lead-duration duration">2.682</span>
+  <span class="lead-duration duration">2.971</span>
 
 </div>
 
@@ -407,11 +407,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Name ascending sorting is displayed</span>
   
-  <span class="lead-duration duration">0.231</span>
+  <span class="lead-duration duration">0.375</span>
 
 </div>
 
@@ -419,21 +419,6 @@ $(document).ready(function() {
 
 
         
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>java.lang.ClassCastException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>java.lang.ClassCastException: java.util.ArrayList$Itr cannot be cast to java.lang.Iterable
-	at pageObjects.ResultsPage.isSortNameAsc(ResultsPage.java:199)
-	at stepDefinitions.StepsDefinitions.name_ascending_sorting_is_displayed(StepsDefinitions.java:77)
-	at &#10045;.Name ascending sorting is displayed(file:src/test/java/features/Sorting.feature:11)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
         
@@ -448,11 +433,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
   <span class="name">User selects sort by name descending</span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">2.014</span>
 
 </div>
 
@@ -474,11 +459,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">Then</span>
   <span class="name">Name descending sorting is displayed</span>
   
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.469</span>
 
 </div>
 
@@ -505,7 +490,7 @@ $(document).ready(function() {
     
 
   <div class="inner-level hooks-element-after">
-        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
       
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -517,13 +502,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
               <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown2()</span>
                         
-  <span class="lead-duration duration">2.170</span>
+  <span class="lead-duration duration">2.106</span>
 
           </div>
 
