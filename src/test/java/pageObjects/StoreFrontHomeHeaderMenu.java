@@ -26,6 +26,12 @@ public class StoreFrontHomeHeaderMenu {
 	WebElement searchField;
 	@FindBy(how = How.XPATH, using = Locators.SEARCH_ICON2)
 	WebElement searchIcon2;
+	@FindBy(how = How.XPATH, using = Locators.SHOP_BUTTON)
+	WebElement shopButton;
+	@FindBy(how = How.XPATH, using = Locators.ALL_SERVERS_BUTTON)
+	WebElement allServersButton;
+	@FindBy(how = How.XPATH, using = Locators.ALL_SERVERS_BUTTON)
+	WebElement allServersHeader;
 	
 	public void check_HomePage_isLoaded() {
 		try {
@@ -71,5 +77,24 @@ public class StoreFrontHomeHeaderMenu {
 				System.out.println(ex);
 			}
 		}
+	
+	public void open_serverCatalog() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(shopButton));
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(shopButton));
+			if (shopButton.isDisplayed() && shopButton.isDisplayed()) {
+				shopButton.click();
+				if(allServersButton.isDisplayed() && allServersButton.isEnabled()) {
+					allServersButton.click();
+					while(!allServersHeader.isDisplayed()) {
+						// wait for the page to load
+					}
+				}
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
 
 }

@@ -3,30 +3,30 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-22T20:03:07.691Z",
+        "start_timestamp": "2020-01-23T22:51:33.049Z",
         "before": [
           {
             "result": {
-              "duration": 3893214268,
+              "duration": 4892206754,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.setUp2()"
+              "location": "Hooks.setUp1()"
             }
           }
         ],
-        "line": 16,
-        "name": "Verify if user is able to sort the results of a product search",
+        "line": 63,
+        "name": "Verify the h1 tag in all pages",
         "description": "",
-        "id": "sorting-options;verify-if-user-is-able-to-sort-the-results-of-a-product-search;;2",
+        "id": "sourcecode-verifications;verify-the-h1-tag-in-all-pages;;2",
         "after": [
           {
             "result": {
-              "duration": 2106548642,
+              "duration": 398491348,
               "status": "passed"
             },
             "match": {
-              "location": "Hooks.tearDown2()"
+              "location": "Hooks.tearDown1()"
             }
           }
         ],
@@ -35,15 +35,15 @@
         "steps": [
           {
             "result": {
-              "duration": 17836532680,
+              "duration": 25253082660,
               "status": "passed"
             },
-            "line": 5,
-            "name": "User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr",
+            "line": 46,
+            "name": "User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr",
             "match": {
               "arguments": [
                 {
-                  "val": "https://uat.buy.hpe.com/fr/fr",
+                  "val": "https://uat.buy.hpe.com/ca/fr",
                   "offset": 36
                 }
               ],
@@ -53,10 +53,22 @@
           },
           {
             "result": {
-              "duration": 6103273011,
+              "duration": 262746642,
               "status": "passed"
             },
-            "line": 6,
+            "line": 47,
+            "name": "H1 tag is present",
+            "match": {
+              "location": "StepsDefinitions.h1_tag_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33203786271,
+              "status": "passed"
+            },
+            "line": 48,
             "name": "User goes to login page",
             "match": {
               "location": "StepsDefinitions.user_goes_to_login_page()"
@@ -65,32 +77,68 @@
           },
           {
             "result": {
-              "duration": 5932459768,
+              "duration": 14606959792,
               "status": "passed"
             },
-            "line": 7,
-            "name": "User logins with \"isao.palacios.canadaen@yopmail.com\" and \"Moloko66\"",
+            "line": 49,
+            "name": "User logins with cnfrfer11@yopmail.com and cnfrfer11",
             "match": {
               "arguments": [
                 {
-                  "val": "isao.palacios.canadaen@yopmail.com",
-                  "offset": 18
+                  "val": "cnfrfer11@yopmail.com",
+                  "offset": 17
                 },
                 {
-                  "val": "Moloko66",
-                  "offset": 59
+                  "val": "cnfrfer11",
+                  "offset": 43
                 }
               ],
-              "location": "StepsDefinitions.user_logins_with_something_and_something(String,String)"
+              "location": "StepsDefinitions.user_logins_with_and(String,String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 5102561256,
+              "duration": 114227658,
               "status": "passed"
             },
-            "line": 8,
+            "line": 50,
+            "name": "H1 tag is present",
+            "match": {
+              "location": "StepsDefinitions.h1_tag_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 314831389,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User goes to Servers Catalog",
+            "match": {
+              "location": "StepsDefinitions.user_goes_to_servers_catalog()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 105858704,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "H1 tag is present",
+            "match": {
+              "location": "StepsDefinitions.h1_tag_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 12873234670,
+              "status": "passed"
+            },
+            "line": 53,
             "name": "User searches for \"DL380\"",
             "match": {
               "arguments": [
@@ -105,77 +153,107 @@
           },
           {
             "result": {
-              "duration": 7137554158,
+              "duration": 103961980,
               "status": "passed"
             },
-            "line": 9,
-            "name": "Relevance sorting is selected by default",
+            "line": 54,
+            "name": "H1 tag is present",
             "match": {
-              "location": "StepsDefinitions.relevance_sorting_is_selected_by_default()"
+              "location": "StepsDefinitions.h1_tag_is_present()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2971445873,
+              "duration": 18040061982,
               "status": "passed"
             },
-            "line": 10,
-            "name": "User selects sort by name ascending",
+            "line": 55,
+            "name": "User searches and opens \"DL380\"",
             "match": {
-              "location": "StepsDefinitions.user_selects_sort_by_name_ascending()"
+              "arguments": [
+                {
+                  "val": "DL380",
+                  "offset": 25
+                }
+              ],
+              "location": "StepsDefinitions.user_searches_and_opens_something(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 375936241,
+              "duration": 398308076,
               "status": "passed"
             },
-            "line": 11,
-            "name": "Name ascending sorting is displayed",
+            "line": 56,
+            "name": "H1 tag is present",
             "match": {
-              "location": "StepsDefinitions.name_ascending_sorting_is_displayed()"
+              "location": "StepsDefinitions.h1_tag_is_present()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 2014106155,
+              "duration": 9634906406,
               "status": "passed"
             },
-            "line": 12,
-            "name": "User selects sort by name descending",
+            "line": 57,
+            "name": "User clicks on get quote button",
             "match": {
-              "location": "StepsDefinitions.user_selects_sort_by_name_descending()"
+              "location": "StepsDefinitions.user_clicks_on_get_quote_button()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 469595210,
+              "duration": 179385349,
               "status": "passed"
             },
-            "line": 13,
-            "name": "Name descending sorting is displayed",
+            "line": 58,
+            "name": "H1 tag is present",
             "match": {
-              "location": "StepsDefinitions.name_descending_sorting_is_displayed()"
+              "location": "StepsDefinitions.h1_tag_is_present()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 110060,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User completes the quote request form",
+            "match": {
+              "location": "StepsDefinitions.user_completes_the_quote_request_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167741250,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "H1 tag is present",
+            "match": {
+              "location": "StepsDefinitions.h1_tag_is_present()"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@SortingTest"
+            "name": "@SourceCodeTest"
           }
         ]
       }
     ],
-    "name": "Sorting options",
+    "name": "Sourcecode verifications",
     "description": "",
-    "id": "sorting-options",
+    "id": "sourcecode-verifications",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Sorting.feature",
+    "uri": "file:src/test/java/features/SourceCode.feature",
     "tags": []
   }
 ]

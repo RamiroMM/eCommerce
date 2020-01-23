@@ -12,6 +12,9 @@ import pageObjects.ResultsPage;
 import pageObjects.SignInPage;
 import pageObjects.StoreFrontHomeHeaderMenu;
 import pageObjects.YourAccountPage;
+
+import java.io.PrintWriter;
+
 import org.apache.commons.lang.StringUtils;
 
 public class StepsDefinitions extends BaseDriver{
@@ -100,6 +103,30 @@ public class StepsDefinitions extends BaseDriver{
     public void user_selects_sort_by_name_descending() throws Throwable {
     	System.out.println("Selecting Sorting descending...");
     	result.sortby_NameDesc();
+    }
+    
+    @And("^User logins with (.+) and (.+)$")
+    public void user_logins_with_and(String user, String password) throws Throwable {
+    	signin.user_Login(user, password);
+    	accpage.check_accountPage_isLoaded();
+    }
+    
+    @When("^User goes to Servers Catalog$")
+    public void user_goes_to_servers_catalog() throws Throwable {
+        home.open_serverCatalog(); // Añadir espera para que cargue la página
+    }
+
+    @When("^User completes the quote request form$")
+    public void user_completes_the_quote_request_form() throws Throwable {
+        System.out.println("CODE TO COMPLETE THE FORM HERE");
+    }
+
+    @Then("^H1 tag is present$")
+    public void h1_tag_is_present() throws Throwable {
+    	String source = driver.getPageSource();
+    	String head_tag = StringUtils.substringBetween(source, "html", "/html");
+    	boolean isH1TagPresent = head_tag.contains("<h1");
+        Assert.assertFalse(isH1TagPresent);
     }
 
 }

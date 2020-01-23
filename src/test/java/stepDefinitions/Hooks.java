@@ -26,6 +26,16 @@ public class Hooks extends BaseDriver{
 		driver.close();
 	}
 	
+	@Before("@SourceCodeTest1")
+	public void setUp3() {
+		getDriver();
+	}
+	
+	@After("@SourceCodeTest1")
+	public void tearDown3() {
+		driver.close();
+	}
+	
 	@Before("@SortingTest")
 	public void setUp2() {
 		getDriver();

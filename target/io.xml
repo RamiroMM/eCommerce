@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="53.954817">
-<testcase classname="Sorting options" name="Verify if user is able to sort the results of a product search" time="53.954817">
-<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr.....passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="120.582101">
+<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages" time="120.582101">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr.....passed
+Then H1 tag is present......................................................passed
 When User goes to login page................................................passed
-And User logins with "isao.palacios.canadaen@yopmail.com" and "Moloko66"....passed
+And User logins with cnfrfer11@yopmail.com and cnfrfer11....................passed
+Then H1 tag is present......................................................passed
+When User goes to Servers Catalog...........................................passed
+Then H1 tag is present......................................................passed
 And User searches for "DL380"...............................................passed
-Then Relevance sorting is selected by default...............................passed
-And User selects sort by name ascending.....................................passed
-Then Name ascending sorting is displayed....................................passed
-And User selects sort by name descending....................................passed
-Then Name descending sorting is displayed...................................passed
+Then H1 tag is present......................................................passed
+And User searches and opens "DL380".........................................passed
+Then H1 tag is present......................................................passed
+And User clicks on get quote button.........................................passed
+Then H1 tag is present......................................................passed
+When User completes the quote request form..................................passed
+Then H1 tag is present......................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -41,5 +41,11 @@ public class Locators {
 	public static final String DROPDOWN_NAME_DESC = "//option[@value=\"name-desc\"]";
 	
 	public static final String PRODUCTS_LIST_RESULT = "//ul[contains(@class, \"product__listing\")]//div[contains(@class, \"product-list__about\")]//h4//a[1]";
+	
+	public static final String SHOP_BUTTON = "//li//a[contains(@data-analytics-region-id, \"Shop\")]";
+	
+	public static final String ALL_SERVERS_BUTTON = "//a[contains(@data-analytics-link-id, \"All servers\")]";
+	
+	public static final String SERVERS_PLP_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]";
 
 }
