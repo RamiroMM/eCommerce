@@ -7,6 +7,8 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import pageObjects.GetQuotePage;
 import pageObjects.ResultsPage;
 import pageObjects.SignInPage;
@@ -22,38 +24,28 @@ public class SearchMetaTag extends BaseDriver{
     public YourAccountPage accpage = new YourAccountPage(driver);
     public ResultsPage result = new ResultsPage(driver);
     public GetQuotePage gquote = new GetQuotePage(driver);
+    public String MetaRobot = "<meta name=\"robots\" content=\"index,follow\"/>\n";
+    public String source;
+    public String MetaString;
 
     @Given("^User is on the homepage with (.+)$")
     public void user_is_on_the_homepage_with(String link) throws Throwable {
         driver.navigate().to(link);
+
+    }
+
+    @And("Navigate to PLP-PDP page")
+    public void navigateToPage() throws Throwable {
         home.check_HomePage_isLoaded();
-    }
-
-    @And("Navigate to {string} page")
-    public void navigateToPage(String arg0) {
-
-    }
-
-    @And("^Get the source code elements$")
-    public void get_the_source_code_elements() throws Throwable {
-
-    }
-
-    @Then("^Search for the \"([^\"]*)\" name$")
-    public void search_for_the_something_name(String strArg1) throws Throwable {
-        home.search_product(strArg1);
+        home.search_product("DL160");
         result.open_firstResult();
     }
 
-    @And("^verify content is \"([^\"]*)\"$")
-    public void verify_content_is_something(List<String> list1) throws Throwable {
+    @Then("^Search for the robot meta tag name$")
+    public void search_for_the_something_name() throws Throwable {
+        String source = driver.getPageSource();
+        boolean MetaExist = source.contains(MetaRobot);
+        Assert.assertTrue(MetaExist);
 
     }
-
-    @And("^Verify for checkout pages meta tag is \"([^\"]*)\"$")
-    public void verify_for_checkout_pages_is_something(List<String> list1) throws Throwable {
-
-    }
-
-
 }

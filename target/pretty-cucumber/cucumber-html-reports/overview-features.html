@@ -50,9 +50,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                4,
+                2,
                 1,
-                1,
+                0,
                 0,
                 0
             ],
@@ -93,7 +93,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 6) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 3) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -228,7 +228,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-            <td>21 Jan 2020, 15:49</td>
+            <td>23 Jan 2020, 00:13</td>
     </tr>
   </tbody>
 </table>
@@ -325,18 +325,18 @@ $(document).ready(function() {
           <tr>
         <td class="tagname"><a href="report-feature_3779427131.html">Search for a meta tag</a></td>
 
-        <td      class="passed"    >4</td>
+        <td      class="passed"    >2</td>
         <td      class="failed"    >1</td>
-        <td     class="skipped"   >1</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">6</td>
+        <td >0</td>
+        <td class="total">3</td>
 
         <td >0</td>
         <td  class="failed"    >1</td>
         <td class="total">1</td>
 
-        <td class="duration" data-value="39376406240">39.376</td>
+        <td class="duration" data-value="62572093713">1:2.572</td>
         <td class="failed">Failed</td>
       </tr>
       </tbody>
@@ -344,25 +344,25 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td></td>
-      <td>4</td>
-      <td>1</td>
+      <td>2</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>6</td>
+      <td>0</td>
+      <td>3</td>
 
       <td>0</td>
       <td>1</td>
       <td>1</td>
 
-      <td class="duration">39.376</td>
+      <td class="duration">1:2.572</td>
       <td>1</td>
     </tr>
     <tr>
       <td></td>
             <td>66.67%</td>
-      <td>16.67%</td>
-      <td>16.67%</td>
+      <td>33.33%</td>
+      <td>0.00%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>

@@ -20,6 +20,11 @@ public class GetSourceMetas {
         PageFactory.initElements(this.driver, this);
     }
 
+    public void getSource(){
+        driver.getPageSource();
+
+
+    }
 
 
 }

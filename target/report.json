@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-01-21T21:48:27.858Z",
+        "start_timestamp": "2020-01-23T06:12:35.394Z",
         "before": [
           {
             "result": {
-              "duration": 3926272107,
+              "duration": 3845087740,
               "status": "passed"
             },
             "match": {
@@ -15,14 +15,14 @@
             }
           }
         ],
-        "line": 15,
+        "line": 13,
         "name": "Verify the meta tag \"Robots\" is found",
         "description": "",
         "id": "search-for-a-meta-tag;verify-the-meta-tag-\"robots\"-is-found;;2",
         "after": [
           {
             "result": {
-              "duration": 2105600816,
+              "duration": 232340995,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 24178779861,
+              "duration": 24995270310,
               "status": "passed"
             },
             "line": 6,
@@ -53,88 +53,28 @@
           },
           {
             "result": {
-              "duration": 118788,
+              "duration": 37469538226,
               "status": "passed"
             },
             "line": 7,
-            "name": "Navigate to \"PLP/PDP\" page",
+            "name": "Navigate to PLP-PDP page",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"PLP/PDP\"",
-                  "offset": 12
-                }
-              ],
-              "location": "SearchMetaTag.navigateToPage(String)"
+              "location": "SearchMetaTag.navigateToPage()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 18424,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "Get the source code elements",
-            "match": {
-              "location": "SearchMetaTag.get_the_source_code_elements()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 15196401168,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "Search for the \"robot meta tag\" name",
-            "match": {
-              "arguments": [
-                {
-                  "val": "robot meta tag",
-                  "offset": 16
-                }
-              ],
-              "location": "SearchMetaTag.search_for_the_something_name(String)"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "error_message": "cucumber.runtime.CucumberException: Could not convert arguments for step [^verify content is \"([^\"]*)\"$] defined at \u0027stepDefinitions.SearchMetaTag.verify_content_is_something(String\u003e) in file:/C:/Users/ruvalcan/IdeaProjects/eCommerce/target/test-classes/\u0027.\nThe details are in the stacktrace below.\r\n\tat cucumber.runner.PickleStepDefinitionMatch.couldNotConvertArguments(PickleStepDefinitionMatch.java:69)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:46)\r\n\tat cucumber.runner.TestStep.executeStep(TestStep.java:65)\r\n\tat cucumber.runner.TestStep.run(TestStep.java:50)\r\n\tat cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)\r\n\tat cucumber.runner.TestCase.run(TestCase.java:46)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:50)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:309)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)\r\n\tat org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)\r\n\tat org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)\r\nCaused by: io.cucumber.cucumberexpressions.CucumberExpressionException: ParameterType {anonymous} failed to transform [follow, index] to java.util.List\u003cjava.lang.String\u003e\r\n\tat io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:190)\r\n\tat io.cucumber.cucumberexpressions.Argument.getValue(Argument.java:64)\r\n\tat io.cucumber.stepexpression.ExpressionArgument.getValue(ExpressionArgument.java:15)\r\n\tat cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:41)\r\n\t... 31 more\r\nCaused by: java.lang.IllegalArgumentException: Can\u0027t transform \u0027follow, index\u0027 to java.util.List\u003cjava.lang.String\u003e\nBuiltInParameterTransformer only supports a limited number of class types\nConsider using a different object mapper or register a parameter type for java.util.List\u003cjava.lang.String\u003e\r\n\tat io.cucumber.cucumberexpressions.BuiltInParameterTransformer.createIllegalArgumentException(BuiltInParameterTransformer.java:87)\r\n\tat io.cucumber.cucumberexpressions.BuiltInParameterTransformer.transform(BuiltInParameterTransformer.java:22)\r\n\tat io.cucumber.cucumberexpressions.ObjectMapperTransformer.transform(ObjectMapperTransformer.java:18)\r\n\tat io.cucumber.cucumberexpressions.ParameterType$TransformerAdaptor.transform(ParameterType.java:215)\r\n\tat io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:186)\r\n\t... 34 more\r\n",
-              "duration": 1065211,
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepDefinitions.SearchMetaTag.search_for_the_something_name(SearchMetaTag.java:48)\r\n\tat ✽.Search for the robot meta tag name(file:src/test/java/features/SourceCodeMetaTag.feature:8)\r\n",
+              "duration": 107285177,
               "status": "failed"
             },
-            "line": 10,
-            "name": "verify content is \"follow, index\"",
+            "line": 8,
+            "name": "Search for the robot meta tag name",
             "match": {
-              "arguments": [
-                {
-                  "val": "follow, index",
-                  "offset": 19
-                }
-              ],
-              "location": "SearchMetaTag.verify_content_is_something(String\u003e)"
+              "location": "SearchMetaTag.search_for_the_something_name()"
             },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 22788,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "Verify for checkout pages meta tag is \"nofollow,noindex\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "nofollow,noindex",
-                  "offset": 39
-                }
-              ],
-              "location": "SearchMetaTag.verify_for_checkout_pages_is_something(String\u003e)"
-            },
-            "keyword": "And "
+            "keyword": "Then "
           }
         ],
         "tags": [

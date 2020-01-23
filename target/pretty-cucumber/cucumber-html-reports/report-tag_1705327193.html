@@ -74,7 +74,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>No Name (add projectName to cucumber-reporting.properties)</td>
-            <td>21 Jan 2020, 15:49</td>
+            <td>23 Jan 2020, 00:13</td>
     </tr>
   </tbody>
 </table>
@@ -127,18 +127,18 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@SourceMetaTag</td>
-          <td      class="passed"    >4</td>
+          <td      class="passed"    >2</td>
           <td      class="failed"    >1</td>
-          <td     class="skipped"   >1</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">6</td>
+          <td >0</td>
+          <td class="total">3</td>
 
           <td >0</td>
           <td  class="failed"    >1</td>
           <td class="total">1</td>
 
-          <td class="duration" data-value="39376406240">39.376</td>
+          <td class="duration" data-value="62572093713">1:2.572</td>
           <td class="failed">Failed</td>
         </tr>
         </tbody>
@@ -181,7 +181,7 @@ $(document).ready(function() {
       </div>
 
   
-  <span class="lead-duration duration">39.376</span>
+  <span class="lead-duration duration">1:2.572</span>
 
 
     <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
@@ -219,7 +219,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
                           <span class="location name">Hooks.setUp()</span>
                         
-  <span class="lead-duration duration">3.926</span>
+  <span class="lead-duration duration">3.845</span>
 
           </div>
 
@@ -255,7 +255,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">User is on the homepage with <span class="argument">https://uat.buy.hpe.com/ca/fr and login</span></span>
   
-  <span class="lead-duration duration">24.178</span>
+  <span class="lead-duration duration">24.995</span>
 
 </div>
 
@@ -279,61 +279,9 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">Navigate to <span class="argument">&quot;PLP/PDP&quot;</span> page</span>
+  <span class="name">Navigate to PLP-PDP page</span>
   
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">And</span>
-  <span class="name">Get the source code elements</span>
-  
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-        
-
-
-        
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief passed">
-  <span class="keyword indention">Then</span>
-  <span class="name">Search for the &quot;<span class="argument">robot meta tag</span>&quot; name</span>
-  
-  <span class="lead-duration duration">15.196</span>
+  <span class="lead-duration duration">37.469</span>
 
 </div>
 
@@ -356,10 +304,10 @@ $(document).ready(function() {
           <div class="step">
         
 <div class="brief failed">
-  <span class="keyword indention">And</span>
-  <span class="name">verify content is &quot;<span class="argument">follow, index</span>&quot;</span>
+  <span class="keyword indention">Then</span>
+  <span class="name">Search for the robot meta tag name</span>
   
-  <span class="lead-duration duration">0.001</span>
+  <span class="lead-duration duration">0.107</span>
 
 </div>
 
@@ -371,89 +319,19 @@ $(document).ready(function() {
   <div class="inner-level">
     <div class="message indention">
       <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>cucumber.runtime.CucumberException:</a>
+          <a>java.lang.AssertionError</a>
       </div>
       <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>cucumber.runtime.CucumberException: Could not convert arguments for step [^verify content is &quot;([^&quot;]*)&quot;$] defined at 'stepDefinitions.SearchMetaTag.verify_content_is_something(String&gt;) in file:/C:/Users/ruvalcan/IdeaProjects/eCommerce/target/test-classes/'.
-The details are in the stacktrace below.
-	at cucumber.runner.PickleStepDefinitionMatch.couldNotConvertArguments(PickleStepDefinitionMatch.java:69)
-	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:46)
-	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
-	at cucumber.runner.TestStep.run(TestStep.java:50)
-	at cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)
-	at cucumber.runner.TestCase.run(TestCase.java:46)
-	at cucumber.runner.Runner.runPickle(Runner.java:50)
-	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
-	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
-	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
-	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
-	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
-	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
-	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
-	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
-	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
-	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
-	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
-Caused by: io.cucumber.cucumberexpressions.CucumberExpressionException: ParameterType {anonymous} failed to transform [follow, index] to java.util.List&lt;java.lang.String&gt;
-	at io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:190)
-	at io.cucumber.cucumberexpressions.Argument.getValue(Argument.java:64)
-	at io.cucumber.stepexpression.ExpressionArgument.getValue(ExpressionArgument.java:15)
-	at cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:41)
-	... 31 more
-Caused by: java.lang.IllegalArgumentException: Can't transform 'follow, index' to java.util.List&lt;java.lang.String&gt;
-BuiltInParameterTransformer only supports a limited number of class types
-Consider using a different object mapper or register a parameter type for java.util.List&lt;java.lang.String&gt;
-	at io.cucumber.cucumberexpressions.BuiltInParameterTransformer.createIllegalArgumentException(BuiltInParameterTransformer.java:87)
-	at io.cucumber.cucumberexpressions.BuiltInParameterTransformer.transform(BuiltInParameterTransformer.java:22)
-	at io.cucumber.cucumberexpressions.ObjectMapperTransformer.transform(ObjectMapperTransformer.java:18)
-	at io.cucumber.cucumberexpressions.ParameterType$TransformerAdaptor.transform(ParameterType.java:215)
-	at io.cucumber.cucumberexpressions.ParameterType.transform(ParameterType.java:186)
-	... 34 more
+        <pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepDefinitions.SearchMetaTag.search_for_the_something_name(SearchMetaTag.java:48)
+	at &#10045;.Search for the robot meta tag name(file:src/test/java/features/SourceCodeMetaTag.feature:8)
 </pre>
       </div>
     </div>
   </div>
-
-
-        
-        
-
-        
-        
-  
-        
-
-
-      </div>
-          <div class="step">
-        
-<div class="brief skipped">
-  <span class="keyword indention">And</span>
-  <span class="name">Verify for checkout pages meta tag is &quot;<span class="argument">nofollow,noindex</span>&quot;</span>
-  
-  <span class="lead-duration duration">0.000</span>
-
-</div>
-
-        
-
-
-        
 
 
         
@@ -491,7 +369,7 @@ Consider using a different object mapper or register a parameter type for java.u
             <span class="keyword indention">After</span>
                           <span class="location name">Hooks.tearDown()</span>
                         
-  <span class="lead-duration duration">2.105</span>
+  <span class="lead-duration duration">0.232</span>
 
           </div>
 

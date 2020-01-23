@@ -5,7 +5,7 @@ Scenario Outline: Verify SignIn option is not available
 Given User is on StoreFront homepage with <link>
 When User goes to login page
 And User logins with "isao.palacios.canadaen@yopmail.com" and "Moloko55"
-And User searches for "DL380"
+And User searches and opens "DL380"
 And User clicks on get quote button
 Then SignIn options is not displayed
 Examples:

@@ -30,6 +30,10 @@ public class ResultsPage {
 	WebElement getQuoteButton;
 	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW)
 	WebElement paginationLink;
+	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_100_ITEMS)
+	WebElement pageSize100;
+	@FindBy(how = How.XPATH, using = Locators.DROP_DOWN_SORT_SELECTION)
+	WebElement sortBySelection;
 	
 	public void open_firstResult() {
 		try {
@@ -95,6 +99,42 @@ public class ResultsPage {
 			}
 		}
 		
+	}
+	
+	public String check_sortBy_Selection() {
+		String sort_selection;
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pageSize100));
+			if (pageSize100.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", pageSize100);
+				Thread.sleep(1000);
+				pageSize100.click();
+			}
+			else {
+				System.out.println("Page size option not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(sortBySelection));
+			if (sortBySelection.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", sortBySelection);
+				Thread.sleep(1000);
+				sort_selection = sortBySelection.getText();
+				return sort_selection;
+			}
+			else {
+				System.out.println("Sort combo box was not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex){
+			System.out.println(ex);
+		}
+		return null;
 	}
 
 }

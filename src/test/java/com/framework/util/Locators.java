@@ -29,5 +29,9 @@ public class Locators {
 	public static final String GET_QUOTE_SIGN_IN_BUTTON = "//button[contains(@class, \"continue-checkout-button\")]";
 	
 	public static final String PAGINATION_ARROW = "//a[@class=\"hpe-pagination__link\"]";
+	
+	public static final String PAGE_SIZE_100_ITEMS = "//*[@id=\"pageSize-selector\"]/option[4]";
+	
+	public static final String DROP_DOWN_SORT_SELECTION = "//option[@selected=\"selected\"]/text()";
 
 }
