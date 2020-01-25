@@ -13,8 +13,6 @@ import pageObjects.SignInPage;
 import pageObjects.StoreFrontHomeHeaderMenu;
 import pageObjects.YourAccountPage;
 
-import java.io.PrintWriter;
-
 import org.apache.commons.lang.StringUtils;
 
 public class StepsDefinitions extends BaseDriver{
@@ -113,12 +111,12 @@ public class StepsDefinitions extends BaseDriver{
     
     @When("^User goes to Servers Catalog$")
     public void user_goes_to_servers_catalog() throws Throwable {
-        home.open_serverCatalog(); // Añadir espera para que cargue la página
+        home.open_serverCatalog();
     }
 
     @When("^User completes the quote request form$")
     public void user_completes_the_quote_request_form() throws Throwable {
-        System.out.println("CODE TO COMPLETE THE FORM HERE");
+        gquote.complete_Form();
     }
 
     @Then("^H1 tag is present$")

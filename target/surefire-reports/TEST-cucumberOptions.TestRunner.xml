@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="124.09" tests="1" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="3,710.86" tests="34" errors="1" skipped="2" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire8492301920032430630\surefirebooter1455744334268025314.jar C:\Users\morara\AppData\Local\Temp\surefire8492301920032430630 2020-01-23T16-51-30_380-jvmRun1 surefire7508919157532778054tmp surefire_0571438858397155494tmp"/>
+    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire8273449615752156549\surefirebooter626438264758315733.jar C:\Users\morara\AppData\Local\Temp\surefire8273449615752156549 2020-01-25T13-53-59_678-jvmRun1 surefire2285212880499664936tmp surefire_07508061422876274754tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\morara\eclipse-workspace 2\eCommerce\target\test-classes;C:\Users\morara\eclipse-workspace 2\eCommerce\target\classes;C:\Users\morara\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\morara\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\morara\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\morara\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\morara\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\morara\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\morara\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\morara\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\morara\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\morara\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\morara\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\morara\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\morara\.m2\repository\de\monochromata\cucumber\reporting-plugin\3.0.17\reporting-plugin-3.0.17.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\morara\.m2\repository\net\masterthought\cucumber-reporting\4.11.2\cucumber-reporting-4.11.2.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\morara\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\morara\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\morara\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\morara\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\morara\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\morara\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\morara\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\morara\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\morara\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\morara\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\morara\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\morara"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire8492301920032430630\surefirebooter1455744334268025314.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire8273449615752156549\surefirebooter626438264758315733.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -63,5 +63,169 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="120.583"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="0">
+    <skipped message="The step &quot;User logins with  and &quot; is undefined"/>
+    <system-out><![CDATA[Feature: Sourcecode verifications
+
+  @SourceCodeTest
+  Scenario Outline: Verify the h1 tag in all pages &amp#27;[90m# src/test/java/features/SourceCode.feature:45&amp#27;[0m
+    &amp#27;[36mGiven User is on StoreFront homepage with <link>&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mWhen User goes to login page&amp#27;[0m
+    &amp#27;[36mAnd User logins with <user> and <password>&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mWhen User goes to Servers Catalog&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mAnd User searches for "DL380"&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mAnd User searches and opens "DL380"&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mAnd User clicks on get quote button&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+    &amp#27;[36mWhen User completes the quote request form&amp#27;[0m
+    &amp#27;[36mThen H1 tag is present&amp#27;[0m
+
+    Examples: 
+
+  @SourceCodeTest
+  Scenario Outline: Verify the h1 tag in all pages                          &amp#27;[90m# src/test/java/features/SourceCode.feature:63&amp#27;[0m
+C:\Users\morara\eclipse-workspace 2\eCommerce
+Header Menu is loaded
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/in/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+SignIn Page is loaded
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
+    &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mUser logins with  and &amp#27;[0m                                              &amp#27;[90m# null&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser goes to Servers Catalog&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches for "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on get quote button&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser completes the quote request form&amp#27;[0m                              &amp#27;[90m# StepsDefinitions.user_completes_the_quote_request_form()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 43615
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579982047.590][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+ene 25, 2020 1:54:08 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="0">
+    <skipped message="The step &quot;User logins with  and &quot; is undefined"/>
+    <system-out><![CDATA[
+  @SourceCodeTest
+  Scenario Outline: Verify the h1 tag in all pages                          &amp#27;[90m# src/test/java/features/SourceCode.feature:64&amp#27;[0m
+C:\Users\morara\eclipse-workspace 2\eCommerce
+Header Menu is loaded
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/uk/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+SignIn Page is loaded
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
+    &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mUser logins with  and &amp#27;[0m                                              &amp#27;[90m# null&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser goes to Servers Catalog&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches for "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on get quote button&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser completes the quote request form&amp#27;[0m                              &amp#27;[90m# StepsDefinitions.user_completes_the_quote_request_form()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 25409
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579982092.545][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+ene 25, 2020 1:54:53 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="110.545"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="105.073"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="124.924"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="116.452"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="121.659"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="122.093"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="114.843"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="112.558"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="114.258"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="143.241"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="111.203"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="98.129"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="112.24"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="119.783"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="176.752"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="116.784"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="189.528">
+    <error message="Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BICY5QHRAR&apos;, ip: &apos;16.214.32.96&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.32.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+</error>
+    <system-out><![CDATA[
+  @SourceCodeTest
+  Scenario Outline: Verify the h1 tag in all pages                          &amp#27;[90m# src/test/java/features/SourceCode.feature:81&amp#27;[0m
+C:\Users\morara\eclipse-workspace 2\eCommerce
+Header Menu is loaded
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/us/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+SignIn Page is loaded
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
+Account Page is loaded
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser logins with &amp#27;[0m&amp#27;[32m&amp#27;[1musfer11@yopmail.com&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1musfer11&amp#27;[0m                    &amp#27;[90m# StepsDefinitions.user_logins_with_and(String,String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+PLP Page opened
+    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to Servers Catalog&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+SRP page loaded
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches for "&amp#27;[0m&amp#27;[32m&amp#27;[1mDL380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+SRP page loaded
+PDP page opened
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches and opens "&amp#27;[0m&amp#27;[32m&amp#27;[1mDL380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+Get quote button not found
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser clicks on get quote button&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
+      &amp#27;[31morg.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.32.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)
+	at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:56)
+	at ?.User clicks on get quote button(file:src/test/java/features/SourceCode.feature:57)
+&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser completes the quote request form&amp#27;[0m                              &amp#27;[90m# StepsDefinitions.user_completes_the_quote_request_form()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mH1 tag is present&amp#27;[0m                                                  &amp#27;[90m# StepsDefinitions.h1_tag_is_present()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 33674
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1579984059.890][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
+ene 25, 2020 2:27:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="155.355"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="101.122"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="119.531"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="94.686"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="99.546"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="90.365"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="96.499"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="87.728"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="93.249"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="98.46"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="90.012"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="97.554"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="89.938"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="96.328"/>
+  <testcase name="Verify the h1 tag in all pages" classname="Sourcecode verifications" time="89.896"/>
 </testsuite>

@@ -30,8 +30,10 @@ public class StoreFrontHomeHeaderMenu {
 	WebElement shopButton;
 	@FindBy(how = How.XPATH, using = Locators.ALL_SERVERS_BUTTON)
 	WebElement allServersButton;
-	@FindBy(how = How.XPATH, using = Locators.ALL_SERVERS_BUTTON)
+	@FindBy(how = How.XPATH, using = Locators.SERVERS_PLP_PAGE_HEADER)
 	WebElement allServersHeader;
+	@FindBy(how = How.XPATH, using = Locators.SEARCH_PAGE_HEADER)
+	WebElement searchHeader;
 	
 	public void check_HomePage_isLoaded() {
 		try {
@@ -70,6 +72,10 @@ public class StoreFrontHomeHeaderMenu {
 						Thread.sleep(1000);
 						searchField.sendKeys(product);
 						searchIcon2.click();
+						new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(searchHeader));
+						if(searchHeader.isDisplayed()) {
+							System.out.println("SRP page loaded");
+						}
 					}
 				}
 			}
@@ -81,14 +87,15 @@ public class StoreFrontHomeHeaderMenu {
 	public void open_serverCatalog() {
 		try {
 			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(shopButton));
-			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(shopButton));
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(shopButton));
 			if (shopButton.isDisplayed() && shopButton.isDisplayed()) {
 				shopButton.click();
+				Thread.sleep(1500);
 				if(allServersButton.isDisplayed() && allServersButton.isEnabled()) {
 					allServersButton.click();
-					while(!allServersHeader.isDisplayed()) {
-						// wait for the page to load
-					}
+					Thread.sleep(1000);
+					new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(allServersHeader));
+					System.out.println("PLP Page opened");
 				}
 			}
 		}

@@ -46,6 +46,22 @@ public class Locators {
 	
 	public static final String ALL_SERVERS_BUTTON = "//a[contains(@data-analytics-link-id, \"All servers\")]";
 	
-	public static final String SERVERS_PLP_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]";
+	public static final String SERVERS_PLP_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]/h1";
+	
+	public static final String SEARCH_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]/h1";
+	
+	public static final String EMAIL_CHECKBOX = "//*[@id=\"quoteemailcontact\"]/../..";
+	
+	public static final String BUSINESS_NEED_TEXT_FIELD = "//*[@id=\"bussines-need\"]";
+	
+	public static final String BUDGET_TEXT_FIELD = "//*[@id=\"budget\"]";
+	
+	public static final String TIMEFRAME_DROPDOWN_BOX = "//*[@id=\"select1\"]/option[2]";
+	
+	public static final String GET_QUOTE = "//*[@id=\"getQuote\"]";
+	
+	public static final String VERIFY_ADDRESS_QUOTE_WARNING = "//h3[@class=\"hpe-notification__title\"]";
+	
+	public static final String QUOTE_SUMMARY_CART_HEADER = "//section[contains(@class, \"hpe-cart-summary\")]";
 
 }

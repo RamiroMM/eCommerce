@@ -55,7 +55,7 @@ public class ResultsPage {
 				productLink.click();
 				new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(resultHeaderText));
 				if (resultHeaderText.isDisplayed()) {
-					System.out.println("Product opened successfully");
+					System.out.println("PDP page opened");
 				}
 			}
 			else {
@@ -75,6 +75,7 @@ public class ResultsPage {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getQuoteButton);
 				Thread.sleep(3000);
 				getQuoteButton.click();
+				System.out.println("Get Quote page opened");
 			}
 			else {
 				System.out.println("Get quote button not found");

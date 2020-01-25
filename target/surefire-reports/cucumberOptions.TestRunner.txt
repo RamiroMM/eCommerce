@@ -1,4 +1,10 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 124.09 s - in cucumberOptions.TestRunner
+Tests run: 34, Failures: 0, Errors: 1, Skipped: 2, Time elapsed: 3,710.86 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify the h1 tag in all pages(Sourcecode verifications)  Time elapsed: 189.528 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.32.96', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+
