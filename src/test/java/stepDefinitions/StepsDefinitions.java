@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import pageObjects.GetQuotePage;
+import pageObjects.QuoteSummaryPage;
 import pageObjects.ResultsPage;
 import pageObjects.SignInPage;
 import pageObjects.StoreFrontHomeHeaderMenu;
@@ -21,6 +22,7 @@ public class StepsDefinitions extends BaseDriver{
 	public YourAccountPage accpage = new YourAccountPage(driver);
 	public ResultsPage result = new ResultsPage(driver);
 	public GetQuotePage gquote = new GetQuotePage(driver);
+	public QuoteSummaryPage summpage = new QuoteSummaryPage(driver);
 	
 	@Given("^User is on StoreFront homepage with (.+)$")
     public void user_is_on_storefront_homepage_with(String link) throws Throwable {
@@ -122,9 +124,29 @@ public class StepsDefinitions extends BaseDriver{
     @Then("^H1 tag is present$")
     public void h1_tag_is_present() throws Throwable {
     	String source = driver.getPageSource();
-    	String head_tag = StringUtils.substringBetween(source, "html", "/html");
-    	boolean isH1TagPresent = head_tag.contains("<h1");
-        Assert.assertFalse(isH1TagPresent);
+    	String html_code = StringUtils.substringBetween(source, "<html", "/html>");
+    	boolean isH1TagPresent = html_code.contains("<h1");
+        Assert.assertTrue(isH1TagPresent);
+    }
+    
+    @When("^User fills up the form$")
+    public void user_fills_up_the_form() throws Throwable {
+        gquote.fillUpForm();
+    }
+    
+    @When("^User clicks on get quote$")
+    public void user_clicks_on_get_quote() throws Throwable {
+        gquote.click_getQuote();
+    }
+
+    @Then("^Address suggestion message is displayed$")
+    public void address_suggestion_message_is_displayed() throws Throwable {
+        Assert.assertTrue(gquote.isAddressSuggestion_Displayed());
+    }
+
+    @Then("^Quote details are displayed$")
+    public void quote_details_are_displayed() throws Throwable {
+        Assert.assertTrue(summpage.isAllDetailsCorrect());
     }
 
 }

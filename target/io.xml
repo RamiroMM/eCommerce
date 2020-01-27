@@ -1,10 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="241.627507">
-<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages" time="84.158251">
-<failure message="java.lang.RuntimeException&#13;&#10;&#9;at pageObjects.SignInPage.user_Login(SignInPage.java:71)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:108)&#13;&#10;&#9;at ✽.User logins with hkfer11@yopmail.com and hkfer11(file:src/test/java/features/SourceCode.feature:49)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/hk/en.....passed
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="188.029198">
+<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages" time="137.762546">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr.....passed
 Then H1 tag is present......................................................passed
 When User goes to login page................................................passed
-And User logins with hkfer11@yopmail.com and hkfer11........................failed
+And User logins with cnfrfer11@yopmail.com and cnfrfer11....................passed
+Then H1 tag is present......................................................passed
+When User goes to Servers Catalog...........................................passed
+Then H1 tag is present......................................................passed
+And User searches for "DL380"...............................................passed
+Then H1 tag is present......................................................passed
+And User searches and opens "DL380".........................................passed
+Then H1 tag is present......................................................passed
+And User clicks on get quote button.........................................passed
+Then H1 tag is present......................................................passed
+When User completes the quote request form..................................passed
+Then H1 tag is present......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages 2" time="50.266652">
+<failure message="java.lang.RuntimeException&#13;&#10;&#9;at pageObjects.SignInPage.user_Login(SignInPage.java:70)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:110)&#13;&#10;&#9;at ✽.User logins with cnenfer11@yopmail.com and cnenfer11(file:src/test/java/features/SourceCode.feature:49)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/en.....passed
+Then H1 tag is present......................................................passed
+When User goes to login page................................................passed
+And User logins with cnenfer11@yopmail.com and cnenfer11....................failed
 Then H1 tag is present......................................................skipped
 When User goes to Servers Catalog...........................................skipped
 Then H1 tag is present......................................................skipped
@@ -19,27 +37,9 @@ Then H1 tag is present......................................................skip
 
 StackTrace:
 java.lang.RuntimeException
-	at pageObjects.SignInPage.user_Login(SignInPage.java:71)
-	at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:108)
-	at ✽.User logins with hkfer11@yopmail.com and hkfer11(file:src/test/java/features/SourceCode.feature:49)
+	at pageObjects.SignInPage.user_Login(SignInPage.java:70)
+	at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:110)
+	at ✽.User logins with cnenfer11@yopmail.com and cnenfer11(file:src/test/java/features/SourceCode.feature:49)
 ]]></failure>
-</testcase>
-<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages 2" time="157.469256">
-<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/cz/en.....passed
-Then H1 tag is present......................................................passed
-When User goes to login page................................................passed
-And User logins with czfer11@yopmail.com and czfer11........................passed
-Then H1 tag is present......................................................passed
-When User goes to Servers Catalog...........................................passed
-Then H1 tag is present......................................................passed
-And User searches for "DL380"...............................................passed
-Then H1 tag is present......................................................passed
-And User searches and opens "DL380".........................................passed
-Then H1 tag is present......................................................passed
-And User clicks on get quote button.........................................passed
-Then H1 tag is present......................................................passed
-When User completes the quote request form..................................passed
-Then H1 tag is present......................................................passed
-]]></system-out>
 </testcase>
 </testsuite>

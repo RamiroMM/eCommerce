@@ -67,5 +67,26 @@ public class Locators {
 	public static final String QUOTE_SUMMARY_CART_HEADER = "//section[contains(@class, \"hpe-cart-summary\")]";
 	
 	public static final String LOGIN_ERROR_MESSAGE = "//*[@id=\"loginError\"]";
-
+	
+	public static final String QUOTESUMM_START_DATE = "//section[@class=\"hpe-cart-summary\"]/div[1]/div";
+	
+	public static final String QUOTESUMM_QUOTE_NUM = "//section[@class=\"hpe-cart-summary\"]/div[2]/div";
+	
+	public static final String QUOTESUMM_CONTACT_NAME = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div/div[1]";
+	
+	public static final String QUOTESUMM_CONTACT_LASTNAME = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div/div[2]";
+	
+	public static final String QUOTESUMM_CONTACT_COMPANY = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div/div[3]";
+	
+	public static final String QUOTESUMM_CONTACT_PHONE = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div/div[4]";
+	
+	public static final String QUOTESUMM_CONTACT_EMAIL = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div/div[5]";
+	
+	public static final String QUOTESUMM_CONTACT_ADDRESS = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[1]";
+	
+	public static final String QUOTESUMM_CONTACT_CITY = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[2]";
+	
+	public static final String QUOTESUMM_CONTACT_POSTALCODE = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[3]";
+	
+	public static final String QUOTESUMM_CONTACT_COUNTRY = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[4]";
 }
