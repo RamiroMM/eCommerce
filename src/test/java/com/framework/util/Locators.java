@@ -44,7 +44,9 @@ public class Locators {
 	
 	public static final String SHOP_BUTTON = "//li//a[contains(@data-analytics-region-id, \"Shop\")]";
 	
-	public static final String ALL_SERVERS_BUTTON = "//a[contains(@data-analytics-link-id, \"All servers\")]";
+	//public static final String ALL_SERVERS_BUTTON = "//a[contains(@data-analytics-link-id, \"All servers\")]";
+	
+	public static final String ALL_SERVERS_BUTTON = "//*[@id=\"hpehf-shop-flyout-right-0\"]/div[1]/a[1]";
 	
 	public static final String SERVERS_PLP_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]/h1";
 	
@@ -63,5 +65,7 @@ public class Locators {
 	public static final String VERIFY_ADDRESS_QUOTE_WARNING = "//h3[@class=\"hpe-notification__title\"]";
 	
 	public static final String QUOTE_SUMMARY_CART_HEADER = "//section[contains(@class, \"hpe-cart-summary\")]";
+	
+	public static final String LOGIN_ERROR_MESSAGE = "//*[@id=\"loginError\"]";
 
 }

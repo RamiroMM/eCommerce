@@ -81,13 +81,14 @@ public class GetQuotePage {
 			// After remaining mandatory fields are filled, clicking on get quote button
 			if(getQuoteBtn.isEnabled()) {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getQuoteBtn);
+				Thread.sleep(1500);
 				getQuoteBtn.click();
 				// After previous actions, a warning should come up to verify the address, since it is correct we click on get quote button again
 				new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(verifyAddWarning));
 				if(verifyAddWarning.isDisplayed()) {
 					Thread.sleep(1500);
 					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getQuoteBtn);
-					Thread.sleep(3000);
+					Thread.sleep(5000);
 					getQuoteBtn.click();
 					if (quoteSummHeader.isDisplayed() && quoteSummHeader.isEnabled()) {
 						System.out.println("Quote Summary page loaded");

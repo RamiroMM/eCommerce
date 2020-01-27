@@ -21,18 +21,21 @@ public class YourAccountPage {
 	@FindBy(how = How.XPATH, using = Locators.YOUR_ACCOUNT_HEADLINE)
 	WebElement accountHeadline;
 	
-	public void check_accountPage_isLoaded() {
+	public boolean check_accountPage_isLoaded() {
 		try {
 			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(accountHeadline));
 			if (accountHeadline.isDisplayed()) {
 				System.out.println("Account Page is loaded");
+				return true;
 			}
 			else {
 				System.out.println("Account Page is not loaded");
+				return false;
 			}
 		}
 		catch(Exception ex){
 			System.out.println(ex);
+			return false;
 		}
 	}
 
