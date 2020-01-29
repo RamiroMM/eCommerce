@@ -116,5 +116,26 @@ public class SourceCodePage {
 			return false;
 		}
 	}
+	
+	public boolean isDisplayed_StrongTags() {
+		try {
+			String source = driver.getPageSource();
+	    	String html_code = StringUtils.substringBetween(source, "<html", "/html>");
+	    	boolean isStrongTagPresent = html_code.contains("<strong");
+	    	if(isStrongTagPresent) {
+	    		System.out.println("Tag was found. Step failed");
+	    		return true;
+	    	}
+	    	if(!isStrongTagPresent) {
+	    		System.out.println("Tag is not found. Step passed");
+	    		return false;
+	    	}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+		return true;
+	}
 
 }

@@ -165,5 +165,10 @@ public class StepsDefinitions extends BaseDriver{
     public void social_meta_tags_are_displayed() throws Throwable {
         Assert.assertTrue(srccode.isDisplayed_SocialMetaTags());
     }
+    
+    @Then("^Strong tags are not displayed$")
+    public void strong_tags_are_not_displayed() throws Throwable {
+        Assert.assertFalse(srccode.isDisplayed_StrongTags());
+    }
 
 }
