@@ -148,5 +148,23 @@ public class StepsDefinitions extends BaseDriver{
     public void quote_details_are_displayed() throws Throwable {
         Assert.assertTrue(summpage.isAllDetailsCorrect());
     }
+    
+    @Then("^Head tag has (.+)$")
+    public void head_tag_has(String title) throws Throwable {
+    	String source = driver.getPageSource();
+        String head_tag = StringUtils.substringBetween(source, "head", "/head");
+        String title_tag = StringUtils.substringBetween(head_tag, "<title>", "</title>");
+        boolean isTextPresent = title_tag.contains(title);
+        if (isTextPresent) {
+        	System.out.println("Actual Title: " + title_tag.trim());
+        	System.out.println("Expected Title: " + title);
+        	Assert.assertTrue(isTextPresent);
+        }
+        if (!isTextPresent) {
+        	System.out.println("Actual Title: " + title_tag.trim());
+        	System.out.println("Expected Title: " + title);
+        	Assert.assertTrue(isTextPresent);
+        }
+    }
 
 }

@@ -41,7 +41,7 @@ Examples:
 | https://uat.buy.hpe.com/za/en |
 | https://uat.buy.hpe.com/tr/en |
 
-@SourceCodeTest
+@SourceCodeTest2
 Scenario Outline: Verify the h1 tag in all pages
 Given User is on StoreFront homepage with <link>
 Then H1 tag is present
@@ -94,3 +94,44 @@ Examples:
 | https://uat.buy.hpe.com/pt/en | prennewfer11@yopmail.com	| prennewfer11	|
 | https://uat.buy.hpe.com/za/en | newsanewfer11@yopmail.com	| newsanewfer11	|
 | https://uat.buy.hpe.com/tr/en | turkeyfer11@yopmail.com	| turkeyfer11	|
+
+@SourceCodeTest
+Scenario Outline: Verify the title format in page source
+Given User is on StoreFront homepage with <link>
+Then Head tag has <title>
+Examples:
+| link 							| title 					|						
+| https://uat.buy.hpe.com/ca/fr | HPE Store Canada 			|
+| https://uat.buy.hpe.com/ca/en | HPE Store Canada 			|
+| https://uat.buy.hpe.com/tw/zh | HPE Store Taiwan 			|
+| https://uat.buy.hpe.com/tw/en | HPE Store Taiwan 			|
+| https://uat.buy.hpe.com/ch/fr | HPE Store Switzerland		|
+| https://uat.buy.hpe.com/ch/de | HPE Store Switzerland		|
+| https://uat.buy.hpe.com/fr/fr | HPE Store France			|
+| https://uat.buy.hpe.com/br/pt | HPE Store Brazil			|
+| https://uat.buy.hpe.com/it/it | HPE Store Italy			|
+| https://uat.buy.hpe.com/mx/es | HPE Store Mexico			|
+| https://uat.buy.hpe.com/kr/ko | HPE Store South Korea		|
+| https://uat.buy.hpe.com/es/es | HPE Store Spain			|
+| https://uat.buy.hpe.com/at/de | HPE Store Austria			|
+| https://uat.buy.hpe.com/cn/zh | HPE Store China			|
+| https://uat.buy.hpe.com/ru/ru | HPE Store Russia			|
+| https://uat.buy.hpe.com/tr/en | HPE Store Turkey			|
+| https://uat.buy.hpe.com/tr/tr | HPE Store Turkey			|
+| https://uat.buy.hpe.com/in/en | HPE Store India			|
+| https://uat.buy.hpe.com/us/en | HPE Store US				|
+| https://uat.buy.hpe.com/uk/en | HPE Store United Kingdom 	|
+| https://uat.buy.hpe.com/hk/en | HPE Store Hong Kong	 	|
+| https://uat.buy.hpe.com/nl/en | HPE Store Netherlands	 	|
+| https://uat.buy.hpe.com/sg/en | HPE Store Singapore	 	|
+| https://uat.buy.hpe.com/se/en | HPE Store Sweden		 	|
+| https://uat.buy.hpe.com/cz/en | HPE Store Czech Republic 	|
+| https://uat.buy.hpe.com/dk/en | HPE Store Denmark		 	|
+| https://uat.buy.hpe.com/fi/en | HPE Store Finland		 	|
+| https://uat.buy.hpe.com/ie/en | HPE Store Ireland		 	|
+| https://uat.buy.hpe.com/il/en | HPE Store Israel		 	|
+| https://uat.buy.hpe.com/my/en | HPE Store Malaysia	 	|
+| https://uat.buy.hpe.com/no/en | HPE Store Norway		 	|
+| https://uat.buy.hpe.com/pl/en | HPE Store Poland		 	|
+| https://uat.buy.hpe.com/pt/en | HPE Store Portugal	 	|
+| https://uat.buy.hpe.com/za/en | HPE Store South Africa 	|

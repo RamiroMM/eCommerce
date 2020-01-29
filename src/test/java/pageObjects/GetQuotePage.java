@@ -84,6 +84,7 @@ public class GetQuotePage {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getQuoteBtn);
 				Thread.sleep(1500);
 				getQuoteBtn.click();
+				Thread.sleep(3000);
 				// After previous actions, a warning should come up to verify the address, since it is correct we click on get quote button again
 				new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(verifyAddWarning));
 				if(verifyAddWarning.isDisplayed()) {
@@ -140,6 +141,7 @@ public class GetQuotePage {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", getQuoteBtn);
 				Thread.sleep(1500);
 				getQuoteBtn.click();
+				Thread.sleep(3000);
 			}
 		}
 		catch(Exception ex) {

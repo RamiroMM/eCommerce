@@ -1,45 +1,173 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="188.029198">
-<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages" time="137.762546">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="34" time="1165.6505">
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title" time="16.310682">
 <system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr.....passed
-Then H1 tag is present......................................................passed
-When User goes to login page................................................passed
-And User logins with cnfrfer11@yopmail.com and cnfrfer11....................passed
-Then H1 tag is present......................................................passed
-When User goes to Servers Catalog...........................................passed
-Then H1 tag is present......................................................passed
-And User searches for "DL380"...............................................passed
-Then H1 tag is present......................................................passed
-And User searches and opens "DL380".........................................passed
-Then H1 tag is present......................................................passed
-And User clicks on get quote button.........................................passed
-Then H1 tag is present......................................................passed
-When User completes the quote request form..................................passed
-Then H1 tag is present......................................................passed
+Then Head tag has HPE Store Canada..........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Sourcecode verifications" name="Verify the h1 tag in all pages 2" time="50.266652">
-<failure message="java.lang.RuntimeException&#13;&#10;&#9;at pageObjects.SignInPage.user_Login(SignInPage.java:70)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:110)&#13;&#10;&#9;at ✽.User logins with cnenfer11@yopmail.com and cnenfer11(file:src/test/java/features/SourceCode.feature:49)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/en.....passed
-Then H1 tag is present......................................................passed
-When User goes to login page................................................passed
-And User logins with cnenfer11@yopmail.com and cnenfer11....................failed
-Then H1 tag is present......................................................skipped
-When User goes to Servers Catalog...........................................skipped
-Then H1 tag is present......................................................skipped
-And User searches for "DL380"...............................................skipped
-Then H1 tag is present......................................................skipped
-And User searches and opens "DL380".........................................skipped
-Then H1 tag is present......................................................skipped
-And User clicks on get quote button.........................................skipped
-Then H1 tag is present......................................................skipped
-When User completes the quote request form..................................skipped
-Then H1 tag is present......................................................skipped
-
-StackTrace:
-java.lang.RuntimeException
-	at pageObjects.SignInPage.user_Login(SignInPage.java:70)
-	at stepDefinitions.StepsDefinitions.user_logins_with_and(StepsDefinitions.java:110)
-	at ✽.User logins with cnenfer11@yopmail.com and cnenfer11(file:src/test/java/features/SourceCode.feature:49)
-]]></failure>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 2" time="40.217374">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/en.....passed
+Then Head tag has HPE Store Canada..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 3" time="34.737025">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tw/zh.....passed
+Then Head tag has HPE Store Taiwan..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 4" time="37.706975">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tw/en.....passed
+Then Head tag has HPE Store Taiwan..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 5" time="20.187355">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ch/fr.....passed
+Then Head tag has HPE Store Switzerland.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 6" time="17.037071">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ch/de.....passed
+Then Head tag has HPE Store Switzerland.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 7" time="36.515721">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr.....passed
+Then Head tag has HPE Store France..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 8" time="44.064526">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/br/pt.....passed
+Then Head tag has HPE Store Brazil..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 9" time="21.471711">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/it/it.....passed
+Then Head tag has HPE Store Italy...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 10" time="17.826033">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/mx/es.....passed
+Then Head tag has HPE Store Mexico..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 11" time="35.368076">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/kr/ko.....passed
+Then Head tag has HPE Store South Korea.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 12" time="17.105701">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/es/es.....passed
+Then Head tag has HPE Store Spain...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 13" time="18.12215">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/at/de.....passed
+Then Head tag has HPE Store Austria.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 14" time="39.51708">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/cn/zh.....passed
+Then Head tag has HPE Store China...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 15" time="38.852215">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ru/ru.....passed
+Then Head tag has HPE Store Russia..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 16" time="36.594335">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tr/en.....passed
+Then Head tag has HPE Store Turkey..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 17" time="17.796313">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tr/tr.....passed
+Then Head tag has HPE Store Turkey..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 18" time="36.627077">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/in/en.....passed
+Then Head tag has HPE Store India...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 19" time="35.291297">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/us/en.....passed
+Then Head tag has HPE Store US..............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 20" time="38.856515">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/uk/en.....passed
+Then Head tag has HPE Store United Kingdom..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 21" time="35.155001">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/hk/en.....passed
+Then Head tag has HPE Store Hong Kong.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 22" time="38.255308">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/nl/en.....passed
+Then Head tag has HPE Store Netherlands.....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 23" time="39.956908">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/sg/en.....passed
+Then Head tag has HPE Store Singapore.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 24" time="78.261486">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/se/en.....passed
+Then Head tag has HPE Store Sweden..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 25" time="38.55272">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/cz/en.....passed
+Then Head tag has HPE Store Czech Republic..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 26" time="35.718309">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/dk/en.....passed
+Then Head tag has HPE Store Denmark.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 27" time="37.267934">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fi/en.....passed
+Then Head tag has HPE Store Finland.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 28" time="37.127582">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ie/en.....passed
+Then Head tag has HPE Store Ireland.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 29" time="38.326703">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/il/en.....passed
+Then Head tag has HPE Store Israel..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 30" time="37.006841">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/my/en.....passed
+Then Head tag has HPE Store Malaysia........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 31" time="37.884373">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/no/en.....passed
+Then Head tag has HPE Store Norway..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 32" time="41.077144">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/pl/en.....passed
+Then Head tag has HPE Store Poland..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 33" time="37.662706">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/pt/en.....passed
+Then Head tag has HPE Store Portugal........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the head tag of the app has the right title 34" time="33.192253">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/za/en.....passed
+Then Head tag has HPE Store South Africa....................................passed
+]]></system-out>
 </testcase>
 </testsuite>
