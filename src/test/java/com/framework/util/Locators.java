@@ -89,4 +89,16 @@ public class Locators {
 	public static final String QUOTESUMM_CONTACT_POSTALCODE = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[3]";
 	
 	public static final String QUOTESUMM_CONTACT_COUNTRY = "//h2[contains(@class,\"hpe-cart-summary\")]/../div/div[2]/div[4]";
+	
+	public static final String LINK_TAG = "//link[@rel=\"canonical\"]";
+	
+	public static final String OG_URL = "//meta[contains(@property, \"og:url\")]";
+	
+	public static final String OG_TYPE = "//meta[contains(@property, \"og:type\")]";
+	
+	public static final String OG_TITLE = "//meta[contains(@property, \"og:title\")]";
+	
+	public static final String OG_DESCRIPTION = "//meta[contains(@property, \"og:desc\")]";
+	
+	public static final String OG_IMAGE = "//meta[contains(@property, \"og:image\")]";
 }

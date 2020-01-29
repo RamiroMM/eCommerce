@@ -11,6 +11,7 @@ import pageObjects.GetQuotePage;
 import pageObjects.QuoteSummaryPage;
 import pageObjects.ResultsPage;
 import pageObjects.SignInPage;
+import pageObjects.SourceCodePage;
 import pageObjects.StoreFrontHomeHeaderMenu;
 import pageObjects.YourAccountPage;
 
@@ -23,6 +24,7 @@ public class StepsDefinitions extends BaseDriver{
 	public ResultsPage result = new ResultsPage(driver);
 	public GetQuotePage gquote = new GetQuotePage(driver);
 	public QuoteSummaryPage summpage = new QuoteSummaryPage(driver);
+	public SourceCodePage srccode = new SourceCodePage(driver);
 	
 	@Given("^User is on StoreFront homepage with (.+)$")
     public void user_is_on_storefront_homepage_with(String link) throws Throwable {
@@ -151,20 +153,17 @@ public class StepsDefinitions extends BaseDriver{
     
     @Then("^Head tag has (.+)$")
     public void head_tag_has(String title) throws Throwable {
-    	String source = driver.getPageSource();
-        String head_tag = StringUtils.substringBetween(source, "head", "/head");
-        String title_tag = StringUtils.substringBetween(head_tag, "<title>", "</title>");
-        boolean isTextPresent = title_tag.contains(title);
-        if (isTextPresent) {
-        	System.out.println("Actual Title: " + title_tag.trim());
-        	System.out.println("Expected Title: " + title);
-        	Assert.assertTrue(isTextPresent);
-        }
-        if (!isTextPresent) {
-        	System.out.println("Actual Title: " + title_tag.trim());
-        	System.out.println("Expected Title: " + title);
-        	Assert.assertTrue(isTextPresent);
-        }
+    	Assert.assertTrue(srccode.verifyHeadTagTitle(title));
+    }
+    
+    @Then("^Canonical URL is displayed in source$")
+    public void canonical_url_is_displayed_in_source() throws Throwable {
+        Assert.assertTrue(srccode.isDisplayed_CanonicalLink());
+    }
+    
+    @Then("^Social meta tags are displayed$")
+    public void social_meta_tags_are_displayed() throws Throwable {
+        Assert.assertTrue(srccode.isDisplayed_SocialMetaTags());
     }
 
 }
