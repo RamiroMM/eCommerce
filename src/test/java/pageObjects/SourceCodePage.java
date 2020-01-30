@@ -1,5 +1,8 @@
 package pageObjects;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 import org.apache.commons.lang.StringUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -193,6 +196,27 @@ public class SourceCodePage {
 			else {
 				System.out.println("Page link: " + canonical);
 				System.out.println("Canonical link: " + link);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean check_PLPURL(String link) {
+		try {
+			String url = driver.getCurrentUrl();
+			String url2 = url.replace(link, "");
+			Pattern p = Pattern.compile("/servers/c/[0-9]*");
+			Matcher m = p.matcher(url2);
+			if(m.find()) {
+				System.out.println("URL matches the pattern: " + url2);
+				return true;
+			}
+			else {
+				System.out.println("URL does not match the pattern: " + url2);
 				return false;
 			}
 		}

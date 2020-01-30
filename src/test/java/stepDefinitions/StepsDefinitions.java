@@ -185,5 +185,10 @@ public class StepsDefinitions extends BaseDriver{
     public void basic_canonical_is_displayed_in_source(String link) throws Throwable {
         Assert.assertTrue(srccode.isContained_CanonicalURL(link));
     }
+    
+    @Then("^PLP URL matches the right format (.+)$")
+    public void plp_url_matches_the_right_format(String link) throws Throwable {
+    	Assert.assertTrue(srccode.check_PLPURL(link));
+    }
 
 }
