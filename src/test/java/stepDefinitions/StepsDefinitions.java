@@ -170,5 +170,20 @@ public class StepsDefinitions extends BaseDriver{
     public void strong_tags_are_not_displayed() throws Throwable {
         Assert.assertFalse(srccode.isDisplayed_StrongTags());
     }
+    
+    @Then("^Logo alt tag has \"([^\"]*)\"$")
+    public void logo_alt_tag_has_something(String strArg1) throws Throwable {
+        Assert.assertTrue(srccode.isDisplayed_HPELogoAltTag(strArg1));
+    }
+
+    @Then("^Logo link points to (.+)$")
+    public void logo_link_points_to(String link) throws Throwable {
+        Assert.assertTrue(srccode.verify_LogoLink(link));
+    }
+    
+    @Then("^Basic canonical (.+) is displayed in source$")
+    public void basic_canonical_is_displayed_in_source(String link) throws Throwable {
+        Assert.assertTrue(srccode.isContained_CanonicalURL(link));
+    }
 
 }

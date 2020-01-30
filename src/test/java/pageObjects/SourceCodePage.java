@@ -29,6 +29,10 @@ public class SourceCodePage {
 	WebElement ogImage;
 	@FindBy(how = How.XPATH, using = Locators.LINK_TAG)
 	WebElement linkTag;
+	@FindBy(how = How.XPATH, using = Locators.LOGO_IMG)
+	WebElement logoImg;
+	@FindBy(how = How.XPATH, using = Locators.LOGO_LINK)
+	WebElement logoLink;
 	
 	public boolean verifyHeadTagTitle(String title) {
 		try {
@@ -136,6 +140,66 @@ public class SourceCodePage {
 			return false;
 		}
 		return true;
+	}
+	
+	public boolean isDisplayed_HPELogoAltTag (String alt) {
+		try {
+			String alttag = logoImg.getAttribute("alt");
+			if(alttag.equals(alt)) {
+				System.out.println("Actual tag: " + alttag);
+				System.out.println("Expected tag: " + alt);
+				return true;
+			}
+			else {
+				System.out.println("Actual tag: " + alttag);
+				System.out.println("Expected tag: " + alt);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_LogoLink(String canonical_link) {
+		try {
+			String link = logoLink.getAttribute("href");
+			if(link.contains(canonical_link)) {
+				System.out.println("Website link: " + canonical_link);
+				System.out.println("Logo link: " + link);
+				return true;
+			}
+			else {
+				System.out.println("Website link: " + canonical_link);
+				System.out.println("Logo link: " + link);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean isContained_CanonicalURL(String link) {
+		try {
+			String canonical = linkTag.getAttribute("href");
+			if(canonical.contains(link)) {
+				System.out.println("Page link: " + canonical);
+				System.out.println("Canonical link: " + link);
+				return true;
+			}
+			else {
+				System.out.println("Page link: " + canonical);
+				System.out.println("Canonical link: " + link);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
 	}
 
 }

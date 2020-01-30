@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -71,6 +72,9 @@ public class StoreFrontHomeHeaderMenu {
 					if (searchField.isDisplayed() && searchField.isEnabled()) {
 						Thread.sleep(1000);
 						searchField.sendKeys(product);
+						//Thread.sleep(1000);
+						//searchField.sendKeys(Keys.ENTER);
+						Thread.sleep(1000);
 						searchIcon2.click();
 						new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(searchHeader));
 						if(searchHeader.isDisplayed()) {

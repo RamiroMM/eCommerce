@@ -101,4 +101,8 @@ public class Locators {
 	public static final String OG_DESCRIPTION = "//meta[contains(@property, \"og:desc\")]";
 	
 	public static final String OG_IMAGE = "//meta[contains(@property, \"og:image\")]";
+	
+	public static final String LOGO_LINK = "//*[@id=\"hpehf-site-branding\"]";
+	
+	public static final String LOGO_IMG = "//*[@id=\"hpehf-site-branding\"]/img";
 }

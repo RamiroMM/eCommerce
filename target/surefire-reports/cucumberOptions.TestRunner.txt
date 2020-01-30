@@ -1,4 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.647 s - in cucumberOptions.TestRunner
+Tests run: 144, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4,718.104 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify the canonical URL of the page(Sourcecode verifications)  Time elapsed: 54.951 s  <<< FAILURE!
+java.lang.AssertionError
+
+Verify the canonical URL of the page(Sourcecode verifications)  Time elapsed: 51.629 s  <<< FAILURE!
+java.lang.AssertionError
+
+Verify the display of social meta tags(Sourcecode verifications)  Time elapsed: 96.714 s  <<< FAILURE!
+java.lang.AssertionError
+
+Verify the display of social meta tags(Sourcecode verifications)  Time elapsed: 94.693 s  <<< FAILURE!
+java.lang.AssertionError
+
