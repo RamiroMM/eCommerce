@@ -208,9 +208,9 @@ public class StepsDefinitions extends BaseDriver{
         regpage.default_Registration(address, city, zip);
     }
 
-    @Then("^URL does not contain capital letters$")
+    @Then("^URL does not contain capital letters or underscores$")
     public void url_does_not_contain_capital_letters() throws Throwable {
-        Assert.assertFalse(srccode.isDisplayed_CapitalLettersinURL());
+        Assert.assertFalse(srccode.isDisplayed_CapitalLettersAndUnderscoreinURL());
     }
 
 }

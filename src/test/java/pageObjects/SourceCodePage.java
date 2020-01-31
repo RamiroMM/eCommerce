@@ -244,13 +244,13 @@ public class SourceCodePage {
 		}
 	}
 	
-	public boolean isDisplayed_CapitalLettersinURL() {
+	public boolean isDisplayed_CapitalLettersAndUnderscoreinURL() {
 		try {
 			String url = driver.getCurrentUrl();
 			char ch;
 			for(int i = 0; i < url.length(); i++) {
 				ch = url.charAt(i);
-				if(Character.isUpperCase(ch)) {
+				if(Character.isUpperCase(ch) || ch == '_') {
 					return true;
 				}
 			}

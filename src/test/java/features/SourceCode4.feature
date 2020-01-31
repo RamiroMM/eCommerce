@@ -46,24 +46,24 @@ Examples:
 @SourceCodeTest
 Scenario Outline: Verify the capital letter in URL
 Given User is on StoreFront homepage with <link>
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 When User goes to login page
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 When User goes to registration page
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 When User completes registration <address> <city> <zip>
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 When User goes to Servers Catalog
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 And User searches for "dl380"
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 And User searches and opens "dl380"
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 And User clicks on get quote button
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 When User fills up the form
 When User clicks on get quote
-Then URL does not contain capital letters
+Then URL does not contain capital letters or underscores
 Examples:
 |link									| address 					  | city 		| zip 	 |				
 | https://uat.buy.hpe.com/ca/fr 		| 5150 SPECTRUM WAY SUITE 400 | MISSISSAUGA | L4W5G2 |
