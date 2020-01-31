@@ -1,0 +1,811 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="36" time="6461.841639">
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL" time="117.74466">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 5150 SPECTRUM WAY SUITE 400 MISSISSAUGA L4W5G2.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 2" time="110.877618">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ca/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 5150 SPECTRUM WAY SUITE 400 MISSISSAUGA L4W5G2.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 3" time="127.701062">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tw/zh.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration NO. 66 JĪNGMÀOÈRLÙ TÁI BĚISHÌ 11568........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 4" time="127.676326">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tw/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration NO. 66 JĪNGMÀOÈRLÙ TÁI BĚISHÌ 11568........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 5" time="139.02698">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ch/fr.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Ueberlandstrasse 1 Duebendorf 8600.........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 6" time="124.60747">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ch/de.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Ueberlandstrasse 1 Duebendorf 8600.........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 7" time="173.985565">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 5 AVENUE RAYMOND CHANAS GRENOBLE CEDEX 9 38053.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 8" time="135.800507">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/br/pt.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration RUA GENERAL FERNANDO BATALHA 13 - CAMPINHO RIO DE JANEIRO 21330760.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 9" time="132.708643">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/it/it.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration VIA GIUSEPPE DI VITTORIO 9 CERNUSCO SUL NAVIGLIO 20063.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 10" time="386.917917">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/mx/es.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration castellanos y tapia 117 Guadalajara 44730..passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 11" time="147.355813">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/kr/ko.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 31 Gukjegeumyungro8-Gil YEONGDEUNGPO-GU 07332.passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 12" time="201.011634">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/es/es.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Calle Tanger 66 BARCELONA 08018............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 13" time="547.652112">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/at/de.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Paracelsusstrasse 13/11 Salzburg 5020......passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 14" time="281.03888">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/cn/zh.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration HǍIYÉLÙ SHÀNGHǍISHÌ 201203.................passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 15" time="170.726628">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ru/ru.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration ul. Lermontova 45 Novosibirsk 630005.......passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 16" time="134.822084">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tr/tr.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration SARAY MAH. UEMRANIYE 34768.................passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 17" time="263.460321">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/tr/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration SARAY MAH. UEMRANIYE 34768.................passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 18" time="224.37848">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/in/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 91 South End Road Bengaluru 560004.........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 19" time="58.701102">
+<skipped><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/us/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration   .........................................undefined
+Then URL does not contain capital letters...................................skipped
+When User goes to Servers Catalog...........................................skipped
+Then URL does not contain capital letters...................................skipped
+And User searches for "dl380"...............................................skipped
+Then URL does not contain capital letters...................................skipped
+And User searches and opens "dl380".........................................skipped
+Then URL does not contain capital letters...................................skipped
+And User clicks on get quote button.........................................skipped
+Then URL does not contain capital letters...................................skipped
+When User fills up the form.................................................skipped
+When User clicks on get quote...............................................skipped
+Then URL does not contain capital letters...................................skipped
+]]></skipped>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 20" time="176.32932">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/uk/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 3M Cain Rd Bracknell RG12 8HT..............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 21" time="203.970231">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/hk/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 油麻地加士居道30 號 HongKong ......................passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 22" time="282.087513">
+<failure message="org.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)&#13;&#10;&#9;at ✽.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/nl/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Stroombaan 16 AMSTELVEEN 1181VX............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................failed
+Then URL does not contain capital letters...................................skipped
+When User fills up the form.................................................skipped
+When User clicks on get quote...............................................skipped
+Then URL does not contain capital letters...................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)
+	at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)
+	at ✽.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)
+]]></failure>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 23" time="155.325703">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/sg/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 452 ALEXANDRA ROAD SINGAPORE 119961........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 24" time="282.613168">
+<failure message="org.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'&#10;Driver info: driver.version: unknown&#13;&#10;&#9;at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)&#13;&#10;&#9;at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)&#13;&#10;&#9;at ✽.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)&#13;&#10;"><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/se/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration GUSTAV IIIS BOULEVARD 36 STOCKHOLM 16985...passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................failed
+Then URL does not contain capital letters...................................skipped
+When User fills up the form.................................................skipped
+When User clicks on get quote...............................................skipped
+Then URL does not contain capital letters...................................skipped
+
+StackTrace:
+org.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+	at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)
+	at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)
+	at ✽.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)
+]]></failure>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 25" time="131.205388">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/cz/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Za Brumlovkou 1559/5 Praha 4 140 00........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 26" time="236.95095">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/dk/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Engholm Parkvej 8 Alleroed 3450............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 27" time="130.542568">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/fi/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Piispankalliontie 17 Espoo 02200...........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 28" time="153.601853">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/ie/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 2 STONEYHURST LIMERICK V94 N56R............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 29" time="127.938181">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/il/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 9, Dafna Ra'anana 4366223..................passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 30" time="139.677761">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/my/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 9, Jalan 18/27b Kuala Lumpur 53300.........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 31" time="127.047118">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/no/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Rolfsbuktveien 4B FORNEBU 1364.............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 32" time="183.096589">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/pl/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Ul. Szturmowa 2A Warszawa 02-678...........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 33" time="160.97916">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/pt/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Estrada da Pontinha Lisboa 1600-584........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 34" time="122.129369">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/za/en.....passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 12 Autumn Street Sandton 2191..............passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 35" time="117.016823">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/emea_europe/en.passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration Nr.8 Rruga Vaso Pasha Tirana 1001..........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Sourcecode verifications" name="Verify the capital letter in URL 36" time="125.136142">
+<system-out><![CDATA[Given User is on StoreFront homepage with https://uat.buy.hpe.com/lamerica/es.passed
+Then URL does not contain capital letters...................................passed
+When User goes to login page................................................passed
+Then URL does not contain capital letters...................................passed
+When User goes to registration page.........................................passed
+Then URL does not contain capital letters...................................passed
+When User completes registration 44 Coronation Ave The Valley 2640..........passed
+Then URL does not contain capital letters...................................passed
+When User goes to Servers Catalog...........................................passed
+Then URL does not contain capital letters...................................passed
+And User searches for "dl380"...............................................passed
+Then URL does not contain capital letters...................................passed
+And User searches and opens "dl380".........................................passed
+Then URL does not contain capital letters...................................passed
+And User clicks on get quote button.........................................passed
+Then URL does not contain capital letters...................................passed
+When User fills up the form.................................................passed
+When User clicks on get quote...............................................passed
+Then URL does not contain capital letters...................................passed
+]]></system-out>
+</testcase>
+</testsuite>

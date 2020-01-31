@@ -96,7 +96,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en|
 | https://uat.buy.hpe.com/lamerica/es	|
 
-@SourceCodeTest
+@SourceCodeTest2
 Scenario Outline: Verify the URL of PLP URL
 Given User is on StoreFront homepage with <link>
 When User goes to Servers Catalog

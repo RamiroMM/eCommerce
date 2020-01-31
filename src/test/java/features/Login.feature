@@ -1,6 +1,6 @@
 Feature: Login options
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify SignIn option is not available in Get Quote Page when logged in
 Given User is on StoreFront homepage with <link>
 When User goes to login page

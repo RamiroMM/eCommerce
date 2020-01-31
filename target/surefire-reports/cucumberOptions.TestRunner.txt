@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 144, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 4,718.104 s <<< FAILURE! - in cucumberOptions.TestRunner
-Verify the canonical URL of the page(Sourcecode verifications)  Time elapsed: 54.951 s  <<< FAILURE!
-java.lang.AssertionError
+Tests run: 36, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 6,470.069 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify the capital letter in URL(Sourcecode verifications)  Time elapsed: 282.364 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
 
-Verify the canonical URL of the page(Sourcecode verifications)  Time elapsed: 51.629 s  <<< FAILURE!
-java.lang.AssertionError
-
-Verify the display of social meta tags(Sourcecode verifications)  Time elapsed: 96.714 s  <<< FAILURE!
-java.lang.AssertionError
-
-Verify the display of social meta tags(Sourcecode verifications)  Time elapsed: 94.693 s  <<< FAILURE!
-java.lang.AssertionError
+Verify the capital letter in URL(Sourcecode verifications)  Time elapsed: 282.614 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
 

@@ -105,4 +105,36 @@ public class Locators {
 	public static final String LOGO_LINK = "//*[@id=\"hpehf-site-branding\"]";
 	
 	public static final String LOGO_IMG = "//*[@id=\"hpehf-site-branding\"]/img";
+	
+	public static final String CREATE_ACCOUNT_BUTTON = "//a[contains(@href, \"register\")]";
+	
+	public static final String CREATE_ACCOUNT_TITLE = "//h1[contains(text(), \"\")]";
+	
+	public static final String REG_EMAIL_FIELD = "//input[@id=\"email-address\"]";
+	
+	public static final String REG_PASS_FIELD = "//input[@id=\"password\"]";
+	
+	public static final String REG_PASS2_FIELD = "//input[@id=\"repeat-password\"]";
+	
+	public static final String REG_COUNTRY_COMBOBOX = "//*[@id=\"select1\"]/option[2]";
+	
+	public static final String REG_TITLE_COMBOBOX = "//*[@id=\"select3\"]/option[5]";
+	
+	public static final String REG_FIRST_NAME_FIELD = "//*[@id=\"first-name\"]";
+	
+	public static final String REG_LAST_NAME_FIELD = "//*[@id=\"last-name\"]";
+	
+	public static final String REG_COMPANY_FIELD = "//*[@id=\"company\"]";
+	
+	public static final String REG_ADDRESS_FIELD = "//*[@id=\"address1\"]";
+	
+	public static final String REG_CITY_FIELD = "//*[@id=\"city\"]";
+	
+	public static final String REG_STATE_COMBOBOX = "//*[@id=\"select2\"]/option[10]";
+	
+	public static final String REG_PSCODE_FIELD = "//*[@id=\"zip\"]";
+	
+	public static final String REG_PHONENUM_FIELD = "//*[@id=\"phone\"]";
+	
+	public static final String REG_CREATE_ACCNT_BTN = "//*[@id=\"registerUserBtn\"]";
 }

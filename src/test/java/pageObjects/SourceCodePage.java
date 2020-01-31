@@ -225,5 +225,41 @@ public class SourceCodePage {
 			return false;
 		}
 	}
+	
+	public boolean isDisplayed_CountryAndLangCode(String code) {
+		try {
+			String url = driver.getCurrentUrl();
+			if(url.contains(code)) {
+				System.out.println("Country and Language code found");
+				return true;
+			}
+			else {
+				System.out.println("Country and Language code not found");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean isDisplayed_CapitalLettersinURL() {
+		try {
+			String url = driver.getCurrentUrl();
+			char ch;
+			for(int i = 0; i < url.length(); i++) {
+				ch = url.charAt(i);
+				if(Character.isUpperCase(ch)) {
+					return true;
+				}
+			}
+			return false;
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }

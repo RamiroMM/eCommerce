@@ -28,6 +28,8 @@ public class SignInPage {
 	WebElement passwordBox;
 	@FindBy(how = How.XPATH, using = Locators.LOGIN_ERROR_MESSAGE)
 	WebElement loginErrorMSG;
+	@FindBy(how = How.XPATH, using = Locators.CREATE_ACCOUNT_BUTTON)
+	WebElement createAccntBtn;
 	
 	public void check_SignInPage_isLoaded() {
 		try {
@@ -68,6 +70,18 @@ public class SignInPage {
 		}
 		catch(Exception ex){
 			throw new RuntimeException();			
+		}
+	}
+	
+	public void click_CreateAccount() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(createAccntBtn));
+			if(createAccntBtn.isDisplayed()) {
+				createAccntBtn.click();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 

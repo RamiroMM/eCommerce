@@ -9,6 +9,7 @@ import org.junit.Assert;
 
 import pageObjects.GetQuotePage;
 import pageObjects.QuoteSummaryPage;
+import pageObjects.RegistrationPage;
 import pageObjects.ResultsPage;
 import pageObjects.SignInPage;
 import pageObjects.SourceCodePage;
@@ -25,6 +26,7 @@ public class StepsDefinitions extends BaseDriver{
 	public GetQuotePage gquote = new GetQuotePage(driver);
 	public QuoteSummaryPage summpage = new QuoteSummaryPage(driver);
 	public SourceCodePage srccode = new SourceCodePage(driver);
+	public RegistrationPage regpage = new RegistrationPage(driver);
 	
 	@Given("^User is on StoreFront homepage with (.+)$")
     public void user_is_on_storefront_homepage_with(String link) throws Throwable {
@@ -189,6 +191,26 @@ public class StepsDefinitions extends BaseDriver{
     @Then("^PLP URL matches the right format (.+)$")
     public void plp_url_matches_the_right_format(String link) throws Throwable {
     	Assert.assertTrue(srccode.check_PLPURL(link));
+    }
+    
+    @Then("^URL contains (.+)$")
+    public void url_contains(String code) throws Throwable {
+        Assert.assertTrue(srccode.isDisplayed_CountryAndLangCode(code));
+    }
+    
+    @When("^User goes to registration page$")
+    public void user_goes_to_registration_page() throws Throwable {
+        signin.click_CreateAccount();
+    }
+
+    @When("^User completes registration (.+) (.+) (.+)$")
+    public void user_completes_registration(String address, String city, String zip) throws Throwable {
+        regpage.default_Registration(address, city, zip);
+    }
+
+    @Then("^URL does not contain capital letters$")
+    public void url_does_not_contain_capital_letters() throws Throwable {
+        Assert.assertFalse(srccode.isDisplayed_CapitalLettersinURL());
     }
 
 }
