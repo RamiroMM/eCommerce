@@ -1303,3 +1303,47 @@ Examples:
 | https://uat.buy.hpe.com/za/en 		| 4L5zUhlG13@yopmail.com | securepass123 |
 | https://uat.buy.hpe.com/emea_europe/en| 4L5zUhlG13@yopmail.com | securepass123 |
 | https://uat.buy.hpe.com/lamerica/es	| 4L5zUhlG13@yopmail.com | securepass123 |
+
+@eCommTest1
+Scenario Outline: Verify account login with US account
+Given User is on StoreFront homepage with <link>
+When User goes to login page
+And User logins with <user> and <password>
+Examples:
+| link 									| user 	 				 | password 	 |
+| https://uat.buy.hpe.com/ca/fr 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/ca/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/tw/zh 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/tw/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/ch/fr 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/ch/de 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/fr/fr 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/br/pt 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/it/it 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/mx/es 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/kr/ko 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/es/es 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/at/de 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/cn/zh 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/ru/ru 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/tr/tr 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/tr/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/in/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/us/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/uk/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/hk/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/nl/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/sg/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/se/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/cz/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/dk/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/fi/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/ie/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/il/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/my/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/no/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/pl/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/pt/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/za/en 		| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/emea_europe/en| bozefillu-0398@yopmail.com | A121212 |
+| https://uat.buy.hpe.com/lamerica/es	| bozefillu-0398@yopmail.com | A121212 |

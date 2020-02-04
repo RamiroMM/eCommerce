@@ -139,4 +139,6 @@ public class Locators {
 	public static final String REG_CREATE_ACCNT_BTN = "//*[@id=\"registerUserBtn\"]";
 	
 	public static final String SIGNIN_INDICATOR = "//*[@id=\"hpe-store-signed-in-indicator\"]";
+	
+	public static final String REGISTRATION_ERROR_MSG = "//*[@id=\"regError\"]";
 }

@@ -57,6 +57,8 @@ public class RegistrationPage {
 	WebElement phoneField;
 	@FindBy(how = How.XPATH, using = Locators.REG_CREATE_ACCNT_BTN)
 	WebElement createAccntBtn;
+	@FindBy(how = How.XPATH, using = Locators.REGISTRATION_ERROR_MSG)
+	WebElement regErrorMsg;
 	
 	public String generate_Email() throws IOException {
 		String mail = RandomStringUtils.randomAlphanumeric(10);
@@ -132,6 +134,84 @@ public class RegistrationPage {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void default_Registration_ExistingMailID(String address, String city, String zip) {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(registrationHeader));
+			if(mailField.isDisplayed() && passField.isDisplayed() && passField2.isDisplayed() && countryBox.isDisplayed() &&
+					titleBox.isDisplayed() && nameField.isDisplayed() && lastNameField.isDisplayed() && companyField.isDisplayed() &&
+					address1.isDisplayed() && cityField.isDisplayed() && phoneField.isDisplayed()) {
+				mailField.sendKeys("JbPBNQj9Bh@yopmail.com");
+				passField.sendKeys("securepass123");
+				passField2.sendKeys("securepass123");
+				countryBox.click();
+				titleBox.click();
+				nameField.sendKeys("Juanito");
+				lastNameField.sendKeys("Bananas");
+				companyField.sendKeys("Test Company");
+				address1.sendKeys(address);
+				cityField.sendKeys(city);
+				phoneField.sendKeys("3334445566");
+				try {
+					if(stateBox.isDisplayed()) {
+						stateBox.click();
+					}
+					try {
+						if(zipField.isDisplayed()) {
+							zipField.sendKeys(zip);
+						}
+					}
+					catch(Exception ex) {
+						System.out.println("No ZIP field found");
+					}
+				}
+				catch(Exception ex) {
+					System.out.println("No State combobox found found");
+					try {
+						if(zipField.isDisplayed()) {
+							zipField.sendKeys(zip);
+						}
+					}
+					catch(Exception ex1) {
+						System.out.println("No ZIP field found");
+					}
+				}
+			}
+			if(createAccntBtn.isDisplayed()) {
+				Thread.sleep(3000);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccntBtn);
+				Thread.sleep(1500);
+				createAccntBtn.click();
+				Thread.sleep(3000);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccntBtn);
+				Thread.sleep(1500);
+				createAccntBtn.click();
+				Thread.sleep(10000);
+				new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(shopButton));
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_RegistrationError() {
+		try {
+			new WebDriverWait(driver, 15).until(ExpectedConditions.elementToBeClickable(regErrorMsg));
+			if(regErrorMsg.isDisplayed() && !regErrorMsg.getText().isEmpty()) {
+				System.out.println("Error message: " + regErrorMsg.getText());
+				return true;
+			}
+			else {
+				System.out.println("No error message was displayed");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
 		}
 	}
 

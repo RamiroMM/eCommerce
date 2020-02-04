@@ -217,5 +217,15 @@ public class StepsDefinitions extends BaseDriver{
     public void green_signin_indicator_is_displayed() throws Throwable {
         Assert.assertTrue(home.isDisplayed_SignInIndicator());
     }
+    
+    @When("^User complete registration with existing mail id (.+) (.+) (.+)$")
+    public void user_complete_registration_with_existing_mail_id(String address, String city, String zip) throws Throwable {
+        regpage.default_Registration_ExistingMailID(address, city, zip);
+    }
+
+    @Then("^Error is displayed for existing user IDs$")
+    public void error_is_displayed_for_existing_user_ids() throws Throwable {
+        Assert.assertTrue(regpage.isDisplayed_RegistrationError());
+    }
 
 }
