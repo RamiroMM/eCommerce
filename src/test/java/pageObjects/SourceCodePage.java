@@ -36,6 +36,10 @@ public class SourceCodePage {
 	WebElement logoImg;
 	@FindBy(how = How.XPATH, using = Locators.LOGO_LINK)
 	WebElement logoLink;
+	@FindBy(how = How.XPATH, using = Locators.METATAG_COUNTRY_CODE)
+	WebElement metaCountry;
+	@FindBy(how = How.XPATH, using = Locators.METATAG_LANG_CODE)
+	WebElement metaLang;
 	
 	public boolean verifyHeadTagTitle(String title) {
 		try {
@@ -255,6 +259,42 @@ public class SourceCodePage {
 				}
 			}
 			return false;
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_MetaTagCountry(String countrycode) {
+		try {
+			String site_country = metaCountry.getAttribute("content");
+			if(site_country.equals(countrycode)) {
+				System.out.println("Actual country: " + site_country);
+				System.out.println("Expected country: " + countrycode);
+				return true;
+			}
+			else {
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_MetaTagLang(String lang) {
+		try {
+			String site_lang = metaLang.getAttribute("content");
+			if(site_lang.equals(lang)) {
+				System.out.println("Actual lang: " + site_lang);
+				System.out.println("Expected lang: " + lang);
+				return true;
+			}
+			else {
+				return false;
+			}
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);

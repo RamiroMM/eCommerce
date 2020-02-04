@@ -228,4 +228,10 @@ public class StepsDefinitions extends BaseDriver{
         Assert.assertTrue(regpage.isDisplayed_RegistrationError());
     }
 
+    @Then("^(.+) and (.+) are displayed in sourcecode$")
+    public void and_are_displayed_in_sourcecode(String countrycode, String lang) throws Throwable {
+        Assert.assertTrue(srccode.verify_MetaTagCountry(countrycode));
+        Assert.assertTrue(srccode.verify_MetaTagLang(lang));
+    }
+
 }

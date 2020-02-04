@@ -46,7 +46,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en| Nr.8 Rruga Vaso Pasha | Tirana | 1001 |
 | https://uat.buy.hpe.com/lamerica/es	| 44 Coronation Ave | The Valley | 2640 |
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify Error message at account creation with existing mail ID
 Given User is on StoreFront homepage with <link>
 When User goes to login page

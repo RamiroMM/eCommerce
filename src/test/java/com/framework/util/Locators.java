@@ -141,4 +141,8 @@ public class Locators {
 	public static final String SIGNIN_INDICATOR = "//*[@id=\"hpe-store-signed-in-indicator\"]";
 	
 	public static final String REGISTRATION_ERROR_MSG = "//*[@id=\"regError\"]";
+	
+	public static final String METATAG_COUNTRY_CODE = "//meta[@name=\"target_country\"]";
+	
+	public static final String METATAG_LANG_CODE = "//meta[@name=\"language\"]";
 }
