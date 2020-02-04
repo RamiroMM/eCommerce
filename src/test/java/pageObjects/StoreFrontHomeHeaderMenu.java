@@ -1,6 +1,5 @@
 package pageObjects;
 
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -107,6 +106,23 @@ public class StoreFrontHomeHeaderMenu {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_SignInIndicator() {
+		try {
+			if(signInIndicator.getText()!=null && !signInIndicator.getText().isEmpty()) {
+				System.out.println("SignIn Indicator is displayed");
+				return true;
+			}
+			else {
+				System.out.println("SignIn Indicator is NOT displayed");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
 		}
 	}
 

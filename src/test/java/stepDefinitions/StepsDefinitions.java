@@ -212,5 +212,10 @@ public class StepsDefinitions extends BaseDriver{
     public void url_does_not_contain_capital_letters() throws Throwable {
         Assert.assertFalse(srccode.isDisplayed_CapitalLettersAndUnderscoreinURL());
     }
+    
+    @Then("^Green SignIn Indicator is displayed$")
+    public void green_signin_indicator_is_displayed() throws Throwable {
+        Assert.assertTrue(home.isDisplayed_SignInIndicator());
+    }
 
 }

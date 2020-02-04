@@ -1,6 +1,6 @@
 Feature: Login options
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify Multicountry login with user created in another country
 Given User is on StoreFront homepage with <link>
 When User goes to login page
