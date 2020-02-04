@@ -35,6 +35,8 @@ public class StoreFrontHomeHeaderMenu {
 	WebElement allServersHeader;
 	@FindBy(how = How.XPATH, using = Locators.SEARCH_PAGE_HEADER)
 	WebElement searchHeader;
+	@FindBy(how = How.XPATH, using = Locators.SIGNIN_INDICATOR)
+	WebElement signInIndicator;
 	
 	public void check_HomePage_isLoaded() {
 		try {

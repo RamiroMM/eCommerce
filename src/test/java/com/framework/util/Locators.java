@@ -137,4 +137,6 @@ public class Locators {
 	public static final String REG_PHONENUM_FIELD = "//*[@id=\"phone\"]";
 	
 	public static final String REG_CREATE_ACCNT_BTN = "//*[@id=\"registerUserBtn\"]";
+	
+	public static final String SIGNIN_INDICATOR = "//*[@id=\"hpe-store-signed-in-indicator\"]";
 }
