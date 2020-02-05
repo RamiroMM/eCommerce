@@ -1,16 +1,112 @@
 -------------------------------------------------------------------------------
 Test set: cucumberOptions.TestRunner
 -------------------------------------------------------------------------------
-Tests run: 36, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 6,470.069 s <<< FAILURE! - in cucumberOptions.TestRunner
-Verify the capital letter in URL(Sourcecode verifications)  Time elapsed: 282.364 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
+Tests run: 36, Failures: 0, Errors: 36, Skipped: 0, Time elapsed: 12.927 s <<< FAILURE! - in cucumberOptions.TestRunner
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.295 s  <<< ERROR!
+java.lang.NullPointerException
 
-Verify the capital letter in URL(Sourcecode verifications)  Time elapsed: 282.614 s  <<< ERROR!
-org.openqa.selenium.TimeoutException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.223 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.281 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.277 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.218 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.2 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.216 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.228 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.254 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.204 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.216 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.208 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.194 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.195 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.197 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.228 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.187 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.205 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.173 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.169 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.335 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.168 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.186 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.224 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.338 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.911 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.71 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.3 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.21 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.197 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.204 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.16 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.184 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.184 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.17 s  <<< ERROR!
+java.lang.NullPointerException
+
+Verify the breadcrumb of the SKU PDP(Various Regression Tests)  Time elapsed: 0.2 s  <<< ERROR!
+java.lang.NullPointerException
 

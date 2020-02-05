@@ -8,6 +8,7 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 import pageObjects.GetQuotePage;
+import pageObjects.ProductDescPage;
 import pageObjects.QuoteSummaryPage;
 import pageObjects.RegistrationPage;
 import pageObjects.ResultsPage;
@@ -27,6 +28,7 @@ public class StepsDefinitions extends BaseDriver{
 	public QuoteSummaryPage summpage = new QuoteSummaryPage(driver);
 	public SourceCodePage srccode = new SourceCodePage(driver);
 	public RegistrationPage regpage = new RegistrationPage(driver);
+	public ProductDescPage pdp = new ProductDescPage(driver);
 	
 	@Given("^User is on StoreFront homepage with (.+)$")
     public void user_is_on_storefront_homepage_with(String link) throws Throwable {
@@ -232,6 +234,21 @@ public class StepsDefinitions extends BaseDriver{
     public void and_are_displayed_in_sourcecode(String countrycode, String lang) throws Throwable {
         Assert.assertTrue(srccode.verify_MetaTagCountry(countrycode));
         Assert.assertTrue(srccode.verify_MetaTagLang(lang));
+    }
+    
+    @When("^User clicks on services tab$")
+    public void user_clicks_on_services_tab() throws Throwable {
+        pdp.click_ServicesTab();
+    }
+
+    @Then("^Breadcrumb of the page has four level of categorization$")
+    public void breadcrumb_of_the_page_has_four_level_of_categorization() throws Throwable {
+        Assert.assertTrue(pdp.verify_LevelsOfCat());
+    }
+
+    @And("^User opens first services product$")
+    public void user_opens_first_services_product() throws Throwable {
+        pdp.open_FirstServiceProd();
     }
 
 }

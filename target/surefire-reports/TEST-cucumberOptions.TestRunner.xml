@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="6,470.069" tests="36" errors="2" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="cucumberOptions.TestRunner" time="12.927" tests="36" errors="36" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire4223985323519339698\surefirebooter2579744989015287276.jar C:\Users\morara\AppData\Local\Temp\surefire4223985323519339698 2020-01-31T13-04-35_239-jvmRun1 surefire999572066203248899tmp surefire_0184677140549164535tmp"/>
+    <property name="sun.java.command" value="C:\Users\morara\AppData\Local\Temp\surefire5608478130810826780\surefirebooter7194134018224737633.jar C:\Users\morara\AppData\Local\Temp\surefire5608478130810826780 2020-02-05T13-07-55_304-jvmRun1 surefire1021865711588123342tmp surefire_07914635765171538272tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\morara\eclipse-workspace 2\eCommerce\target\test-classes;C:\Users\morara\eclipse-workspace 2\eCommerce\target\classes;C:\Users\morara\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\morara\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-java\4.8.0\cucumber-java-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-core\4.8.0\cucumber-core-4.8.0.jar;C:\Users\morara\.m2\repository\io\cucumber\tag-expressions\1.1.1\tag-expressions-1.1.1.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-expressions\7.0.2\cucumber-expressions-7.0.2.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable\1.1.14\datatable-1.1.14.jar;C:\Users\morara\.m2\repository\io\cucumber\datatable-dependencies\1.1.14\datatable-dependencies-1.1.14.jar;C:\Users\morara\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\cucumber-junit\4.8.0\cucumber-junit-4.8.0.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\morara\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\morara\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\morara\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\morara\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\morara\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\morara\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\morara\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\morara\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\morara\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\morara\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\morara\.m2\repository\de\monochromata\cucumber\reporting-plugin\3.0.17\reporting-plugin-3.0.17.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin\5.1.0\gherkin-5.1.0.jar;C:\Users\morara\.m2\repository\io\cucumber\gherkin-jvm-deps\1.0.4\gherkin-jvm-deps-1.0.4.jar;C:\Users\morara\.m2\repository\net\masterthought\cucumber-reporting\4.11.2\cucumber-reporting-4.11.2.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.9.9.3\jackson-databind-2.9.9.3.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.9.0\jackson-annotations-2.9.0.jar;C:\Users\morara\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.9.9\jackson-core-2.9.9.jar;C:\Users\morara\.m2\repository\org\apache\velocity\velocity\1.7\velocity-1.7.jar;C:\Users\morara\.m2\repository\commons-lang\commons-lang\2.4\commons-lang-2.4.jar;C:\Users\morara\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Users\morara\.m2\repository\velocity-tools\velocity-tools\1.4\velocity-tools-1.4.jar;C:\Users\morara\.m2\repository\joda-time\joda-time\2.10.2\joda-time-2.10.2.jar;C:\Users\morara\.m2\repository\org\apache\commons\commons-lang3\3.9\commons-lang3-3.9.jar;C:\Users\morara\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\morara\.m2\repository\org\codehaus\plexus\plexus-utils\3.2.0\plexus-utils-3.2.0.jar;C:\Users\morara\.m2\repository\org\jsoup\jsoup\1.12.1\jsoup-1.12.1.jar;C:\Users\morara\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20190610.1\owasp-java-html-sanitizer-20190610.1.jar;C:\Users\morara\.m2\repository\commons-configuration\commons-configuration\1.10\commons-configuration-1.10.jar;C:\Users\morara\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\morara"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire4223985323519339698\surefirebooter2579744989015287276.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\morara\AppData\Local\Temp\surefire5608478130810826780\surefirebooter7194134018224737633.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_144\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_144\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -45,7 +45,7 @@
     <property name="file.encoding" value="Cp1252"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\morara\.m2\repository"/>
-    <property name="cucumber.options" value="--tags @SourceCodeTest"/>
+    <property name="cucumber.options" value="--tags @RegTest"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\morara\AppData\Local\Temp\"/>
     <property name="java.version" value="1.8.0_144"/>
@@ -63,199 +63,627 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="117.746"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="110.878"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="127.703"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="127.673"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="139.028"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="124.609"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="173.985"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="135.8"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="132.708"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="386.917"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="147.356"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="201.012"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="547.653"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="281.04"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="170.727"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="134.823"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="263.462"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="224.379"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="0">
-    <skipped message="The step &quot;User completes registration   &quot; is undefined"/>
-    <system-out><![CDATA[
-  @SourceCodeTest
-  Scenario Outline: Verify the capital letter in URL                        &amp#27;[90m# src/test/java/features/SourceCode4.feature:87&amp#27;[0m
-C:\Users\morara\eclipse-workspace 2\eCommerce
-Header Menu is loaded
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/us/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-SignIn Page is loaded
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to registration page&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_goes_to_registration_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser completes registration   &amp#27;[0m                                     &amp#27;[90m# null&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser goes to Servers Catalog&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches for "&amp#27;[0m&amp#27;[36m&amp#27;[1mdl380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mdl380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser clicks on get quote button&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills up the form&amp#27;[0m                                             &amp#27;[90m# StepsDefinitions.user_fills_up_the_form()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on get quote&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.295">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[Feature: Various Regression Tests
+
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP &amp#27;[90m# src/test/java/features/RegTests.feature:4&amp#27;[0m
+    &amp#27;[36mGiven User is on StoreFront homepage with <link>&amp#27;[0m
+    &amp#27;[36mAnd User searches and opens "DL380"&amp#27;[0m
+    &amp#27;[36mWhen User clicks on services tab&amp#27;[0m
+    &amp#27;[36mAnd User opens first services product&amp#27;[0m
+    &amp#27;[36mThen Breadcrumb of the page has four level of categorization&amp#27;[0m
+
+    Examples: 
+
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:12&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ca/fr&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ca/fr(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 5277
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1580501027.832][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-ene 31, 2020 2:03:48 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="176.667"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="203.634"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="282.364">
-    <error message="Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BICY5QHRAR&apos;, ip: &apos;16.214.2.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.223">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
     <system-out><![CDATA[
-  @SourceCodeTest
-  Scenario Outline: Verify the capital letter in URL                        &amp#27;[90m# src/test/java/features/SourceCode4.feature:90&amp#27;[0m
-C:\Users\morara\eclipse-workspace 2\eCommerce
-Header Menu is loaded
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/nl/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="hpeLoginBtn"]' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-Something went wrong: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@href, "register")]' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to registration page&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_goes_to_registration_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-eo7zxafRdf@yopmail.com
-Something went wrong: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="email-address"]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56336}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 3c1562fd76ae3ff1a35f87205ba262d5
-*** Element info: {Using=xpath, value=//input[@id="email-address"]}
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser completes registration &amp#27;[0m&amp#27;[32m&amp#27;[1mStroombaan 16&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mAMSTELVEEN&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m1181VX&amp#27;[0m        &amp#27;[90m# StepsDefinitions.user_completes_registration(String,String,String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-PLP Page opened
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to Servers Catalog&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-SRP page loaded
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches for "&amp#27;[0m&amp#27;[32m&amp#27;[1mdl380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-SRP page loaded
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(@class, "product__listing")]/section[1]/div[2]//a' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches and opens "&amp#27;[0m&amp#27;[32m&amp#27;[1mdl380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-Get quote button not found
-    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser clicks on get quote button&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)
-	at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)
-	at ?.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:13&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ca/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ca/en(file:src/test/java/features/RegTests.feature:5)
 &amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills up the form&amp#27;[0m                                             &amp#27;[90m# StepsDefinitions.user_fills_up_the_form()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on get quote&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                               &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 5485
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1580501466.853][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-ene 31, 2020 2:11:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="155.064"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="282.614">
-    <error message="Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;BICY5QHRAR&apos;, ip: &apos;16.214.2.191&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_144&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.281">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
 </error>
     <system-out><![CDATA[
-  @SourceCodeTest
-  Scenario Outline: Verify the capital letter in URL                          &amp#27;[90m# src/test/java/features/SourceCode4.feature:92&amp#27;[0m
-C:\Users\morara\eclipse-workspace 2\eCommerce
-Header Menu is loaded
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[32m&amp#27;[1mhttps://uat.buy.hpe.com/se/en&amp#27;[0m   &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //*[@id="hpeLoginBtn"]' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to login page&amp#27;[0m                                              &amp#27;[90m# StepsDefinitions.user_goes_to_login_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-Something went wrong: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator 'By.xpath: //a[contains(@href, "register")]' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to registration page&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_goes_to_registration_page()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-lfCAMvrv6h@yopmail.com
-Something went wrong: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id="email-address"]"}
-  (Session info: chrome=79.0.3945.130)
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.130, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:56762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 16b11cb1d09b249c1f962a390c0943d2
-*** Element info: {Using=xpath, value=//input[@id="email-address"]}
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser completes registration &amp#27;[0m&amp#27;[32m&amp#27;[1mGUSTAV IIIS BOULEVARD 36&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1mSTOCKHOLM&amp#27;[0m&amp#27;[32m &amp#27;[0m&amp#27;[32m&amp#27;[1m16985&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_completes_registration(String,String,String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-PLP Page opened
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser goes to Servers Catalog&amp#27;[0m                                         &amp#27;[90m# StepsDefinitions.user_goes_to_servers_catalog()&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-SRP page loaded
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches for "&amp#27;[0m&amp#27;[32m&amp#27;[1mdl380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                             &amp#27;[90m# StepsDefinitions.user_searches_for_something(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-SRP page loaded
-org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(@class, "product__listing")]/section[1]/div[2]//a' (tried for 30 second(s) with 500 milliseconds interval)
-    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mUser searches and opens "&amp#27;[0m&amp#27;[32m&amp#27;[1mdl380&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
-    &amp#27;[32mThen &amp#27;[0m&amp#27;[32mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-Get quote button not found
-    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mUser clicks on get quote button&amp#27;[0m                                       &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote_button()&amp#27;[0m
-      &amp#27;[31morg.openqa.selenium.TimeoutException: Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'BICY5QHRAR', ip: '16.214.2.191', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
-Driver info: driver.version: unknown
-	at pageObjects.ResultsPage.click_GetQuote(ResultsPage.java:112)
-	at stepDefinitions.StepsDefinitions.user_clicks_on_get_quote_button(StepsDefinitions.java:62)
-	at ?.User clicks on get quote button(file:src/test/java/features/SourceCode4.feature:62)
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:14&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/tw/zh&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/tw/zh(file:src/test/java/features/RegTests.feature:5)
 &amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser fills up the form&amp#27;[0m                                               &amp#27;[90m# StepsDefinitions.user_fills_up_the_form()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on get quote&amp#27;[0m                                             &amp#27;[90m# StepsDefinitions.user_clicks_on_get_quote()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mURL does not contain capital letters&amp#27;[0m                                 &amp#27;[90m# StepsDefinitions.url_does_not_contain_capital_letters()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
 ]]></system-out>
-    <system-err><![CDATA[Starting ChromeDriver 78.0.3904.70 (edb9c9f3de0247fd912a77b7f6cae7447f6d3ad5-refs/branch-heads/3904@{#800}) on port 42029
-Only local connections are allowed.
-Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
-[1580501904.299][WARNING]: This version of ChromeDriver has not been tested with Chrome version 79.
-ene 31, 2020 2:18:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
   </testcase>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="131.206"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="236.951"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="130.542"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="153.601"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="127.937"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="139.676"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="127.046"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="183.097"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="160.979"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="122.13"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="117.017"/>
-  <testcase name="Verify the capital letter in URL" classname="Sourcecode verifications" time="125.137"/>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.277">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:15&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/tw/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/tw/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.218">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:16&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ch/fr&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ch/fr(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.2">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:17&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ch/de&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ch/de(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.216">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:18&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/fr/fr&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/fr/fr(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.228">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:19&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/br/pt&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/br/pt(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.254">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:20&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/it/it&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/it/it(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.204">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:21&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/mx/es&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/mx/es(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.216">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:22&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/kr/ko&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/kr/ko(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.208">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:23&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/es/es&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/es/es(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.194">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:24&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/at/de&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/at/de(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.195">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:25&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/cn/zh&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/cn/zh(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.197">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:26&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ru/ru&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ru/ru(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.228">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:27&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/tr/tr&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/tr/tr(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.187">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:28&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/tr/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/tr/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.205">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:29&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/in/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/in/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.173">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:30&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/us/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/us/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.169">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:31&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/uk/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/uk/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.335">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:32&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/hk/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/hk/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.168">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:33&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/nl/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/nl/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.186">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:34&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/sg/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/sg/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.224">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:35&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/se/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/se/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.338">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:36&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/cz/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/cz/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.911">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:37&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/dk/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/dk/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.71">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:38&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/fi/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/fi/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.3">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:39&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/ie/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/ie/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.21">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:40&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/il/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/il/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.197">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:41&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/my/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/my/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.204">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:42&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/no/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/no/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.16">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:43&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/pl/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/pl/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.184">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:44&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/pt/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/pt/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.184">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                    &amp#27;[90m# src/test/java/features/RegTests.feature:45&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/za/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/za/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                     &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                        &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                   &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m            &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.17">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                             &amp#27;[90m# src/test/java/features/RegTests.feature:46&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/emea_europe/en&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/emea_europe/en(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                              &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                                 &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                            &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m                     &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Verify the breadcrumb of the SKU PDP" classname="Various Regression Tests" time="0.2">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[
+  @RegTest
+  Scenario Outline: Verify the breadcrumb of the SKU PDP                          &amp#27;[90m# src/test/java/features/RegTests.feature:47&amp#27;[0m
+    &amp#27;[31mGiven &amp#27;[0m&amp#27;[31mUser is on StoreFront homepage with &amp#27;[0m&amp#27;[31m&amp#27;[1mhttps://uat.buy.hpe.com/lamerica/es&amp#27;[0m &amp#27;[90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at stepDefinitions.StepsDefinitions.user_is_on_storefront_homepage_with(StepsDefinitions.java:35)
+	at ?.User is on StoreFront homepage with https://uat.buy.hpe.com/lamerica/es(file:src/test/java/features/RegTests.feature:5)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser searches and opens "&amp#27;[0m&amp#27;[36m&amp#27;[1mDL380&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                           &amp#27;[90m# StepsDefinitions.user_searches_and_opens_something(String)&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser clicks on services tab&amp#27;[0m                                              &amp#27;[90m# StepsDefinitions.user_clicks_on_services_tab()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mUser opens first services product&amp#27;[0m                                         &amp#27;[90m# StepsDefinitions.user_opens_first_services_product()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mBreadcrumb of the page has four level of categorization&amp#27;[0m                  &amp#27;[90m# StepsDefinitions.breadcrumb_of_the_page_has_four_level_of_categorization()&amp#27;[0m
+]]></system-out>
+  </testcase>
 </testsuite>

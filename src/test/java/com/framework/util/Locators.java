@@ -145,4 +145,12 @@ public class Locators {
 	public static final String METATAG_COUNTRY_CODE = "//meta[@name=\"target_country\"]";
 	
 	public static final String METATAG_LANG_CODE = "//meta[@name=\"language\"]";
+	
+	public static final String PDP_SERVICES_TAB = "//a[contains(@id,\"servicesTab\")]";
+	
+	public static final String FIRST_SERVICE_PRODUCT = "//div[contains(@class,\"servicesSection\")]//section[contains(@class,\"product-list\")][1]//div[contains(@class,\"about\")]/a";
+	
+	public static final String PDP_PRODUCT_HEADER = "//h1";
+	
+	public static final String BREADCRUMB = "//ol[contains(@class,\"breadcrumb\")]/li";
 }
