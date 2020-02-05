@@ -30,6 +30,8 @@ public class ProductDescPage {
 	WebElement prodHeader;
 	@FindBy(how = How.XPATH, using = Locators.BREADCRUMB)
 	List<WebElement> breadcrumbList;
+	@FindBy(how = How.XPATH, using = Locators.PDP_QUICKSPEC_OPTIONS)
+	List<WebElement> quickspecLink;
 	
 	public void click_ServicesTab() {
 		try {
@@ -78,6 +80,28 @@ public class ProductDescPage {
 			}
 			else {
 				System.out.println("Breadcrumb count is: " + counter);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_QuickspecLink() {
+		try {
+			int counter = 0;
+			Iterator<WebElement> itr = quickspecLink.iterator();
+			while(itr.hasNext()) {
+				System.out.println(itr.next().getAttribute("innerHTML"));
+				counter++;
+			}
+			if(counter>=2) {
+				System.out.println(counter);
+				return true;
+			}
+			else {
 				return false;
 			}
 		}

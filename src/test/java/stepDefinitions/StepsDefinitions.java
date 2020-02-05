@@ -250,5 +250,15 @@ public class StepsDefinitions extends BaseDriver{
     public void user_opens_first_services_product() throws Throwable {
         pdp.open_FirstServiceProd();
     }
+    
+    @Then("^Sourcecode contains only one h1 tag$")
+    public void sourcecode_contains_only_one_h1_tag() throws Throwable {
+        Assert.assertTrue(srccode.count_H1Tags());
+    }
+    
+    @Then("^Quickspec link is displayed with download options$")
+    public void quickspec_link_is_displayed_with_download_options() throws Throwable {
+        Assert.assertTrue(pdp.verify_QuickspecLink());
+    }
 
 }

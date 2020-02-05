@@ -301,5 +301,25 @@ public class SourceCodePage {
 			return false;
 		}
 	}
+	
+	public boolean count_H1Tags() {
+		try {
+			String source = driver.getPageSource();
+	    	String html_code = StringUtils.substringBetween(source, "<html", "/html>");
+	    	int count = StringUtils.countMatches(html_code, "<h1");
+	    	if(count==1) {
+	    		System.out.println("H1 occurrences: " + count);
+	    		return true;
+	    	}
+	    	else {
+	    		System.out.println("H1 occurrences: " + count);
+	    		return false;
+	    	}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }

@@ -153,4 +153,6 @@ public class Locators {
 	public static final String PDP_PRODUCT_HEADER = "//h1";
 	
 	public static final String BREADCRUMB = "//ol[contains(@class,\"breadcrumb\")]/li";
+	
+	public static final String PDP_QUICKSPEC_OPTIONS = "//div[contains(@class,\"quickspecs-dropdown\")]/div";
 }
