@@ -260,5 +260,10 @@ public class StepsDefinitions extends BaseDriver{
     public void quickspec_link_is_displayed_with_download_options() throws Throwable {
         Assert.assertTrue(pdp.verify_QuickspecLink());
     }
+    
+    @Then("^Verify that hyphens can be used in the URL$")
+    public void verify_that_hyphens_can_be_used_in_the_url() throws Throwable {
+    	Assert.assertTrue(srccode.verify_HyphensInURL());
+    }
 
 }

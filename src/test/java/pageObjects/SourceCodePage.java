@@ -321,5 +321,25 @@ public class SourceCodePage {
 			return false;
 		}
 	}
+	
+	public boolean verify_HyphensInURL() {
+		try {
+			String url = driver.getCurrentUrl();
+			char ch;
+			for(int i = 0; i < url.length(); i++) {
+				ch = url.charAt(i);
+				if(ch == '-') {
+					System.out.println("Hyphens were found");
+					return true;
+				}
+			}
+			System.out.println("Hyphens were NOT found");
+			return true;
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }

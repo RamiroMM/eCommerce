@@ -1,6 +1,6 @@
 Feature: Login options
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify metatags for country code and language
 Given User is on StoreFront homepage with <link>
 When User goes to login page

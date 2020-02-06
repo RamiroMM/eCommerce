@@ -155,4 +155,6 @@ public class Locators {
 	public static final String BREADCRUMB = "//ol[contains(@class,\"breadcrumb\")]/li";
 	
 	public static final String PDP_QUICKSPEC_OPTIONS = "//div[contains(@class,\"quickspecs-dropdown\")]/div";
+	
+	public static final String LOADING_SPINNER = "//div[@id=\"spinner\"]";
 }

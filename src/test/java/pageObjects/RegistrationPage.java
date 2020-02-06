@@ -59,6 +59,8 @@ public class RegistrationPage {
 	WebElement createAccntBtn;
 	@FindBy(how = How.XPATH, using = Locators.REGISTRATION_ERROR_MSG)
 	WebElement regErrorMsg;
+	@FindBy(how = How.XPATH, using = Locators.LOADING_SPINNER)
+	WebElement loadSpinner;
 	
 	public String generate_Email() throws IOException {
 		String mail = RandomStringUtils.randomAlphanumeric(10);
@@ -128,7 +130,10 @@ public class RegistrationPage {
 				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccntBtn);
 				Thread.sleep(1500);
 				createAccntBtn.click();
-				Thread.sleep(10000);
+				Thread.sleep(3000);
+				while(loadSpinner.isDisplayed()) {
+					// Wait for the spinner to disappear
+				}
 				new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(shopButton));
 			}
 		}
