@@ -341,5 +341,23 @@ public class SourceCodePage {
 			return false;
 		}
 	}
+	
+	public boolean verify_StopWordsInURL() {
+		try {
+			String url = driver.getCurrentUrl();
+			if(!url.contains("and") || !url.contains("an") || !url.contains("or") || !url.contains("to") || !url.contains("of")) {
+				System.out.println("Stop words were NOT found");
+				return false;
+			}
+			else {
+				System.out.println("Stop words were found");
+				return true;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }

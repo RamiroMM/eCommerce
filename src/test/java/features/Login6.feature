@@ -1,27 +1,23 @@
 Feature: Login options
 
-@eCommTest1
+@eCommTest
 Scenario Outline: Verify hyphens in the URL strings
 Given User is on StoreFront homepage with <link>
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 When User goes to login page
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 When User goes to registration page
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 When User completes registration <address> <city> <zip>
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 When User goes to Servers Catalog
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 And User searches for "DL380"
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 And User searches and opens "DL380"
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 And User clicks on get quote button
-When User fills up the form
-Then Verify that hyphens can be used in the URL
-When User clicks on get quote
-Then Quote details are displayed
-Then Verify that hyphens can be used in the URL
+Then Verify that stop words are not in URL
 Examples:
 |link									| address 					  | city 		| zip 	 |				
 | https://uat.buy.hpe.com/ca/fr 		| 5150 SPECTRUM WAY SUITE 400 | MISSISSAUGA | L4W5G2 |

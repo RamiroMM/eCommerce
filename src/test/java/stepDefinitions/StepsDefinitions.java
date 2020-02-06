@@ -265,5 +265,10 @@ public class StepsDefinitions extends BaseDriver{
     public void verify_that_hyphens_can_be_used_in_the_url() throws Throwable {
     	Assert.assertTrue(srccode.verify_HyphensInURL());
     }
+    
+    @Then("^Verify that stop words are not in URL$")
+    public void verify_that_stop_words_are_not_in_url() throws Throwable {
+        Assert.assertFalse(srccode.verify_StopWordsInURL());
+    }
 
 }
