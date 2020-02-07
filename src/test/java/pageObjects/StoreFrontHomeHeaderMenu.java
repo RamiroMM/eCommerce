@@ -36,6 +36,10 @@ public class StoreFrontHomeHeaderMenu {
 	WebElement searchHeader;
 	@FindBy(how = How.XPATH, using = Locators.SIGNIN_INDICATOR)
 	WebElement signInIndicator;
+	@FindBy(how = How.XPATH, using = Locators.MICRO_SERVERS_BUTTON)
+	WebElement microServersButton;
+	@FindBy(how = How.XPATH, using = Locators.MICROSERVERS_PLP_PAGE_HEADER)
+	WebElement microServersHeader;
 	
 	public void check_HomePage_isLoaded() {
 		try {
@@ -100,6 +104,26 @@ public class StoreFrontHomeHeaderMenu {
 					allServersButton.click();
 					Thread.sleep(1000);
 					new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(allServersHeader));
+					System.out.println("PLP Page opened");
+				}
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void open_microServerCatalog() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(shopButton));
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(shopButton));
+			if (shopButton.isDisplayed() && shopButton.isDisplayed()) {
+				shopButton.click();
+				Thread.sleep(1500);
+				if(microServersButton.isDisplayed() && microServersButton.isEnabled()) {
+					microServersButton.click();
+					Thread.sleep(1000);
+					new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(microServersHeader));
 					System.out.println("PLP Page opened");
 				}
 			}

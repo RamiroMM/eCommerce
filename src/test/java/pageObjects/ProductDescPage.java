@@ -4,6 +4,7 @@ import java.util.Iterator;
 import java.util.List;
 
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -32,6 +33,19 @@ public class ProductDescPage {
 	List<WebElement> breadcrumbList;
 	@FindBy(how = How.XPATH, using = Locators.PDP_QUICKSPEC_OPTIONS)
 	List<WebElement> quickspecLink;
+	@FindBy(how = How.XPATH, using = Locators.PDP_VAT_MESSAGE)
+	WebElement vatMsg;
+	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_20_ITEMS)
+	WebElement pageSize20;
+	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_100_ITEMS)
+	WebElement pageSize100;
+	@FindBy(how = How.XPATH, using = Locators.PAGE_SIZE_SELECTOR)
+	WebElement pageSizeselector;
+	@FindBy(how = How.XPATH, using = Locators.CONFIG_AND_QUOTE_BUTTON)
+	WebElement confAndQuoteBtn;
+	@FindBy(how = How.XPATH, using = Locators.CONFIGURATION_CAROUSEL)
+	WebElement confCarousel;
+	
 	
 	public void click_ServicesTab() {
 		try {
@@ -103,6 +117,109 @@ public class ProductDescPage {
 			}
 			else {
 				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_VATIncluded() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(vatMsg));
+			if(vatMsg.getText()!=null) {
+				System.out.println("VAT message included");
+				return true;
+			}
+			else {
+				System.out.println("VAT message not included");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public void select20ArticlesPerPage() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pageSizeselector));
+			if (pageSize20.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", pageSizeselector);
+				Thread.sleep(1500);
+				pageSizeselector.click();
+				pageSize20.click();
+				System.out.println("Clicked on page Size 20 items");
+				Thread.sleep(3000);
+			}
+			else {
+				System.out.println("Page size option not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex){
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void click_ConfigAndQuote() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(confAndQuoteBtn));
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(confAndQuoteBtn));
+			if (confAndQuoteBtn.isEnabled() && confAndQuoteBtn.isDisplayed()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", confAndQuoteBtn);
+				Thread.sleep(3000);
+				confAndQuoteBtn.click();
+				System.out.println("Config and Quote button clicked");
+			}
+			else {
+				System.out.println("Config and Quote button not found");
+				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_ConfCarousel() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(confCarousel));
+			if(confCarousel.isDisplayed()) {
+				System.out.println("Configuration Carousel is displayed");
+				return true;
+			}
+			else {
+				System.out.println("Configuration Carousel is NOT displayed");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_ArticlesPerPage(String strArg1) {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(pageSizeselector));
+			if (pageSizeselector.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", pageSizeselector);
+				Thread.sleep(2500);
+				String isSelected = pageSize20.getAttribute("selected");
+				if(!isSelected.equals("null") && pageSize20.getText().contains(strArg1)) {
+					return true;
+				}
+				else {
+					return false;
+				}
+				
+			}
+			else {
+				System.out.println("Page size option not found");
+				throw new TimeoutException();
 			}
 		}
 		catch(Exception ex) {

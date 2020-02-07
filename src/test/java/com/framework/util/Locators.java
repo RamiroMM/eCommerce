@@ -20,7 +20,7 @@ public class Locators {
 	
 	public static final String SEARCH_ICON2 = "//*[@id=\"hpehf-search-bar\"]/form/button";
 	
-	public static final String FIRST_PRODUCT_FOUND = "//ul[contains(@class, \"product__listing\")]/section[1]/div[2]//a";
+	public static final String FIRST_PRODUCT_FOUND = "//*[contains(@class, \"product__listing\")]/section[1]/div[2]//a";
 	
 	public static final String PRODUCT_GALLERY_HEADER = "//div[contains(@class, \"hpe-product-gallery\")]/div//h1";
 	
@@ -157,4 +157,22 @@ public class Locators {
 	public static final String PDP_QUICKSPEC_OPTIONS = "//div[contains(@class,\"quickspecs-dropdown\")]/div";
 	
 	public static final String LOADING_SPINNER = "//div[@id=\"spinner\"]";
+	
+	public static final String DROPDOWN_PRICE_DESC = "//option[@value=\"leastPrice-desc\"]";
+	
+	public static final String PLP_LIST_PRICE = "//div[contains(@class, \"product__list\")]//div[contains(@class,\"about\")]//p[contains(@class,\"list__price\")]//span[contains(@class, \"font-weight\")]";
+	
+	public static final String MICRO_SERVERS_BUTTON = "//*[@id=\"hpehf-shop-flyout-right-0\"]/div[1]/a[4]";
+	
+	public static final String MICROSERVERS_PLP_PAGE_HEADER = "//div[contains(@class,\"hpe-page-header__content\")]/h1";
+	
+	public static final String PLP_VAT_MESSAGE = "//div[contains(@class, \"product__list\")]//div[contains(@class,\"about\")]//p[contains(@class,\"list__price\")]//span[contains(@class, \"vat-message\")]";
+	
+	public static final String PDP_VAT_MESSAGE = "//p[contains(@class, \"product-description\")]//span[contains(@class, \"vat-message\")]";
+	
+	public static final String PAGE_SIZE_20_ITEMS = "//*[@id=\"pageSize-selector\"]/option[2]";
+	
+	public static final String CONFIG_AND_QUOTE_BUTTON = "//div[contains(@class, \"product-list__button\")]//button[@onclick=\"configureandquote(this)\"]";
+	
+	public static final String CONFIGURATION_CAROUSEL = "//section[contains(@class, \"carousel\")]";
 }

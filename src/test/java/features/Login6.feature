@@ -1,6 +1,6 @@
 Feature: Login options
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify hyphens in the URL strings
 Given User is on StoreFront homepage with <link>
 Then Verify that stop words are not in URL

@@ -1,0 +1,48 @@
+# Created at 2020-02-07T12:39:44.752
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-02-07T12:39:46.265
+Unexpected IOException with stream: Something went wrong: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.99.144.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46f42f502b53891b27d23e17f359a4a6
+*** Element info: {Using=xpath, value=//div[contains(@class, "product__list")]//div[contains(@class,"about")]//p[contains(@class,"list__price")]//span[contains(@class, "vat-message")]}
+
+
+# Created at 2020-02-07T12:39:46.269
+Unexpected IOException with stream:     [32mThen [0m[32mVAT is displayed in PLP for countries [0m[32m[1mno[0m                           [90m# StepsDefinitions.vat_is_displayed_in_plp_for_countries(String)[0m
+
+
+# Created at 2020-02-07T12:40:16.494
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.99.144.189', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:63629}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 46f42f502b53891b27d23e17f359a4a6
+*** Element info: {Using=xpath, value=//*[contains(@class, "product__listing")]/section[1]/div[2]//a}
+
+# Created at 2020-02-07T12:40:16.496
+Unexpected IOException with stream: 
+
+
+# Created at 2020-02-07T12:40:16.498
+Unexpected IOException with stream:     [32mWhen [0m[32mUser opens first result[0m                                            [90m# StepsDefinitions.user_opens_first_result()[0m
+
+
+# Created at 2020-02-07T12:40:16.499
+Unexpected IOException with stream: Country without Price
+
+

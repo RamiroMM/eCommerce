@@ -9,6 +9,7 @@ import org.junit.Assert;
 
 import pageObjects.GetQuotePage;
 import pageObjects.ProductDescPage;
+import pageObjects.ProductListPage;
 import pageObjects.QuoteSummaryPage;
 import pageObjects.RegistrationPage;
 import pageObjects.ResultsPage;
@@ -29,6 +30,7 @@ public class StepsDefinitions extends BaseDriver{
 	public SourceCodePage srccode = new SourceCodePage(driver);
 	public RegistrationPage regpage = new RegistrationPage(driver);
 	public ProductDescPage pdp = new ProductDescPage(driver);
+	public ProductListPage plp = new ProductListPage(driver);
 	
 	@Given("^User is on StoreFront homepage with (.+)$")
     public void user_is_on_storefront_homepage_with(String link) throws Throwable {
@@ -269,6 +271,87 @@ public class StepsDefinitions extends BaseDriver{
     @Then("^Verify that stop words are not in URL$")
     public void verify_that_stop_words_are_not_in_url() throws Throwable {
         Assert.assertFalse(srccode.verify_StopWordsInURL());
+    }
+    
+    @Then("^List Price is displayed for countries (.+)$")
+    public void list_price_is_displayed_for_countries(String withprice) throws Throwable {
+        if(withprice.equals("yes")) {
+        	System.out.println("Country with Price");
+        	Assert.assertTrue(plp.sortby_PriceDesc());
+        }
+        if(withprice.equals("no")) {
+        	System.out.println("Country without Price");
+        	Assert.assertFalse(plp.sortby_PriceDesc());
+        }
+    }
+
+    @Then("^(.+) is displayed according to country$")
+    public void is_displayed_according_to_country(String currency) throws Throwable {
+        if(!currency.equals("N/A")) {
+        	Assert.assertTrue(plp.verify_Currency(currency));
+        }
+        if(currency.equals("N/A")) {
+        	System.out.println("Country without price");
+        }
+    }
+    
+    @When("^User goes to MicroServers Catalog$")
+    public void user_goes_to_microservers_catalog() throws Throwable {
+        home.open_microServerCatalog();
+    }
+
+    @When("^User opens first result$")
+    public void user_opens_first_result() throws Throwable {
+    	result.open_firstResult();
+    }
+
+    @Then("^VAT is displayed in PLP for countries (.+)$")
+    public void vat_is_displayed_in_plp_for_countries(String withprice) throws Throwable {
+    	if(withprice.equals("yes")) {
+        	System.out.println("Country with Price");
+        	Assert.assertTrue(plp.verify_VATIncluded());
+        }
+        if(withprice.equals("no")) {
+        	System.out.println("Country without Price");
+        	Assert.assertFalse(plp.verify_VATIncluded());
+        }
+    }
+
+    @Then("^VAT is displayed in PDP for countries (.+)$")
+    public void vat_is_displayed_in_pdp_for_countries(String withprice) throws Throwable {
+    	if(withprice.equals("yes")) {
+        	System.out.println("Country with Price");
+        	Assert.assertTrue(pdp.verify_VATIncluded());
+        }
+        if(withprice.equals("no")) {
+        	System.out.println("Country without Price");
+        	Assert.assertFalse(pdp.verify_VATIncluded());
+        }
+    }
+
+    @Then("^VAT is displayed in Summary Page for countries (.+)$")
+    public void vat_is_displayed_in_summary_page_for_countries(String withprice) throws Throwable {
+        // Need to check if Price should be in Quote Summary Page
+    }
+    
+    @When("^User clicks on Config and Quote button$")
+    public void user_clicks_on_config_and_quote_button() throws Throwable {
+        pdp.click_ConfigAndQuote();
+    }
+
+    @Then("^Channel central config is displayed$")
+    public void channel_central_config_is_displayed() throws Throwable {
+        Assert.assertTrue(pdp.isDisplayed_ConfCarousel());
+    }
+
+    @And("^User selects twenty articles per page$")
+    public void user_selects_twenty_articles_per_page() throws Throwable {
+        pdp.select20ArticlesPerPage();
+    }
+
+    @And("^Articles per page is \"([^\"]*)\"$")
+    public void articles_per_page_is_something(String strArg1) throws Throwable {
+        Assert.assertTrue(pdp.verify_ArticlesPerPage(strArg1));
     }
 
 }
