@@ -40,6 +40,8 @@ public class SourceCodePage {
 	WebElement metaCountry;
 	@FindBy(how = How.XPATH, using = Locators.METATAG_LANG_CODE)
 	WebElement metaLang;
+	@FindBy(how = How.XPATH, using = Locators.METATAG_ROBOTS)
+	WebElement metaRobots;
 	
 	public boolean verifyHeadTagTitle(String title) {
 		try {
@@ -352,6 +354,28 @@ public class SourceCodePage {
 			else {
 				System.out.println("Stop words were found");
 				return true;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_RobotMetatag(String strArg1) {
+		try {
+			String content = metaRobots.getAttribute("content");
+			if(content.contentEquals(strArg1)) {
+				System.out.println("Content of robot metatag is correct");
+				System.out.println("Expected: " + strArg1);
+				System.out.println("Actual: " + content);
+				return true;
+			}
+			else {
+				System.out.println("Content of robot metatag is not correct");
+				System.out.println("Expected: " + strArg1);
+				System.out.println("Actual: " + content);
+				return false;
 			}
 		}
 		catch(Exception ex) {

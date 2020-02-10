@@ -43,7 +43,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en| /emea_europe/en |
 | https://uat.buy.hpe.com/lamerica/es	| /lamerica/es	  |
 
-@SourceCodeTest
+@SourceCodeTest4
 Scenario Outline: Verify the capital letter in URL
 Given User is on StoreFront homepage with <link>
 Then URL does not contain capital letters or underscores

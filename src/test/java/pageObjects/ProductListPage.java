@@ -25,6 +25,12 @@ public class ProductListPage {
 	WebElement listPrice;
 	@FindBy(how = How.XPATH, using = Locators.PLP_VAT_MESSAGE)
 	WebElement vatMsg;
+	@FindBy(how = How.XPATH, using = Locators.CPU_FILTER_2)
+	WebElement cpuFilter2;
+	@FindBy(how = How.XPATH, using = Locators.LINK_TAG)
+	WebElement linkTag;
+	@FindBy(how = How.XPATH, using = Locators.CLEAR_FACET_BUTTON)
+	WebElement clearFacet;
 	
 	public boolean sortby_PriceDesc() {
 		try {
@@ -82,6 +88,54 @@ public class ProductListPage {
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
 			return false;
+		}
+	}
+	
+	public void click_2CPUFilter() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(cpuFilter2));
+			if(cpuFilter2.isDisplayed()) {
+				cpuFilter2.click();
+				Thread.sleep(3000);
+			}
+			else {
+				System.out.println("Filter was not found: Processors 2");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void click_ClearFacets() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(clearFacet));
+			if(clearFacet.isDisplayed() && clearFacet.isEnabled()) {
+				clearFacet.click();
+				Thread.sleep(1500);
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isModified_BaseURL() {
+		try {
+			String canonical = linkTag.getAttribute("href");
+			String url = driver.getCurrentUrl();
+			if(url.equals(canonical+"?q=") || canonical.equals(url)) {
+				System.out.println("URL is not modified");
+				return false;
+			}
+			else {
+				System.out.println("URL is modified");
+				return true;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return true;
 		}
 	}
 

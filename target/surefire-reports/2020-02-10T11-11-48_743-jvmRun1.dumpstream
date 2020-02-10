@@ -1,0 +1,230 @@
+# Created at 2020-02-10T11:13:17.633
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-02-10T11:13:19.836
+Unexpected IOException with stream: [
+
+# Created at 2020-02-10T11:13:19.839
+Unexpected IOException with stream: 1
+
+# Created at 2020-02-10T11:13:19.844
+Unexpected IOException with stream: 5
+
+# Created at 2020-02-10T11:13:19.847
+Unexpected IOException with stream: 8
+
+# Created at 2020-02-10T11:13:19.850
+Unexpected IOException with stream: 1
+
+# Created at 2020-02-10T11:13:19.852
+Unexpected IOException with stream: 3
+
+# Created at 2020-02-10T11:13:19.857
+Unexpected IOException with stream: 5
+
+# Created at 2020-02-10T11:13:19.865
+Unexpected IOException with stream: 4
+
+# Created at 2020-02-10T11:13:19.868
+Unexpected IOException with stream: 7
+
+# Created at 2020-02-10T11:13:19.873
+Unexpected IOException with stream: 9
+
+# Created at 2020-02-10T11:13:19.882
+Unexpected IOException with stream: 9
+
+# Created at 2020-02-10T11:13:19.887
+Unexpected IOException with stream: .
+
+# Created at 2020-02-10T11:13:19.894
+Unexpected IOException with stream: 8
+
+# Created at 2020-02-10T11:13:19.898
+Unexpected IOException with stream: 3
+
+# Created at 2020-02-10T11:13:19.900
+Unexpected IOException with stream: 3
+
+# Created at 2020-02-10T11:13:19.903
+Unexpected IOException with stream: ]
+
+# Created at 2020-02-10T11:13:19.906
+Unexpected IOException with stream: [
+
+# Created at 2020-02-10T11:13:19.914
+Unexpected IOException with stream: S
+
+# Created at 2020-02-10T11:13:19.918
+Unexpected IOException with stream: E
+
+# Created at 2020-02-10T11:13:19.920
+Unexpected IOException with stream: V
+
+# Created at 2020-02-10T11:13:19.924
+Unexpected IOException with stream: E
+
+# Created at 2020-02-10T11:13:19.930
+Unexpected IOException with stream: R
+
+# Created at 2020-02-10T11:13:19.932
+Unexpected IOException with stream: E
+
+# Created at 2020-02-10T11:13:19.935
+Unexpected IOException with stream: ]
+
+# Created at 2020-02-10T11:13:19.937
+Unexpected IOException with stream: :
+
+# Created at 2020-02-10T11:13:19.939
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:19.953
+Unexpected IOException with stream: U
+
+# Created at 2020-02-10T11:13:19.959
+Unexpected IOException with stream: n
+
+# Created at 2020-02-10T11:13:19.963
+Unexpected IOException with stream: a
+
+# Created at 2020-02-10T11:13:19.967
+Unexpected IOException with stream: b
+
+# Created at 2020-02-10T11:13:19.970
+Unexpected IOException with stream: l
+
+# Created at 2020-02-10T11:13:19.980
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:19.986
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:19.998
+Unexpected IOException with stream: t
+
+# Created at 2020-02-10T11:13:20.009
+Unexpected IOException with stream: o
+
+# Created at 2020-02-10T11:13:20.014
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:20.062
+Unexpected IOException with stream: r
+
+# Created at 2020-02-10T11:13:20.066
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.070
+Unexpected IOException with stream: c
+
+# Created at 2020-02-10T11:13:20.073
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.078
+Unexpected IOException with stream: i
+
+# Created at 2020-02-10T11:13:20.081
+Unexpected IOException with stream: v
+
+# Created at 2020-02-10T11:13:20.084
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.087
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:20.090
+Unexpected IOException with stream: m
+
+# Created at 2020-02-10T11:13:20.092
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.095
+Unexpected IOException with stream: s
+
+# Created at 2020-02-10T11:13:20.156
+Unexpected IOException with stream: s
+
+# Created at 2020-02-10T11:13:20.162
+Unexpected IOException with stream: a
+
+# Created at 2020-02-10T11:13:20.165
+Unexpected IOException with stream: g
+
+# Created at 2020-02-10T11:13:20.167
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.170
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:20.174
+Unexpected IOException with stream: f
+
+# Created at 2020-02-10T11:13:20.181
+Unexpected IOException with stream: r
+
+# Created at 2020-02-10T11:13:20.191
+Unexpected IOException with stream: o
+
+# Created at 2020-02-10T11:13:20.199
+Unexpected IOException with stream: m
+
+# Created at 2020-02-10T11:13:20.235
+Unexpected IOException with stream:  
+
+# Created at 2020-02-10T11:13:20.238
+Unexpected IOException with stream: r
+
+# Created at 2020-02-10T11:13:20.242
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.255
+Unexpected IOException with stream: n
+
+# Created at 2020-02-10T11:13:20.259
+Unexpected IOException with stream: d
+
+# Created at 2020-02-10T11:13:20.268
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.270
+Unexpected IOException with stream: r
+
+# Created at 2020-02-10T11:13:20.273
+Unexpected IOException with stream: e
+
+# Created at 2020-02-10T11:13:20.275
+Unexpected IOException with stream: r
+
+# Created at 2020-02-10T11:13:20.277
+Unexpected IOException with stream: 
+
+# Created at 2020-02-10T11:13:20.279
+Unexpected IOException with stream: 
+
+
+# Created at 2020-02-10T11:13:40.108
+Unexpected IOException with stream: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=80.0.3987.87)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.116.145.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.87, chrome: {chromedriverVersion: 80.0.3987.16 (320f6526c1632..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59573}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 6a5d668c8b83ff7aa5a6ffbfec261ae3
+*** Element info: {Using=xpath, value=//*[@id="hpehf-myaccount-item"]/a}
+
+# Created at 2020-02-10T11:13:40.110
+Unexpected IOException with stream: 
+
+
+# Created at 2020-02-10T11:13:40.112
+Unexpected IOException with stream:     [32mGiven [0m[32mUser is on StoreFront homepage with [0m[32m[1mhttps://uat.buy.hpe.com/ca/en[0m [90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)[0m
+
+

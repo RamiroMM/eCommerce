@@ -175,4 +175,12 @@ public class Locators {
 	public static final String CONFIG_AND_QUOTE_BUTTON = "//div[contains(@class, \"product-list__button\")]//button[@onclick=\"configureandquote(this)\"]";
 	
 	public static final String CONFIGURATION_CAROUSEL = "//section[contains(@class, \"carousel\")]";
+	
+	public static final String CPU_FILTER_2 = "//*[@id=\"facetID0\"]//ul[contains(@class,\"facet__list\")]//input[@type=\"checkbox\" and @data-analytics-filtervalue=\"2\"]/../..";
+	
+	public static final String CLEAR_FACET_BUTTON = "//button[@id=\"clearFacet\"]";
+	
+	public static final String FIRST_FILTER_BOX = "//*[@id=\"facetID0\"]//input[@type=\"checkbox\"]/../..";
+	
+	public static final String METATAG_ROBOTS = "//meta[@name=\"robots\"]";
 }

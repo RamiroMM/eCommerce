@@ -47,6 +47,10 @@ public class ResultsPage {
 	WebElement sortByNameDesc;
 	@FindBy(how = How.XPATH, using = Locators.PRODUCTS_LIST_RESULT)
 	List<WebElement> productListResult;
+	@FindBy(how = How.XPATH, using = Locators.FIRST_FILTER_BOX)
+	WebElement firstFacet;
+	@FindBy(how = How.XPATH, using = Locators.LINK_TAG)
+	WebElement linkTag;
 	
 	public void open_firstResult() {
 		try {
@@ -248,6 +252,38 @@ public class ResultsPage {
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
 			return false;
+		}
+	}
+	
+	public void click_FirstFacet() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(firstFacet));
+			if(firstFacet.isDisplayed() && firstFacet.isEnabled()) {
+				firstFacet.click();
+				Thread.sleep(3000);
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isModified_BaseURL() {
+		try {
+			String canonical = linkTag.getAttribute("href");
+			String url = driver.getCurrentUrl();
+			if(url.equals(canonical+"?q=DL380") || canonical.equals(url)) {
+				System.out.println("URL is not modified");
+				return false;
+			}
+			else {
+				System.out.println("URL is modified");
+				return true;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return true;
 		}
 	}
 

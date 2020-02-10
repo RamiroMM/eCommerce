@@ -353,5 +353,35 @@ public class StepsDefinitions extends BaseDriver{
     public void articles_per_page_is_something(String strArg1) throws Throwable {
         Assert.assertTrue(pdp.verify_ArticlesPerPage(strArg1));
     }
+    
+    @When("^User selects first processor filter$")
+    public void user_selects_first_processor_filter() throws Throwable {
+        plp.click_2CPUFilter();
+    }
+
+    @Then("^URL is not modified after deselecting the facets$")
+    public void url_is_not_modified_after_deselecting_the_facets() throws Throwable {
+        Assert.assertFalse(plp.isModified_BaseURL());
+    }
+
+    @And("^User removes filter$")
+    public void user_removes_filter() throws Throwable {
+        plp.click_ClearFacets();
+    }
+    
+    @When("^User selects first filter$")
+    public void user_selects_first_filter() throws Throwable {
+        result.click_FirstFacet();
+    }
+    
+    @Then("^SRP URL is not modified after removing facets$")
+    public void srp_url_is_not_modified_after_removing_facets() throws Throwable {
+        Assert.assertFalse(result.isModified_BaseURL());
+    }
+    
+    @Then("^Robot metatag content is \"([^\"]*)\"$")
+    public void robot_metatag_content_is_something(String strArg1) throws Throwable {
+        Assert.assertTrue(srccode.verify_RobotMetatag(strArg1));
+    }
 
 }
