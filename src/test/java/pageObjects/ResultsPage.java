@@ -272,7 +272,7 @@ public class ResultsPage {
 		try {
 			String canonical = linkTag.getAttribute("href");
 			String url = driver.getCurrentUrl();
-			if(url.equals(canonical+"?q=DL380") || canonical.equals(url)) {
+			if(url.equals(canonical+"/?q=DL380") || canonical.equals(url)) {
 				System.out.println("URL is not modified");
 				return false;
 			}

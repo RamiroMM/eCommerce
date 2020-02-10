@@ -383,5 +383,10 @@ public class StepsDefinitions extends BaseDriver{
     public void robot_metatag_content_is_something(String strArg1) throws Throwable {
         Assert.assertTrue(srccode.verify_RobotMetatag(strArg1));
     }
+    
+    @Then("^URL displays canonical link plus \"([^\"]*)\"$")
+    public void url_displays_canonical_link_plus_something(String strArg1) throws Throwable {
+        Assert.assertTrue(plp.verify_FilteredURL(strArg1));
+    }
 
 }

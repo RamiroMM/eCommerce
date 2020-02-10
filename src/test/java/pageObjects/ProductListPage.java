@@ -138,5 +138,24 @@ public class ProductListPage {
 			return true;
 		}
 	}
+	
+	public boolean verify_FilteredURL(String strArg1) {
+		try {
+			String canonical = linkTag.getAttribute("href");
+			String url = driver.getCurrentUrl();
+			if(url.equals(canonical+"?q=%3Arelevance%3Afacet_processorsmax%3A2&text=&textSearch=&pageSize=10")) {
+				System.out.println("URL is correct");
+				return true;
+			}
+			else {
+				System.out.println("URL is incorrect");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }
