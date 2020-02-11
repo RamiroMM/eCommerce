@@ -92,7 +92,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en|
 | https://uat.buy.hpe.com/lamerica/es	|
 
-@RegTest
+@RegTest2
 Scenario Outline: Verify the URL after selecting the facets in PLP
 Given User is on StoreFront homepage with <link>
 When User goes to Servers Catalog

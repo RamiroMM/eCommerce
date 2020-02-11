@@ -259,6 +259,8 @@ public class ResultsPage {
 		try {
 			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(firstFacet));
 			if(firstFacet.isDisplayed() && firstFacet.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", firstFacet);
+				Thread.sleep(1000);
 				firstFacet.click();
 				Thread.sleep(3000);
 			}

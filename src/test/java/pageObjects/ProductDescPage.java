@@ -3,6 +3,7 @@ package pageObjects;
 import java.util.Iterator;
 import java.util.List;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -45,6 +46,8 @@ public class ProductDescPage {
 	WebElement confAndQuoteBtn;
 	@FindBy(how = How.XPATH, using = Locators.CONFIGURATION_CAROUSEL)
 	WebElement confCarousel;
+	@FindBy(how = How.XPATH, using = Locators.FIRST_FILTER_HTMLELEM)
+	WebElement firstFacetElem;
 	
 	
 	public void click_ServicesTab() {
@@ -173,6 +176,7 @@ public class ProductDescPage {
 				Thread.sleep(3000);
 				confAndQuoteBtn.click();
 				System.out.println("Config and Quote button clicked");
+				Thread.sleep(1000);
 			}
 			else {
 				System.out.println("Config and Quote button not found");
@@ -220,6 +224,23 @@ public class ProductDescPage {
 			else {
 				System.out.println("Page size option not found");
 				throw new TimeoutException();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean isDisplayed_FirstFacet() {
+		try {
+			if(!firstFacetElem.getAttribute("checked").equals("null")) {
+				System.out.println("Facet is still displayed");
+				return true;
+			}
+			else {
+				System.out.println("Facet is not displayed");
+				return false;
 			}
 		}
 		catch(Exception ex) {
