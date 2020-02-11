@@ -3,7 +3,6 @@ package pageObjects;
 import java.util.Iterator;
 import java.util.List;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
@@ -48,6 +47,10 @@ public class ProductDescPage {
 	WebElement confCarousel;
 	@FindBy(how = How.XPATH, using = Locators.FIRST_FILTER_HTMLELEM)
 	WebElement firstFacetElem;
+	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW)
+	WebElement paginationLink;
+	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW_PREVIOUS)
+	WebElement paginationLinkPrev;
 	
 	
 	public void click_ServicesTab() {
@@ -201,7 +204,7 @@ public class ProductDescPage {
 			}
 		}
 		catch(Exception ex) {
-			System.out.println("Something went wrong: " + ex);
+			System.out.println("Configuration Carousel is NOT displayed. Something went wrong: " + ex);
 			return false;
 		}
 	}
@@ -246,6 +249,40 @@ public class ProductDescPage {
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
 			return false;
+		}
+	}
+	
+	public void click_NextPage() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(paginationLink));
+			if (paginationLink.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", paginationLink);
+				Thread.sleep(1500);
+				paginationLink.click();
+			}
+			else {
+				System.out.println("Pagination not found");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void click_PrevPage() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(paginationLinkPrev));
+			if (paginationLinkPrev.isEnabled()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", paginationLinkPrev);
+				Thread.sleep(1500);
+				paginationLinkPrev.click();
+			}
+			else {
+				System.out.println("Pagination not found");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 

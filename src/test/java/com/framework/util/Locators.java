@@ -30,6 +30,8 @@ public class Locators {
 	
 	public static final String PAGINATION_ARROW = "//a[@class=\"hpe-pagination__link\"]";
 	
+	public static final String PAGINATION_ARROW_PREVIOUS = "//a[@class=\"hpe-pagination__link\" and @aria-label=\"previous\"]";
+	
 	public static final String PAGE_SIZE_100_ITEMS = "//*[@id=\"pageSize-selector\"]/option[4]";
 	
 	public static final String PAGE_SIZE_SELECTOR = "//*[@id=\"pageSize-selector\"]";

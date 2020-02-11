@@ -393,5 +393,20 @@ public class StepsDefinitions extends BaseDriver{
     public void selected_facet_result_is_displayed() throws Throwable {
         Assert.assertTrue(pdp.isDisplayed_FirstFacet()); 
     }
+    
+    @When("^User goes to next page$")
+    public void user_goes_to_next_page() throws Throwable {
+        pdp.click_NextPage();
+    }
+
+    @When("^User goes to previous page$")
+    public void user_goes_to_previous_page() throws Throwable {
+        pdp.click_PrevPage();
+    }
+
+    @Then("^Channel central config is not displayed$")
+    public void channel_central_config_is_not_displayed() throws Throwable {
+    	Assert.assertFalse(pdp.isDisplayed_ConfCarousel());
+    }
 
 }
