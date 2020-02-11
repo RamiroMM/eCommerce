@@ -28,7 +28,7 @@ public class Locators {
 	
 	public static final String GET_QUOTE_SIGN_IN_BUTTON = "//button[contains(@class, \"continue-checkout-button\")]";
 	
-	public static final String PAGINATION_ARROW = "//a[@class=\"hpe-pagination__link\"]";
+	public static final String PAGINATION_ARROW = "//a[@class=\"hpe-pagination__link\" and @aria-label=\"next\"]";
 	
 	public static final String PAGINATION_ARROW_PREVIOUS = "//a[@class=\"hpe-pagination__link\" and @aria-label=\"previous\"]";
 	

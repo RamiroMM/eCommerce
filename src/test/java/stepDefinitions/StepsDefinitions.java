@@ -408,5 +408,25 @@ public class StepsDefinitions extends BaseDriver{
     public void channel_central_config_is_not_displayed() throws Throwable {
     	Assert.assertFalse(pdp.isDisplayed_ConfCarousel());
     }
+    
+    @When("^User goes to last page$")
+    public void user_goes_to_last_page() throws Throwable {
+        plp.goto_LastPage();
+    }
+
+    @When("^User goes to first page$")
+    public void user_goes_to_first_page() throws Throwable {
+        plp.goto_FirstPage();
+    }
+
+    @Then("^Next page link is not displayed$")
+    public void next_page_link_is_not_displayed() throws Throwable {
+        Assert.assertFalse(plp.isDisplayed_NextPage());
+    }
+
+    @Then("^Previous page link is not displayed$")
+    public void previous_page_link_is_not_displayed() throws Throwable {
+        Assert.assertFalse(plp.isDisplayed_PrevPage());
+    }
 
 }

@@ -1,5 +1,7 @@
 package pageObjects;
 
+import org.openqa.selenium.ElementNotVisibleException;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.TimeoutException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -31,6 +33,10 @@ public class ProductListPage {
 	WebElement linkTag;
 	@FindBy(how = How.XPATH, using = Locators.CLEAR_FACET_BUTTON)
 	WebElement clearFacet;
+	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW)
+	WebElement paginationLink;
+	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW_PREVIOUS)
+	WebElement paginationLinkPrev;
 	
 	public boolean sortby_PriceDesc() {
 		try {
@@ -154,6 +160,72 @@ public class ProductListPage {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public void goto_LastPage() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(paginationLink));
+			while(true) {
+				if (paginationLink.isEnabled()) {
+					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", paginationLink);
+					Thread.sleep(1500);
+					paginationLink.click();
+				}
+				else {
+					System.out.println("Pagination not found");
+					break;
+				}
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Pagination not found");
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void goto_FirstPage() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(paginationLinkPrev));
+			while(true) {
+				if (paginationLinkPrev.isEnabled()) {
+					((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", paginationLinkPrev);
+					Thread.sleep(1500);
+					paginationLinkPrev.click();
+				}
+				else {
+					System.out.println("Pagination not found");
+					break;
+				}
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Pagination not found");
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_NextPage() {
+		try {
+			new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(paginationLink));
+			System.out.println("Next Page link found");
+			return true;
+		}
+		catch(TimeoutException ex) {
+			System.out.println("Next Page link not found");
+			return false;
+		}
+	}
+	
+	public boolean isDisplayed_PrevPage() {
+		try {
+			new WebDriverWait(driver, 5).until(ExpectedConditions.elementToBeClickable(paginationLinkPrev));
+			System.out.println("Next Page link found");
+			return true;
+		}
+		catch(TimeoutException ex) {
+			System.out.println("Next Page link not found");
 			return false;
 		}
 	}
