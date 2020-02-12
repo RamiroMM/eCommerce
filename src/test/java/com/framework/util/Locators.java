@@ -191,4 +191,8 @@ public class Locators {
 	public static final String PDP_OPTIONS_TAB = "//*[contains(@class, \"tabs-list\")]//a[@id=\"liOptionsTab\"]";
 	
 	public static final String PDP_MODELS_TAB = "//*[contains(@class, \"tabs-list\")]//a[@id=\"tabreview\"]";
+	
+	public static final String PDP_SKU_ID = "//div[contains(@class, \"col-6\")]/p";
+	
+	public static final String PDP_SKU_ID_CHILD = "//div[contains(@class, \"col-6\")]/p/span";
 }

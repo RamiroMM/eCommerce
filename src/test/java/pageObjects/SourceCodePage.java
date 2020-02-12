@@ -42,6 +42,10 @@ public class SourceCodePage {
 	WebElement metaLang;
 	@FindBy(how = How.XPATH, using = Locators.METATAG_ROBOTS)
 	WebElement metaRobots;
+	@FindBy(how = How.XPATH, using = Locators.PDP_SKU_ID)
+	WebElement skuID;
+	@FindBy(how = How.XPATH, using = Locators.PDP_SKU_ID_CHILD)
+	WebElement skuIDChild;
 	
 	public boolean verifyHeadTagTitle(String title) {
 		try {
@@ -375,6 +379,29 @@ public class SourceCodePage {
 				System.out.println("Content of robot metatag is not correct");
 				System.out.println("Expected: " + strArg1);
 				System.out.println("Actual: " + content);
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean isDisplayed_SKUinURL() {
+		try {
+			String url = driver.getCurrentUrl();
+			String txt = skuID.getText();
+			String child_txt = skuIDChild.getText();
+			String corr = txt.replace(child_txt, "");
+			String corrected = corr.replaceAll("\\s+", "");
+			System.out.println(corrected);
+			if(url.contains(corrected)) {
+				System.out.println("SKU found in URL");
+				return true;
+			}
+			else {
+				System.out.println("SKU found not in URL");
 				return false;
 			}
 		}

@@ -433,5 +433,10 @@ public class StepsDefinitions extends BaseDriver{
     public void service_pdp_does_not_have_model_or_options_tab() throws Throwable {
         Assert.assertFalse(pdp.isDisplayed_ModelAndOptionsTabs());
     }
+    
+    @Then("^SKU ID is displayed in URL$")
+    public void sku_id_is_displayed_in_url() throws Throwable {
+        Assert.assertTrue(srccode.isDisplayed_SKUinURL());
+    }
 
 }
