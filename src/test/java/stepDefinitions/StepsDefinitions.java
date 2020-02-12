@@ -438,5 +438,15 @@ public class StepsDefinitions extends BaseDriver{
     public void sku_id_is_displayed_in_url() throws Throwable {
         Assert.assertTrue(srccode.isDisplayed_SKUinURL());
     }
+    
+    @When("^URL is opened in new tab$")
+    public void url_is_opened_in_new_tab() throws Throwable {
+        srccode.openCurrentURL_inNewTab();
+    }
+
+    @Then("^Page is loaded correctly$")
+    public void page_is_loaded_correctly() throws Throwable {
+        Assert.assertTrue(pdp.isLoaded_PDPPage());
+    }
 
 }

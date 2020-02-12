@@ -1,9 +1,11 @@
 package pageObjects;
 
+import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.apache.commons.lang.StringUtils;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -46,6 +48,8 @@ public class SourceCodePage {
 	WebElement skuID;
 	@FindBy(how = How.XPATH, using = Locators.PDP_SKU_ID_CHILD)
 	WebElement skuIDChild;
+	@FindBy(how = How.XPATH, using = Locators.PDP_PRODUCT_HEADER)
+	WebElement prodHeader;
 	
 	public boolean verifyHeadTagTitle(String title) {
 		try {
@@ -408,6 +412,19 @@ public class SourceCodePage {
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
 			return false;
+		}
+	}
+	
+	public void openCurrentURL_inNewTab() {
+		try {
+			String url = driver.getCurrentUrl();
+			((JavascriptExecutor) driver).executeScript("window.open('about:blank','_blank');");
+			ArrayList<String> tabs = new ArrayList<String>(driver.getWindowHandles());
+		    driver.switchTo().window(tabs.get(1));
+		    driver.get(url);
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 

@@ -309,5 +309,23 @@ public class ProductDescPage {
 			return false;
 		}
 	}
+	
+	public boolean isLoaded_PDPPage() {
+		try {
+			new WebDriverWait(driver, 15).until(ExpectedConditions.elementToBeClickable(prodHeader));
+			if(prodHeader.isDisplayed()) {
+				System.out.println("Page loaded correctly");
+				return true;
+			}
+			else {
+				System.out.println("Page not loaded correctly");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
 
 }

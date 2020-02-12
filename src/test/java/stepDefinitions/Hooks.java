@@ -65,5 +65,16 @@ public class Hooks extends BaseDriver{
 	public void tearDown5() {
 		driver.close();
 	}
+	
+	@Before("@RegTestTab")
+	public void setUp6() {
+		getDriver();
+	}
+	
+	@After("@RegTestTab")
+	public void tearDown6() {
+		driver.close();
+		driver.quit();
+	}
 
 }

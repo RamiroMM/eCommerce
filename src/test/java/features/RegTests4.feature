@@ -46,13 +46,14 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en|
 | https://uat.buy.hpe.com/lamerica/es	|
 
-@RegTest
-Scenario Outline: Verify the tabs displayed in the SKU PDP
+@RegTestTab
+Scenario Outline: Verify the SKU PDP URL can be accessed directly by URL
 Given User is on StoreFront homepage with <link>
 And User searches and opens "DL380"
 When User clicks on services tab
 And User opens first services product
-Then SKU ID is displayed in URL
+When URL is opened in new tab
+Then Page is loaded correctly
 Examples:						
 | link |
 | https://uat.buy.hpe.com/ca/fr |
