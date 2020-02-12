@@ -187,4 +187,8 @@ public class Locators {
 	public static final String FIRST_FILTER_HTMLELEM = "//*[@id=\"facetID0\"]//input[@type=\"checkbox\"]";
 	
 	public static final String METATAG_ROBOTS = "//meta[@name=\"robots\"]";
+	
+	public static final String PDP_OPTIONS_TAB = "//*[contains(@class, \"tabs-list\")]//a[@id=\"liOptionsTab\"]";
+	
+	public static final String PDP_MODELS_TAB = "//*[contains(@class, \"tabs-list\")]//a[@id=\"tabreview\"]";
 }

@@ -94,7 +94,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en|
 | https://uat.buy.hpe.com/lamerica/es	|
 
-@RegTest
+@RegTest1
 Scenario Outline: Verify the user is able to see pagination link
 Given User is on StoreFront homepage with <link>
 When User goes to Servers Catalog

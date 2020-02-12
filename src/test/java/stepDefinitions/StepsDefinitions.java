@@ -428,5 +428,10 @@ public class StepsDefinitions extends BaseDriver{
     public void previous_page_link_is_not_displayed() throws Throwable {
         Assert.assertFalse(plp.isDisplayed_PrevPage());
     }
+    
+    @Then("^Service PDP does not have model or options tab$")
+    public void service_pdp_does_not_have_model_or_options_tab() throws Throwable {
+        Assert.assertFalse(pdp.isDisplayed_ModelAndOptionsTabs());
+    }
 
 }

@@ -51,6 +51,10 @@ public class ProductDescPage {
 	WebElement paginationLink;
 	@FindBy(how = How.XPATH, using = Locators.PAGINATION_ARROW_PREVIOUS)
 	WebElement paginationLinkPrev;
+	@FindBy(how = How.XPATH, using = Locators.PDP_OPTIONS_TAB)
+	WebElement optionsTab;
+	@FindBy(how = How.XPATH, using = Locators.PDP_MODELS_TAB)
+	WebElement modelsTab;
 	
 	
 	public void click_ServicesTab() {
@@ -283,6 +287,26 @@ public class ProductDescPage {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_ModelAndOptionsTabs() {
+		try {
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(optionsTab));
+			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(modelsTab));
+			if(optionsTab.isDisplayed() || modelsTab.isDisplayed()) {
+				System.out.println("Tabs were found");
+				return true;
+			}
+			else {
+				System.out.println("Tabs were not found");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Tabs were not found");
+			System.out.println("Something went wrong: " + ex);
+			return false;
 		}
 	}
 
