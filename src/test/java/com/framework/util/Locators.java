@@ -195,4 +195,10 @@ public class Locators {
 	public static final String PDP_SKU_ID = "//div[contains(@class, \"col-6\")]/p";
 	
 	public static final String PDP_SKU_ID_CHILD = "//div[contains(@class, \"col-6\")]/p/span";
+	
+	public static final String PDP_GETQUOTEBTN1_CAROUSEL = "//p[contains(text(),\"P02468-B21\")]/../..//button";
+	
+	public static final String PDP_CAROUSEL_PRICEVALUE = "//span[contains(@class,\"price_value\")]";
+	
+	public static final String PDP_CAROUSEL_PRICEVALUE_CHILD = "//span[contains(@class,\"price_value\")]/span";
 }

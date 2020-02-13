@@ -55,6 +55,12 @@ public class ProductDescPage {
 	WebElement optionsTab;
 	@FindBy(how = How.XPATH, using = Locators.PDP_MODELS_TAB)
 	WebElement modelsTab;
+	@FindBy(how = How.XPATH, using = Locators.PDP_GETQUOTEBTN1_CAROUSEL)
+	WebElement confAndQuoteBtnCar;
+	@FindBy(how = How.XPATH, using = Locators.PDP_CAROUSEL_PRICEVALUE)
+	WebElement priceVal;
+	@FindBy(how = How.XPATH, using = Locators.PDP_CAROUSEL_PRICEVALUE_CHILD)
+	WebElement priceValChild;
 	
 	
 	public void click_ServicesTab() {
@@ -319,6 +325,53 @@ public class ProductDescPage {
 			}
 			else {
 				System.out.println("Page not loaded correctly");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public void click_CarouselConfigAndQuoteBtn() {
+		try {
+			new WebDriverWait(driver, 15).until(ExpectedConditions.elementToBeClickable(confAndQuoteBtnCar));
+			if(confAndQuoteBtnCar.isDisplayed()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", confAndQuoteBtnCar);
+				Thread.sleep(2000);
+				confAndQuoteBtnCar.click();
+			}
+			else {
+				System.out.println("Could not find Config and Quote button on carousel");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean verify_PriceAndCurrencyInChannelCentralConf(String currency) {
+		try {
+			new WebDriverWait(driver, 15).until(ExpectedConditions.elementToBeClickable(priceVal));
+			String price = priceVal.getText();
+			String price_child = priceValChild.getText();
+			price = price.replace(price_child, "");
+			if(price.contains(currency)) {
+				System.out.println("Currency displayed");
+				price = price.replace(currency, "");
+				price = price.replaceAll("\\s+", "");
+				if(price != null) {
+					System.out.println("Price displayed: " + price);
+					return true;
+				}
+				else {
+					System.out.println("Price not displayed");
+					return false;
+				}
+			}
+			else {
+				System.out.println("Currency not displayed");
 				return false;
 			}
 		}

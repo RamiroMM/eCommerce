@@ -448,5 +448,22 @@ public class StepsDefinitions extends BaseDriver{
     public void page_is_loaded_correctly() throws Throwable {
         Assert.assertTrue(pdp.isLoaded_PDPPage());
     }
+    
+    @When("^User clicks on Carousel Config and Quote button$")
+    public void user_clicks_on_carousel_config_and_quote_button() throws Throwable {
+        pdp.click_CarouselConfigAndQuoteBtn();
+    }
+
+    @Then("^List Price and (.+) are displayed in carousel for countries (.+)$")
+    public void list_price_and_are_displayed_in_carousel_for_countries(String currency, String withprice) throws Throwable {
+    	if(withprice.equals("yes")) {
+        	System.out.println("Country with Price");
+        	Assert.assertTrue(pdp.verify_PriceAndCurrencyInChannelCentralConf(currency));
+        }
+        if(withprice.equals("no")) {
+        	System.out.println("Country without Price");
+        	Assert.assertFalse(pdp.verify_PriceAndCurrencyInChannelCentralConf(currency));
+        }
+    }
 
 }
