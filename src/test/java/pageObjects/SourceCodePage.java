@@ -11,6 +11,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import com.framework.util.Locators;
 
@@ -425,6 +426,27 @@ public class SourceCodePage {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public boolean isDisplayed_HomePage(String link) {
+		try {
+			new WebDriverWait(driver, 60).until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+			String url = driver.getCurrentUrl();
+			System.out.println(url);
+			System.out.println(link);
+			if(url.equals(link+"/")) {
+				System.out.println("URL is Home Page ");
+				return true;
+			}
+			else {
+				System.out.println("URL is not Home Page ");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
 		}
 	}
 

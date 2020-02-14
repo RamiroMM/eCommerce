@@ -204,4 +204,8 @@ public class Locators {
 	
 	public static final String PDP_OPTIONS_BUTTON = "//button[contains(@class, \"options-btn\")]";
 	
+	public static final String LOGOUT_BUTTON = "//a[contains(@href, \"logout\")]";
+	
+	public static final String LOGOUT_NOTIFICATION = "//div[contains(@class, \"alert-dismissable\")]//p";
+	
 }

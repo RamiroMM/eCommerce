@@ -480,5 +480,16 @@ public class StepsDefinitions extends BaseDriver{
     public void user_completes_the_registration_with_same_country_existing_id(String mail, String address, String city, String zip) throws Throwable {
         regpage.default_Registration_ExistingMailIDSameCountry(mail, address, city, zip);
     }
+    
+    @When("^User clicks logout button$")
+    public void user_clicks_logout_button() throws Throwable {
+        accpage.click_Logout();
+    }
+
+    @Then("^Home page (.+) is loaded and Logout message is displayed$")
+    public void home_page_is_loaded_and_logout_message_is_displayed(String link) throws Throwable {
+        Assert.assertTrue(home.verify_LogoutMessage());
+        Assert.assertTrue(srccode.isDisplayed_HomePage(link));
+    }
 
 }

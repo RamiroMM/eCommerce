@@ -93,7 +93,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en|
 | https://uat.buy.hpe.com/lamerica/es	|
 
-@RegTest
+@RegTest1
 Scenario Outline: Verify that config and quote products are not available in option and services tab in PDP
 Given User is on StoreFront homepage with <link>
 When User goes to login page

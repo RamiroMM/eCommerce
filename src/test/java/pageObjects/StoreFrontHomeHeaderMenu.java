@@ -40,16 +40,18 @@ public class StoreFrontHomeHeaderMenu {
 	WebElement microServersButton;
 	@FindBy(how = How.XPATH, using = Locators.MICROSERVERS_PLP_PAGE_HEADER)
 	WebElement microServersHeader;
+	@FindBy(how = How.XPATH, using = Locators.LOGOUT_NOTIFICATION)
+	WebElement logoutMsg;
 	
 	public void check_HomePage_isLoaded() {
 		try {
 			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(userIcon));
 			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(userIcon));
 			if (userIcon.isEnabled() && userIcon.isDisplayed()) {
-				System.out.println("Header Menu is loaded");
+				System.out.println("Home Page is loaded");
 			}
 			else {
-				System.out.println("Header elements not loaded");
+				System.out.println("Home Page is not loaded");
 			}
 		}
 		catch(Exception ex){
@@ -141,6 +143,24 @@ public class StoreFrontHomeHeaderMenu {
 			}
 			else {
 				System.out.println("SignIn Indicator is NOT displayed");
+				return false;
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+			return false;
+		}
+	}
+	
+	public boolean verify_LogoutMessage() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(logoutMsg));
+			if(logoutMsg.isDisplayed()) {
+				System.out.println("Logout Message: " + logoutMsg.getText());
+				return true;
+			}
+			else {
+				System.out.println("Logout Message: " + logoutMsg.getText());
 				return false;
 			}
 		}

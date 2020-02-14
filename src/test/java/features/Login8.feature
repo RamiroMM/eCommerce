@@ -1,6 +1,6 @@
 Feature: Verify Error message at account creation with same country existing mail ID 
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify Error message at account creation with same country existing mail ID
 Given User is on StoreFront homepage with <link>
 When User goes to login page

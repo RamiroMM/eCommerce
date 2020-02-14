@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -20,6 +21,8 @@ public class YourAccountPage {
 	
 	@FindBy(how = How.XPATH, using = Locators.YOUR_ACCOUNT_HEADLINE)
 	WebElement accountHeadline;
+	@FindBy(how = How.XPATH, using = Locators.LOGOUT_BUTTON)
+	WebElement logoutButton;
 	
 	public boolean check_accountPage_isLoaded() {
 		try {
@@ -36,6 +39,24 @@ public class YourAccountPage {
 		catch(Exception ex){
 			System.out.println(ex);
 			return false;
+		}
+	}
+	
+	public void click_Logout() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(logoutButton));
+			new WebDriverWait(driver, 60).until(webDriver -> ((JavascriptExecutor) webDriver).executeScript("return document.readyState").equals("complete"));
+			if(logoutButton.isDisplayed()) {
+				System.out.println("Before click");
+				logoutButton.click();
+				System.out.println("After click");
+			}
+			else {
+				System.out.println("Logout button was not found");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 
