@@ -465,5 +465,20 @@ public class StepsDefinitions extends BaseDriver{
         	Assert.assertFalse(pdp.verify_PriceAndCurrencyInChannelCentralConf(currency));
         }
     }
+    
+    @When("^User clicks Options button$")
+    public void user_clicks_options_button() throws Throwable {
+        pdp.click_OptionsBtn();
+    }
+
+    @Then("^Config and Quote button is not displayed$")
+    public void config_and_quote_button_is_not_displayed() throws Throwable {
+        Assert.assertFalse(pdp.click_ConfigAndQuote());
+    }
+    
+    @When("^User completes the registration with same country existing (.+) ID (.+) (.+) (.+)$")
+    public void user_completes_the_registration_with_same_country_existing_id(String mail, String address, String city, String zip) throws Throwable {
+        regpage.default_Registration_ExistingMailIDSameCountry(mail, address, city, zip);
+    }
 
 }

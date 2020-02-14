@@ -194,7 +194,67 @@ public class RegistrationPage {
 				Thread.sleep(1500);
 				createAccntBtn.click();
 				Thread.sleep(10000);
-				new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(shopButton));
+				new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(shopButton));
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
+		}
+	}
+	
+	public void default_Registration_ExistingMailIDSameCountry(String mail, String address, String city, String zip) {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.visibilityOf(registrationHeader));
+			if(mailField.isDisplayed() && passField.isDisplayed() && passField2.isDisplayed() && countryBox.isDisplayed() &&
+					titleBox.isDisplayed() && nameField.isDisplayed() && lastNameField.isDisplayed() && companyField.isDisplayed() &&
+					address1.isDisplayed() && cityField.isDisplayed() && phoneField.isDisplayed()) {
+				mailField.sendKeys(mail);
+				passField.sendKeys("securepass123");
+				passField2.sendKeys("securepass123");
+				countryBox.click();
+				titleBox.click();
+				nameField.sendKeys("Juanito");
+				lastNameField.sendKeys("Bananas");
+				companyField.sendKeys("Test Company");
+				address1.sendKeys(address);
+				cityField.sendKeys(city);
+				phoneField.sendKeys("3334445566");
+				try {
+					if(stateBox.isDisplayed()) {
+						stateBox.click();
+					}
+					try {
+						if(zipField.isDisplayed()) {
+							zipField.sendKeys(zip);
+						}
+					}
+					catch(Exception ex) {
+						System.out.println("No ZIP field found");
+					}
+				}
+				catch(Exception ex) {
+					System.out.println("No State combobox found found");
+					try {
+						if(zipField.isDisplayed()) {
+							zipField.sendKeys(zip);
+						}
+					}
+					catch(Exception ex1) {
+						System.out.println("No ZIP field found");
+					}
+				}
+			}
+			if(createAccntBtn.isDisplayed()) {
+				Thread.sleep(3000);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccntBtn);
+				Thread.sleep(1500);
+				createAccntBtn.click();
+				Thread.sleep(3000);
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", createAccntBtn);
+				Thread.sleep(1500);
+				createAccntBtn.click();
+				Thread.sleep(10000);
+				new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(shopButton));
 			}
 		}
 		catch(Exception ex) {

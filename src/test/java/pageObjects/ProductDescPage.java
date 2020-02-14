@@ -61,6 +61,8 @@ public class ProductDescPage {
 	WebElement priceVal;
 	@FindBy(how = How.XPATH, using = Locators.PDP_CAROUSEL_PRICEVALUE_CHILD)
 	WebElement priceValChild;
+	@FindBy(how = How.XPATH, using = Locators.PDP_OPTIONS_BUTTON)
+	WebElement optionsButton;
 	
 	
 	public void click_ServicesTab() {
@@ -180,7 +182,7 @@ public class ProductDescPage {
 		}
 	}
 	
-	public void click_ConfigAndQuote() {
+	public boolean click_ConfigAndQuote() {
 		try {
 			new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOf(confAndQuoteBtn));
 			new WebDriverWait(driver, 10).until(ExpectedConditions.elementToBeClickable(confAndQuoteBtn));
@@ -190,6 +192,7 @@ public class ProductDescPage {
 				confAndQuoteBtn.click();
 				System.out.println("Config and Quote button clicked");
 				Thread.sleep(1000);
+				return true;
 			}
 			else {
 				System.out.println("Config and Quote button not found");
@@ -198,6 +201,7 @@ public class ProductDescPage {
 		}
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
+			return false;
 		}
 	}
 	
@@ -378,6 +382,25 @@ public class ProductDescPage {
 		catch(Exception ex) {
 			System.out.println("Something went wrong: " + ex);
 			return false;
+		}
+	}
+	
+	public void click_OptionsBtn() {
+		try {
+			new WebDriverWait(driver, 15).until(ExpectedConditions.elementToBeClickable(optionsButton));
+			if(optionsButton.isDisplayed()) {
+				((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", optionsButton);
+				Thread.sleep(3000);
+				optionsButton.click();
+				System.out.println("Options button clicked");
+				Thread.sleep(1000);
+			}
+			else {
+				System.out.println("Options button was not found");
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 

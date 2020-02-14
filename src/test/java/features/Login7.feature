@@ -101,7 +101,7 @@ Examples:
 | https://uat.buy.hpe.com/emea_europe/en| zQCTtvnhGK@yopmail.com | securepass123 | no		 | N/A 		|
 | https://uat.buy.hpe.com/lamerica/es	| 4L5zUhlG13@yopmail.com | securepass123 | no		 | N/A	    |
 
-@eCommTest
+@eCommTest1
 Scenario Outline: Verify the number of products per page
 Given User is on StoreFront homepage with <link>
 When User goes to login page

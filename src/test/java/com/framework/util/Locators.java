@@ -201,4 +201,7 @@ public class Locators {
 	public static final String PDP_CAROUSEL_PRICEVALUE = "//span[contains(@class,\"price_value\")]";
 	
 	public static final String PDP_CAROUSEL_PRICEVALUE_CHILD = "//span[contains(@class,\"price_value\")]/span";
+	
+	public static final String PDP_OPTIONS_BUTTON = "//button[contains(@class, \"options-btn\")]";
+	
 }
