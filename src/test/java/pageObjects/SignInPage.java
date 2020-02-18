@@ -1,5 +1,7 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -24,6 +26,10 @@ public class SignInPage {
 	WebElement emailBox;
 	@FindBy(how = How.XPATH, using = Locators.LOGIN_PASSWORD_FIELD)
 	WebElement passwordBox;
+	@FindBy(how = How.XPATH, using = Locators.LOGIN_ERROR_MESSAGE)
+	WebElement loginErrorMSG;
+	@FindBy(how = How.XPATH, using = Locators.CREATE_ACCOUNT_BUTTON)
+	WebElement createAccntBtn;
 	
 	public void check_SignInPage_isLoaded() {
 		try {
@@ -49,13 +55,33 @@ public class SignInPage {
 				passwordBox.clear();
 				passwordBox.sendKeys(password);
 				signinButton.click();
+				try {
+					driver.findElement(By.id("loginError"));
+					System.out.println("SignIn Unsuccessfull. Please check credentials");
+					throw new RuntimeException();
+				}
+				catch(NoSuchElementException ex) {
+					System.out.println("Login Successfull");
+				}
 			}
 			else {
 				System.out.println("SignIn form not available");
 			}
 		}
 		catch(Exception ex){
-			System.out.println(ex);
+			throw new RuntimeException();			
+		}
+	}
+	
+	public void click_CreateAccount() {
+		try {
+			new WebDriverWait(driver, 30).until(ExpectedConditions.elementToBeClickable(createAccntBtn));
+			if(createAccntBtn.isDisplayed()) {
+				createAccntBtn.click();
+			}
+		}
+		catch(Exception ex) {
+			System.out.println("Something went wrong: " + ex);
 		}
 	}
 

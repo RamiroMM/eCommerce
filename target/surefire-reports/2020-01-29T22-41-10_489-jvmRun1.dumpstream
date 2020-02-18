@@ -1,0 +1,20 @@
+# Created at 2020-01-29T22:42:02.962
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-01-29T22:42:40.680
+Unexpected IOException with stream: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.xpath: //ul[contains(@class, "product__listing")]/section[1]/div[2]//a' (tried for 30 second(s) with 500 milliseconds interval)
+
+# Created at 2020-01-29T22:42:40.688
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-29T22:42:40.695
+Unexpected IOException with stream:     [32mAnd [0m[32mUser searches and opens "[0m[32m[1mDL380[0m[32m"[0m                                     [90m# StepsDefinitions.user_searches_and_opens_something(String)[0m
+
+

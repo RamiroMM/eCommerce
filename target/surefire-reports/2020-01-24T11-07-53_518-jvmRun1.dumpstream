@@ -1,0 +1,599 @@
+# Created at 2020-01-24T11:10:11.040
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-01-24T11:10:21.358
+Unexpected IOException with stream: [
+
+# Created at 2020-01-24T11:10:21.373
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-24T11:10:21.375
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-24T11:10:21.378
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-24T11:10:21.381
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-24T11:10:21.383
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:21.385
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:21.388
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-24T11:10:21.390
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:21.392
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-24T11:10:21.394
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-24T11:10:21.397
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:21.399
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-24T11:10:21.401
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-24T11:10:21.404
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-24T11:10:21.407
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-24T11:10:21.409
+Unexpected IOException with stream: [
+
+# Created at 2020-01-24T11:10:21.411
+Unexpected IOException with stream: W
+
+# Created at 2020-01-24T11:10:21.413
+Unexpected IOException with stream: A
+
+# Created at 2020-01-24T11:10:21.414
+Unexpected IOException with stream: R
+
+# Created at 2020-01-24T11:10:21.416
+Unexpected IOException with stream: N
+
+# Created at 2020-01-24T11:10:21.418
+Unexpected IOException with stream: I
+
+# Created at 2020-01-24T11:10:21.420
+Unexpected IOException with stream: N
+
+# Created at 2020-01-24T11:10:21.422
+Unexpected IOException with stream: G
+
+# Created at 2020-01-24T11:10:21.424
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-24T11:10:21.426
+Unexpected IOException with stream: :
+
+# Created at 2020-01-24T11:10:21.427
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.429
+Unexpected IOException with stream: T
+
+# Created at 2020-01-24T11:10:21.431
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:21.433
+Unexpected IOException with stream: m
+
+# Created at 2020-01-24T11:10:21.435
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:21.438
+Unexpected IOException with stream: d
+
+# Created at 2020-01-24T11:10:21.441
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.443
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:21.445
+Unexpected IOException with stream: u
+
+# Created at 2020-01-24T11:10:21.447
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:21.449
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.451
+Unexpected IOException with stream: c
+
+# Created at 2020-01-24T11:10:21.452
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:21.457
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:21.459
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:21.461
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:21.464
+Unexpected IOException with stream: c
+
+# Created at 2020-01-24T11:10:21.466
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:21.469
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:21.473
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:21.475
+Unexpected IOException with stream: g
+
+# Created at 2020-01-24T11:10:21.477
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.479
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:21.481
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:21.483
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.486
+Unexpected IOException with stream: C
+
+# Created at 2020-01-24T11:10:21.490
+Unexpected IOException with stream: h
+
+# Created at 2020-01-24T11:10:21.492
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:21.494
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:21.496
+Unexpected IOException with stream: m
+
+# Created at 2020-01-24T11:10:21.498
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:21.500
+Unexpected IOException with stream: ,
+
+# Created at 2020-01-24T11:10:21.503
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:21.505
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:21.507
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:21.509
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:21.510
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:21.512
+Unexpected IOException with stream: y
+
+# Created at 2020-01-24T11:10:21.513
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:21.515
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:21.516
+Unexpected IOException with stream: g
+
+# Created at 2020-01-24T11:10:21.518
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:21.520
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:21.522
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:21.523
+Unexpected IOException with stream: 
+
+# Created at 2020-01-24T11:10:21.525
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-24T11:10:25.400
+Unexpected IOException with stream: Something went wrong: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.161.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 254adfd3744557c8d1947a5378e25b2b
+*** Element info: {Using=xpath, value=//a[contains(@data-analytics-link-id, "All servers")]}
+
+
+# Created at 2020-01-24T11:10:25.402
+Unexpected IOException with stream:     [32mWhen [0m[32mUser goes to Servers Catalog[0m                                       [90m# StepsDefinitions.user_goes_to_servers_catalog()[0m
+
+
+# Created at 2020-01-24T11:10:27.402
+Unexpected IOException with stream: [
+
+# Created at 2020-01-24T11:10:27.405
+Unexpected IOException with stream: 1
+
+# Created at 2020-01-24T11:10:27.407
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-24T11:10:27.410
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-24T11:10:27.412
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-24T11:10:27.414
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:27.416
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:27.419
+Unexpected IOException with stream: 5
+
+# Created at 2020-01-24T11:10:27.421
+Unexpected IOException with stream: 8
+
+# Created at 2020-01-24T11:10:27.423
+Unexpected IOException with stream: 2
+
+# Created at 2020-01-24T11:10:27.425
+Unexpected IOException with stream: 7
+
+# Created at 2020-01-24T11:10:27.427
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:27.429
+Unexpected IOException with stream: 4
+
+# Created at 2020-01-24T11:10:27.431
+Unexpected IOException with stream: 9
+
+# Created at 2020-01-24T11:10:27.433
+Unexpected IOException with stream: 3
+
+# Created at 2020-01-24T11:10:27.434
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-24T11:10:27.436
+Unexpected IOException with stream: [
+
+# Created at 2020-01-24T11:10:27.438
+Unexpected IOException with stream: W
+
+# Created at 2020-01-24T11:10:27.440
+Unexpected IOException with stream: A
+
+# Created at 2020-01-24T11:10:27.441
+Unexpected IOException with stream: R
+
+# Created at 2020-01-24T11:10:27.443
+Unexpected IOException with stream: N
+
+# Created at 2020-01-24T11:10:27.445
+Unexpected IOException with stream: I
+
+# Created at 2020-01-24T11:10:27.447
+Unexpected IOException with stream: N
+
+# Created at 2020-01-24T11:10:27.448
+Unexpected IOException with stream: G
+
+# Created at 2020-01-24T11:10:27.450
+Unexpected IOException with stream: ]
+
+# Created at 2020-01-24T11:10:27.452
+Unexpected IOException with stream: :
+
+# Created at 2020-01-24T11:10:27.453
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.455
+Unexpected IOException with stream: T
+
+# Created at 2020-01-24T11:10:27.457
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:27.459
+Unexpected IOException with stream: m
+
+# Created at 2020-01-24T11:10:27.461
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:27.462
+Unexpected IOException with stream: d
+
+# Created at 2020-01-24T11:10:27.464
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.466
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:27.468
+Unexpected IOException with stream: u
+
+# Created at 2020-01-24T11:10:27.469
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:27.471
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.473
+Unexpected IOException with stream: c
+
+# Created at 2020-01-24T11:10:27.474
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:27.476
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:27.477
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:27.479
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:27.480
+Unexpected IOException with stream: c
+
+# Created at 2020-01-24T11:10:27.481
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:27.483
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:27.484
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:27.486
+Unexpected IOException with stream: g
+
+# Created at 2020-01-24T11:10:27.488
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.490
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:27.492
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:27.494
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.496
+Unexpected IOException with stream: C
+
+# Created at 2020-01-24T11:10:27.498
+Unexpected IOException with stream: h
+
+# Created at 2020-01-24T11:10:27.500
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:27.502
+Unexpected IOException with stream: o
+
+# Created at 2020-01-24T11:10:27.504
+Unexpected IOException with stream: m
+
+# Created at 2020-01-24T11:10:27.506
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:27.508
+Unexpected IOException with stream: ,
+
+# Created at 2020-01-24T11:10:27.509
+Unexpected IOException with stream:  
+
+# Created at 2020-01-24T11:10:27.511
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:27.513
+Unexpected IOException with stream: e
+
+# Created at 2020-01-24T11:10:27.515
+Unexpected IOException with stream: t
+
+# Created at 2020-01-24T11:10:27.517
+Unexpected IOException with stream: r
+
+# Created at 2020-01-24T11:10:27.518
+Unexpected IOException with stream: y
+
+# Created at 2020-01-24T11:10:27.520
+Unexpected IOException with stream: i
+
+# Created at 2020-01-24T11:10:27.521
+Unexpected IOException with stream: n
+
+# Created at 2020-01-24T11:10:27.523
+Unexpected IOException with stream: g
+
+# Created at 2020-01-24T11:10:27.524
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:27.526
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:27.527
+Unexpected IOException with stream: .
+
+# Created at 2020-01-24T11:10:27.529
+Unexpected IOException with stream: 
+
+# Created at 2020-01-24T11:10:27.530
+Unexpected IOException with stream: 
+
+
+# Created at 2020-01-24T11:10:31.404
+Unexpected IOException with stream:     [31mThen [0m[31mH1 tag is present[0m                                                  [90m# StepsDefinitions.h1_tag_is_present()[0m
+
+
+# Created at 2020-01-24T11:10:31.408
+Unexpected IOException with stream:       [31morg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.161.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 254adfd3744557c8d1947a5378e25b2b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.getPageSource(RemoteWebDriver.java:438)
+	at stepDefinitions.StepsDefinitions.h1_tag_is_present(StepsDefinitions.java:124)
+	at ?.H1 tag is present(file:src/test/java/features/SourceCode.feature:52)
+[0m
+
+
+# Created at 2020-01-24T11:10:31.413
+Unexpected IOException with stream:     [36mAnd [0m[36mUser searches for "[0m[36m[1mDL380[0m[36m"[0m                                           [90m# StepsDefinitions.user_searches_for_something(String)[0m
+
+
+# Created at 2020-01-24T11:10:31.416
+Unexpected IOException with stream:     [36mThen [0m[36mH1 tag is present[0m                                                  [90m# StepsDefinitions.h1_tag_is_present()[0m
+
+
+# Created at 2020-01-24T11:10:31.419
+Unexpected IOException with stream:     [36mAnd [0m[36mUser searches and opens "[0m[36m[1mDL380[0m[36m"[0m                                     [90m# StepsDefinitions.user_searches_and_opens_something(String)[0m
+
+
+# Created at 2020-01-24T11:10:31.422
+Unexpected IOException with stream:     [36mThen [0m[36mH1 tag is present[0m                                                  [90m# StepsDefinitions.h1_tag_is_present()[0m
+
+
+# Created at 2020-01-24T11:10:31.425
+Unexpected IOException with stream:     [36mAnd [0m[36mUser clicks on get quote button[0m                                     [90m# StepsDefinitions.user_clicks_on_get_quote_button()[0m
+
+
+# Created at 2020-01-24T11:10:31.427
+Unexpected IOException with stream:     [36mThen [0m[36mH1 tag is present[0m                                                  [90m# StepsDefinitions.h1_tag_is_present()[0m
+
+
+# Created at 2020-01-24T11:10:31.430
+Unexpected IOException with stream:     [36mWhen [0m[36mUser completes the quote request form[0m                              [90m# StepsDefinitions.user_completes_the_quote_request_form()[0m
+
+
+# Created at 2020-01-24T11:10:31.432
+Unexpected IOException with stream:     [36mThen [0m[36mH1 tag is present[0m                                                  [90m# StepsDefinitions.h1_tag_is_present()[0m
+
+
+# Created at 2020-01-24T11:10:31.660
+Unexpected IOException with stream:       [31morg.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=79.0.3945.117)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'BICY5QHRAR', ip: '16.214.161.174', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 79.0.3945.117, chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024..., userDataDir: C:\Users\morara\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59934}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 254adfd3744557c8d1947a5378e25b2b
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+	at stepDefinitions.Hooks.tearDown1(Hooks.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:50)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:146)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:144)
+	at io.cucumber.junit.Cucumber.runChild(Cucumber.java:65)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:174)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+[0m
+
+
+# Created at 2020-01-24T11:10:31.676
+Unexpected IOException: 7,1,Sourcecode verifications,Verify the h1 tag in all pages(Sourcecode verifications),null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b\000A
+
+
+# Created at 2020-01-24T11:10:31.680
+Unexpected IOException: 7,1,Sourcecode verifications,Verify the h1 tag in all pages(Sourcecode verifications),null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,null,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,chrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b,org.openqa.selenium.WebDriverException: \000Achrome not reachable\000A  (Session info: chrome=79.0.3945.117)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'BICY5QHRAR'\002C ip: '16.214.161.174'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_144'\000ADriver info: org.openqa.selenium.chrome.ChromeDriver\000ACapabilities {acceptInsecureCerts: false\002C browserName: chrome\002C browserVersion: 79.0.3945.117\002C chrome: {chromedriverVersion: 78.0.3904.70 (edb9c9f3de024...\002C userDataDir: C:\005CUsers\005Cmorara\005CAppData\005CLoc...}\002C goog:chromeOptions: {debuggerAddress: localhost:59934}\002C javascriptEnabled: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C proxy: Proxy()\002C setWindowRect: true\002C strictFileInteractability: false\002C timeouts: {implicit: 0\002C pageLoad: 300000\002C script: 30000}\002C unhandledPromptBehavior: dismiss and notify}\000ASession ID: 254adfd3744557c8d1947a5378e25b2b\000A
+
+
+# Created at 2020-01-24T11:10:32.781
+Unexpected IOException with stream: Jan 24, 2020 11:10:32 AM net.masterthought.cucumber.ReportParser parseJsonFiles
+INFO: File 'C:\Users\morara\AppData\Local\Temp\cucumber3478259854842092127.json' contains 1 features
+
+
+# Created at 2020-01-24T11:10:33.765
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,cucumberOptions.TestRunner,null,null,null
+
+

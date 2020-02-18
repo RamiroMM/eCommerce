@@ -1,0 +1,57 @@
+# Created at 2020-01-29T22:49:35.865
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-01-29T22:49:42.714
+Unexpected IOException with stream: Header Menu is loaded
+
+
+# Created at 2020-01-29T22:49:42.716
+Unexpected IOException with stream:     [32mGiven [0m[32mUser is on StoreFront homepage with [0m[32m[1mhttps://uat.buy.hpe.com/nl/en[0m [90m# StepsDefinitions.user_is_on_storefront_homepage_with(String)[0m
+
+
+# Created at 2020-01-29T22:49:42.739
+Unexpected IOException with stream: Canonical URL: https://uat.buy.hpe.com/nl/en
+
+
+# Created at 2020-01-29T22:49:42.741
+Unexpected IOException with stream:     [32mThen [0m[32mCanonical URL is displayed in source[0m                               [90m# StepsDefinitions.canonical_url_is_displayed_in_source()[0m
+
+
+# Created at 2020-01-29T22:49:44.509
+Unexpected IOException with stream:     [32mWhen [0m[32mUser goes to Servers Catalog[0m                                       [90m# StepsDefinitions.user_goes_to_servers_catalog()[0m
+
+
+# Created at 2020-01-29T22:49:44.529
+Unexpected IOException with stream: Canonical URL: https://uat.buy.hpe.com/nl/en
+
+
+# Created at 2020-01-29T22:49:44.530
+Unexpected IOException with stream:     [32mThen [0m[32mCanonical URL is displayed in source[0m                               [90m# StepsDefinitions.canonical_url_is_displayed_in_source()[0m
+
+
+# Created at 2020-01-29T22:49:54.754
+Unexpected IOException with stream: SRP page loaded
+
+
+# Created at 2020-01-29T22:49:54.756
+Unexpected IOException with stream:     [32mAnd [0m[32mUser searches for "[0m[32m[1mDL380[0m[32m"[0m                                           [90m# StepsDefinitions.user_searches_for_something(String)[0m
+
+
+# Created at 2020-01-29T22:50:00.994
+Unexpected IOException with stream: Canonical URL: https://uat.buy.hpe.com/nl/en
+
+
+# Created at 2020-01-29T22:50:00.995
+Unexpected IOException with stream:     [32mThen [0m[32mCanonical URL is displayed in source[0m                               [90m# StepsDefinitions.canonical_url_is_displayed_in_source()[0m
+
+
+# Created at 2020-01-29T22:50:06.743
+Unexpected IOException with stream: SRP page loaded
+
+

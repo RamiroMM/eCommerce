@@ -25,5 +25,56 @@ public class Hooks extends BaseDriver{
 	public void tearDown1() {
 		driver.close();
 	}
+	
+	@Before("@SourceCodeTest1")
+	public void setUp3() {
+		getDriver();
+	}
+	
+	@After("@SourceCodeTest1")
+	public void tearDown3() {
+		driver.close();
+	}
+	
+	@Before("@SortingTest")
+	public void setUp2() {
+		getDriver();
+	}
+	
+	@After("@SortingTest")
+	public void tearDown2() {
+		driver.close();
+	}
+	
+	@Before("@eCommTest1")
+	public void setUp4() {
+		getDriver();
+	}
+	
+	@After("@eCommTest1")
+	public void tearDown4() {
+		driver.close();
+	}
+	
+	@Before("@RegTest")
+	public void setUp5() {
+		getDriver();
+	}
+	
+	@After("@RegTest")
+	public void tearDown5() {
+		driver.close();
+	}
+	
+	@Before("@RegTestTab")
+	public void setUp6() {
+		getDriver();
+	}
+	
+	@After("@RegTestTab")
+	public void tearDown6() {
+		driver.close();
+		driver.quit();
+	}
 
 }
